@@ -10,6 +10,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { simulationMetricsQuery, simulationQuery } from "@/lib/content";
+import { supabase } from "@/integrations/supabase/client";
 import { submitWork } from "@/lib/assessment/assessment.functions";
 
 export const Route = createFileRoute("/_authenticated/submit/$slug")({
@@ -47,9 +48,19 @@ function SubmitPage() {
     const answers = Object.fromEntries(sim!.simulation_tasks.map((t) => [t.id, String(f.get(`task-${t.id}`) ?? "")]));
     const metricValues = Object.fromEntries(metrics.map((m) => [m.metric_key, String(f.get(`metric-${m.metric_key}`) ?? "").trim()]));
     const url = String(f.get("evidence_url") ?? "").trim();
+    const file = f.get("evidence_file");
     setBusy(true);
     try {
-      const res = await submit({ data: { simulationSlug: slug, answers, metrics: metricValues, evidenceUrl: url || null } });
+      let evidenceFilePath: string | null = null;
+      if (file instanceof File && file.size > 0) {
+        if (file.size > 10 * 1024 * 1024) throw new Error("File must be under 10 MB");
+        const { data: u } = await supabase.auth.getUser();
+        const path = `${u.user!.id}/${Date.now()}-${file.name.replace(/[^\w.-]+/g, "_")}`;
+        const { error: upErr } = await supabase.storage.from("evidence").upload(path, file);
+        if (upErr) throw new Error("Could not upload your file");
+        evidenceFilePath = path;
+      }
+      const res = await submit({ data: { simulationSlug: slug, answers, metrics: metricValues, evidenceUrl: url || null, evidenceFilePath } });
       await qc.invalidateQueries();
       if (res.status === "failed") toast.error(res.error ?? "Assessment failed");
       navigate({ to: "/feedback/$id", params: { id: res.submissionId } });
@@ -91,6 +102,11 @@ function SubmitPage() {
               <div className="space-y-1 pt-2">
                 <Label htmlFor="evidence_url" className="text-sm">Link to your work (optional)</Label>
                 <Input id="evidence_url" name="evidence_url" type="url" placeholder="Google Sheet, notebook or dashboard" />
+              </div>
+              <div className="space-y-1">
+                <Label htmlFor="evidence_file" className="text-sm">Attach a file (optional)</Label>
+                <Input id="evidence_file" name="evidence_file" type="file" accept=".csv,.xlsx,.xls,.pdf,.png,.jpg,.jpeg,.ipynb,.pbix,.docx" />
+                <p className="text-xs text-muted-foreground">Cleaned sheet, chart or report. Max 10 MB. Only you can see it.</p>
               </div>
             </div>
           </fieldset>
