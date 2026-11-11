@@ -14,8 +14,12 @@ import { Route as AuthenticatedRouteRouteImport } from './routes/_authenticated/
 import { Route as AuthRouteImport } from './routes/auth'
 import { Route as PathwayRouteImport } from './routes/pathway'
 import { Route as ResetPasswordRouteImport } from './routes/reset-password'
+import { Route as AuthenticatedBaselineRouteImport } from './routes/_authenticated/baseline'
 import { Route as AuthenticatedDashboardRouteImport } from './routes/_authenticated/dashboard'
 import { Route as AuthenticatedOnboardingRouteImport } from './routes/_authenticated/onboarding'
+import { Route as AuthenticatedPortfolioRouteImport } from './routes/_authenticated/portfolio'
+import { Route as AuthenticatedSkillsRouteImport } from './routes/_authenticated/skills'
+import { Route as PIdRouteImport } from './routes/p.$id'
 import { Route as SimulationsIndexRouteImport } from './routes/simulations.index'
 import { Route as SimulationsSlugRouteImport } from './routes/simulations.$slug'
 import { Route as AuthenticatedFeedbackIdRouteImport } from './routes/_authenticated/feedback.$id'
@@ -45,6 +49,11 @@ const ResetPasswordRoute = ResetPasswordRouteImport.update({
   path: '/reset-password',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AuthenticatedBaselineRoute = AuthenticatedBaselineRouteImport.update({
+  id: '/baseline',
+  path: '/baseline',
+  getParentRoute: () => AuthenticatedRouteRoute,
+} as any)
 const AuthenticatedDashboardRoute = AuthenticatedDashboardRouteImport.update({
   id: '/dashboard',
   path: '/dashboard',
@@ -54,6 +63,21 @@ const AuthenticatedOnboardingRoute = AuthenticatedOnboardingRouteImport.update({
   id: '/onboarding',
   path: '/onboarding',
   getParentRoute: () => AuthenticatedRouteRoute,
+} as any)
+const AuthenticatedPortfolioRoute = AuthenticatedPortfolioRouteImport.update({
+  id: '/portfolio',
+  path: '/portfolio',
+  getParentRoute: () => AuthenticatedRouteRoute,
+} as any)
+const AuthenticatedSkillsRoute = AuthenticatedSkillsRouteImport.update({
+  id: '/skills',
+  path: '/skills',
+  getParentRoute: () => AuthenticatedRouteRoute,
+} as any)
+const PIdRoute = PIdRouteImport.update({
+  id: '/p/$id',
+  path: '/p/$id',
+  getParentRoute: () => rootRouteImport,
 } as any)
 const SimulationsIndexRoute = SimulationsIndexRouteImport.update({
   id: '/simulations/',
@@ -81,8 +105,12 @@ export interface FileRoutesByFullPath {
   '/auth': typeof AuthRoute
   '/pathway': typeof PathwayRoute
   '/reset-password': typeof ResetPasswordRoute
+  '/baseline': typeof AuthenticatedBaselineRoute
   '/dashboard': typeof AuthenticatedDashboardRoute
   '/onboarding': typeof AuthenticatedOnboardingRoute
+  '/portfolio': typeof AuthenticatedPortfolioRoute
+  '/skills': typeof AuthenticatedSkillsRoute
+  '/p/$id': typeof PIdRoute
   '/simulations/$slug': typeof SimulationsSlugRoute
   '/simulations/': typeof SimulationsIndexRoute
   '/feedback/$id': typeof AuthenticatedFeedbackIdRoute
@@ -93,8 +121,12 @@ export interface FileRoutesByTo {
   '/auth': typeof AuthRoute
   '/pathway': typeof PathwayRoute
   '/reset-password': typeof ResetPasswordRoute
+  '/baseline': typeof AuthenticatedBaselineRoute
   '/dashboard': typeof AuthenticatedDashboardRoute
   '/onboarding': typeof AuthenticatedOnboardingRoute
+  '/portfolio': typeof AuthenticatedPortfolioRoute
+  '/skills': typeof AuthenticatedSkillsRoute
+  '/p/$id': typeof PIdRoute
   '/simulations/$slug': typeof SimulationsSlugRoute
   '/simulations': typeof SimulationsIndexRoute
   '/feedback/$id': typeof AuthenticatedFeedbackIdRoute
@@ -107,8 +139,12 @@ export interface FileRoutesById {
   '/auth': typeof AuthRoute
   '/pathway': typeof PathwayRoute
   '/reset-password': typeof ResetPasswordRoute
+  '/_authenticated/baseline': typeof AuthenticatedBaselineRoute
   '/_authenticated/dashboard': typeof AuthenticatedDashboardRoute
   '/_authenticated/onboarding': typeof AuthenticatedOnboardingRoute
+  '/_authenticated/portfolio': typeof AuthenticatedPortfolioRoute
+  '/_authenticated/skills': typeof AuthenticatedSkillsRoute
+  '/p/$id': typeof PIdRoute
   '/simulations/$slug': typeof SimulationsSlugRoute
   '/simulations/': typeof SimulationsIndexRoute
   '/_authenticated/feedback/$id': typeof AuthenticatedFeedbackIdRoute
@@ -121,8 +157,12 @@ export interface FileRouteTypes {
     | '/auth'
     | '/pathway'
     | '/reset-password'
+    | '/baseline'
     | '/dashboard'
     | '/onboarding'
+    | '/portfolio'
+    | '/skills'
+    | '/p/$id'
     | '/simulations/$slug'
     | '/simulations/'
     | '/feedback/$id'
@@ -133,8 +173,12 @@ export interface FileRouteTypes {
     | '/auth'
     | '/pathway'
     | '/reset-password'
+    | '/baseline'
     | '/dashboard'
     | '/onboarding'
+    | '/portfolio'
+    | '/skills'
+    | '/p/$id'
     | '/simulations/$slug'
     | '/simulations'
     | '/feedback/$id'
@@ -146,8 +190,12 @@ export interface FileRouteTypes {
     | '/auth'
     | '/pathway'
     | '/reset-password'
+    | '/_authenticated/baseline'
     | '/_authenticated/dashboard'
     | '/_authenticated/onboarding'
+    | '/_authenticated/portfolio'
+    | '/_authenticated/skills'
+    | '/p/$id'
     | '/simulations/$slug'
     | '/simulations/'
     | '/_authenticated/feedback/$id'
@@ -160,6 +208,7 @@ export interface RootRouteChildren {
   AuthRoute: typeof AuthRoute
   PathwayRoute: typeof PathwayRoute
   ResetPasswordRoute: typeof ResetPasswordRoute
+  PIdRoute: typeof PIdRoute
   SimulationsSlugRoute: typeof SimulationsSlugRoute
   SimulationsIndexRoute: typeof SimulationsIndexRoute
 }
@@ -201,6 +250,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ResetPasswordRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/_authenticated/baseline': {
+      id: '/_authenticated/baseline'
+      path: '/baseline'
+      fullPath: '/baseline'
+      preLoaderRoute: typeof AuthenticatedBaselineRouteImport
+      parentRoute: typeof AuthenticatedRouteRoute
+    }
     '/_authenticated/dashboard': {
       id: '/_authenticated/dashboard'
       path: '/dashboard'
@@ -214,6 +270,27 @@ declare module '@tanstack/react-router' {
       fullPath: '/onboarding'
       preLoaderRoute: typeof AuthenticatedOnboardingRouteImport
       parentRoute: typeof AuthenticatedRouteRoute
+    }
+    '/_authenticated/portfolio': {
+      id: '/_authenticated/portfolio'
+      path: '/portfolio'
+      fullPath: '/portfolio'
+      preLoaderRoute: typeof AuthenticatedPortfolioRouteImport
+      parentRoute: typeof AuthenticatedRouteRoute
+    }
+    '/_authenticated/skills': {
+      id: '/_authenticated/skills'
+      path: '/skills'
+      fullPath: '/skills'
+      preLoaderRoute: typeof AuthenticatedSkillsRouteImport
+      parentRoute: typeof AuthenticatedRouteRoute
+    }
+    '/p/$id': {
+      id: '/p/$id'
+      path: '/p/$id'
+      fullPath: '/p/$id'
+      preLoaderRoute: typeof PIdRouteImport
+      parentRoute: typeof rootRouteImport
     }
     '/simulations/': {
       id: '/simulations/'
@@ -247,15 +324,21 @@ declare module '@tanstack/react-router' {
 }
 
 interface AuthenticatedRouteRouteChildren {
+  AuthenticatedBaselineRoute: typeof AuthenticatedBaselineRoute
   AuthenticatedDashboardRoute: typeof AuthenticatedDashboardRoute
   AuthenticatedOnboardingRoute: typeof AuthenticatedOnboardingRoute
+  AuthenticatedPortfolioRoute: typeof AuthenticatedPortfolioRoute
+  AuthenticatedSkillsRoute: typeof AuthenticatedSkillsRoute
   AuthenticatedFeedbackIdRoute: typeof AuthenticatedFeedbackIdRoute
   AuthenticatedSubmitSlugRoute: typeof AuthenticatedSubmitSlugRoute
 }
 
 const AuthenticatedRouteRouteChildren: AuthenticatedRouteRouteChildren = {
+  AuthenticatedBaselineRoute: AuthenticatedBaselineRoute,
   AuthenticatedDashboardRoute: AuthenticatedDashboardRoute,
   AuthenticatedOnboardingRoute: AuthenticatedOnboardingRoute,
+  AuthenticatedPortfolioRoute: AuthenticatedPortfolioRoute,
+  AuthenticatedSkillsRoute: AuthenticatedSkillsRoute,
   AuthenticatedFeedbackIdRoute: AuthenticatedFeedbackIdRoute,
   AuthenticatedSubmitSlugRoute: AuthenticatedSubmitSlugRoute,
 }
@@ -269,6 +352,7 @@ const rootRouteChildren: RootRouteChildren = {
   AuthRoute: AuthRoute,
   PathwayRoute: PathwayRoute,
   ResetPasswordRoute: ResetPasswordRoute,
+  PIdRoute: PIdRoute,
   SimulationsSlugRoute: SimulationsSlugRoute,
   SimulationsIndexRoute: SimulationsIndexRoute,
 }
