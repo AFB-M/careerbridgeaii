@@ -117,7 +117,7 @@ function FeedbackPage() {
               <p className="text-xs opacity-70">out of 100 (weighted)</p>
               {prevOverall !== null && <Delta value={Number(ev.overall_score) - prevOverall} label="vs previous attempt" inverse />}
             </div>
-            <p className="self-center text-lg leading-relaxed opacity-90">{ev.summary}</p>
+            <p className="self-center text-base leading-relaxed md:text-lg opacity-90">{ev.summary}</p>
           </section>
 
           <section className="mt-8 rounded-xl border bg-card p-6 shadow-card">
