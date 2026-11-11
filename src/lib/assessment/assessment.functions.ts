@@ -7,6 +7,7 @@ const submitSchema = z.object({
   answers: z.record(z.string().uuid(), z.string().max(8000)),
   metrics: z.record(z.string().max(50), z.string().max(200)),
   evidenceUrl: z.string().url().max(500).nullable(),
+  evidenceFilePath: z.string().max(300).nullable().optional(),
 });
 
 type Outcome = { submissionId: string; status: "completed" | "failed"; error: string | null };
@@ -25,6 +26,7 @@ export const submitWork = createServerFn({ method: "POST" })
     const taskIds = new Set(sim.simulation_tasks.map((t) => t.id));
     const answers = Object.fromEntries(Object.entries(data.answers).filter(([k]) => taskIds.has(k)));
     const filled = Object.values(answers).filter((a) => a.trim().length >= 20).length;
+    if (data.evidenceFilePath && !data.evidenceFilePath.startsWith(`${userId}/`)) throw new Error("Invalid file");
     if (filled < taskIds.size) throw new Error("Please answer every task (at least a couple of sentences each).");
 
     const { count } = await supabase.from("submissions").select("id", { count: "exact", head: true }).eq("simulation_id", sim.id);
@@ -39,6 +41,7 @@ export const submitWork = createServerFn({ method: "POST" })
         answers,
         metrics: data.metrics,
         evidence_url: data.evidenceUrl,
+        evidence_file_path: data.evidenceFilePath ?? null,
       })
       .select("id")
       .single();

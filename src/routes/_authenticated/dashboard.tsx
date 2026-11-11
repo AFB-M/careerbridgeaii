@@ -119,7 +119,7 @@ function Dashboard() {
         </Panel>
         <Panel title="Portfolio projects" icon={<FolderKanban className="h-4 w-4" />} count={activity.portfolio.length}>
           {activity.portfolio.length ? (
-            <ul className="space-y-2 text-sm">{activity.portfolio.map((p) => <li key={p.id}>{p.title}</li>)}</ul>
+            <ul className="space-y-2 text-sm">{activity.portfolio.map((p) => <li key={p.id}><Link to="/portfolio" className="hover:text-primary">{p.title}</Link></li>)}</ul>
           ) : (
             <Empty>No portfolio projects yet. Completed work can be turned into portfolio evidence.</Empty>
           )}

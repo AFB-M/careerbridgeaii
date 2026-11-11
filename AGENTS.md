@@ -35,3 +35,6 @@ use the editor.
 - Public content pages use PageFrame (app nav when signed in, marketing header otherwise); signed-in-only pages live under src/routes/_authenticated/.
 - Assessment: answer_keys are service-role only; evaluations are written only by the server (admin client after verifying ownership) and are read-only to their owner — students cannot see reference values or forge feedback.
 - AI feedback runs server-side in src/lib/assessment (Responses API, structured output); deterministic checks in checks.ts are authoritative, and AI evidence quotes are dropped unless they appear verbatim in the submission.
+- Portfolio entries are server-written snapshots of a completed evaluation (no client insert/update); public share pages read only is_public rows via the publishable-key client — prevents forged scores and leaks of full answers/files.
+- Evidence files live in the private `evidence` bucket under `<user_id>/…`, opened via short-lived signed URLs — student work stays private.
+- Recommendations (src/lib/skills.ts) are built only from the student's own feedback and in-app activities, never external courses — honesty rule from the brief.
