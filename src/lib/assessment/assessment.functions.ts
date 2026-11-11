@@ -28,6 +28,7 @@ export const submitWork = createServerFn({ method: "POST" })
     const filled = Object.values(answers).filter((a) => a.trim().length >= 20).length;
     if (data.evidenceFilePath && !data.evidenceFilePath.startsWith(`${userId}/`)) throw new Error("Invalid file");
     if (filled < taskIds.size) throw new Error("Please answer every task (at least a couple of sentences each).");
+    if (!data.evidenceUrl && !data.evidenceFilePath) throw new Error("Please attach your chart or share a link to it — a visualisation is required.");
 
     const { count } = await supabase.from("submissions").select("id", { count: "exact", head: true }).eq("simulation_id", sim.id);
     const { data: sub, error: insErr } = await supabase
@@ -66,7 +67,7 @@ async function evaluate(submissionId: string, userId: string): Promise<Outcome> 
 
   const { data: sub } = await supabaseAdmin
     .from("submissions")
-    .select("id, user_id, answers, metrics, simulation_id, simulations(title, organisation_name, role_title, business_problem, simulation_tasks(id, position, title, instructions), rubric_criteria(id, position, title, description, weight, competencies(title)), simulation_metrics(metric_key, label))")
+    .select("id, user_id, answers, metrics, evidence_url, evidence_file_path, simulation_id, simulations(title, organisation_name, role_title, business_problem, simulation_tasks(id, position, title, instructions), rubric_criteria(id, position, title, description, weight, competencies(title)), simulation_metrics(metric_key, label))")
     .eq("id", submissionId)
     .single();
   if (!sub || sub.user_id !== userId || !sub.simulations) throw new Error("Submission not found");
@@ -98,6 +99,7 @@ async function evaluate(submissionId: string, userId: string): Promise<Outcome> 
       answers,
       metricLabels: Object.fromEntries(sim.simulation_metrics.map((m) => [m.metric_key, m.label])),
       checks,
+      evidenceAttached: Boolean(sub.evidence_url || sub.evidence_file_path),
     });
     const corpus = Object.values(answers).join("\n");
     const byId = new Map(ai.criteria.map((c) => [c.criterion_id, c]));
