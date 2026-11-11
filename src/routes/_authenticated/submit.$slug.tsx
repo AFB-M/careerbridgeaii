@@ -76,7 +76,7 @@ function SubmitPage() {
       <h1 className="mt-3 text-3xl font-bold">Submit: {sim.title}</h1>
       <p className="mt-2 max-w-2xl text-muted-foreground">Write up your work for each task as you would for your manager. Explain what you did and why, and quote your actual figures.</p>
 
-      <form onSubmit={onSubmit} className="mt-8 grid gap-8 lg:grid-cols-[1fr_320px]">
+      <form method="post" onSubmit={onSubmit} className="mt-8 grid gap-8 lg:grid-cols-[1fr_320px]">
         <fieldset disabled={busy} className="space-y-5">
           {sim.simulation_tasks.map((t) => (
             <div key={t.id} className="rounded-xl border bg-card p-5 shadow-card">
