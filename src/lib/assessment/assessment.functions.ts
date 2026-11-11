@@ -1,6 +1,7 @@
 import { createServerFn } from "@tanstack/react-start";
 import { z } from "zod";
 import { requireSupabaseAuth } from "@/integrations/supabase/auth-middleware";
+import { validateChart } from "./evidence";
 
 const submitSchema = z.object({
   simulationSlug: z.string().min(1).max(100),
@@ -28,7 +29,10 @@ export const submitWork = createServerFn({ method: "POST" })
     const filled = Object.values(answers).filter((a) => a.trim().length >= 20).length;
     if (data.evidenceFilePath && !data.evidenceFilePath.startsWith(`${userId}/`)) throw new Error("Invalid file");
     if (filled < taskIds.size) throw new Error("Please answer every task (at least a couple of sentences each).");
-    if (!data.evidenceUrl && !data.evidenceFilePath) throw new Error("Please attach your chart or share a link to it — a visualisation is required.");
+    if (!data.evidenceFilePath) throw new Error("Please upload your chart as a PNG, JPEG or WebP image — a visualisation is required.");
+    const { data: chart, error: chartError } = await supabase.storage.from("evidence").download(data.evidenceFilePath);
+    if (chartError || !chart) throw new Error("Could not read your chart. Please upload it again.");
+    validateChart(new Uint8Array(await chart.arrayBuffer()));
 
     const { count } = await supabase.from("submissions").select("id", { count: "exact", head: true }).eq("simulation_id", sim.id);
     const { data: sub, error: insErr } = await supabase
@@ -84,14 +88,20 @@ async function evaluate(submissionId: string, userId: string): Promise<Outcome> 
     metrics,
   );
 
-  await supabaseAdmin.from("evaluations").upsert(
+  const { error: pendingError } = await supabaseAdmin.from("evaluations").upsert(
     { submission_id: submissionId, user_id: userId, status: "pending", checks, error: null, model: ASSESSMENT_MODEL },
     { onConflict: "submission_id" },
   );
+  if (pendingError) throw new Error("Could not save the assessment record.");
 
   const criteria = [...sim.rubric_criteria].sort((a, b) => a.position - b.position);
   const tasks = [...sim.simulation_tasks].sort((a, b) => a.position - b.position);
   try {
+    if (!sub.evidence_file_path?.startsWith(`${userId}/`)) throw new AssessmentError("Upload a chart image with a new submission so its visual evidence can be assessed.", 400);
+    const { data: chart, error: chartError } = await supabaseAdmin.storage.from("evidence").download(sub.evidence_file_path);
+    if (chartError || !chart) throw new AssessmentError("The attached chart could not be read. Please upload it with a new submission.", 400);
+    const chartBytes = new Uint8Array(await chart.arrayBuffer());
+    const chartMediaType = validateChart(chartBytes);
     const ai = await runAiAssessment({
       simulation: sim,
       tasks,
@@ -99,7 +109,7 @@ async function evaluate(submissionId: string, userId: string): Promise<Outcome> 
       answers,
       metricLabels: Object.fromEntries(sim.simulation_metrics.map((m) => [m.metric_key, m.label])),
       checks,
-      evidenceAttached: Boolean(sub.evidence_url || sub.evidence_file_path),
+      chart: { bytes: chartBytes, mediaType: chartMediaType },
     });
     const corpus = Object.values(answers).join("\n");
     const byId = new Map(ai.criteria.map((c) => [c.criterion_id, c]));
@@ -119,11 +129,13 @@ async function evaluate(submissionId: string, userId: string): Promise<Outcome> 
         evidence_quotes: keepVerifiedQuotes(r.evidence_quotes, corpus).slice(0, 3),
       };
     });
-    await supabaseAdmin
+    const { error: saveError } = await supabaseAdmin
       .from("evaluations")
       .update({ status: "completed", summary: ai.summary, criteria: scored, next_steps: ai.next_steps.slice(0, 4), overall_score: weightedScore(scored) })
       .eq("submission_id", submissionId);
-    await supabaseAdmin.from("submissions").update({ status: "evaluated" }).eq("id", submissionId);
+    if (saveError) throw new Error("Could not save generated feedback");
+    const { error: statusError } = await supabaseAdmin.from("submissions").update({ status: "evaluated" }).eq("id", submissionId);
+    if (statusError) throw new Error("Could not save assessment completion");
     return { submissionId, status: "completed", error: null };
   } catch (e) {
     const message = e instanceof AssessmentError ? e.message : "The assessment could not be completed. Your work was saved — please try again.";

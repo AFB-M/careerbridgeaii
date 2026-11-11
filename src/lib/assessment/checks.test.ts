@@ -39,13 +39,19 @@ describe("Retail Sales answer-key rules", () => {
   const keys: AnswerKey[] = [
     { metric_key: "total_revenue", expected_numeric: 19936900, expected_text: null, tolerance_pct: 0.5, tolerance_abs: 0 },
     { metric_key: "total_orders", expected_numeric: 1412, expected_text: null, tolerance_pct: 0, tolerance_abs: 0 },
+    { metric_key: "average_order_value", expected_numeric: 14119.62, expected_text: null, tolerance_pct: 0.5, tolerance_abs: 1 },
   ];
   const status = (m: Record<string, string>) => checkMetrics(keys, m).map((c) => c.status);
   it("accepts the documented cleaned figures", () => {
-    expect(status({ total_revenue: "₦19,936,900", total_orders: "1412" })).toEqual(["correct", "correct"]);
+    expect(status({ total_revenue: "₦19,936,900", total_orders: "1412", average_order_value: "14119.62" })).toEqual(["correct", "correct", "correct"]);
   });
   it("rejects figures that keep the 42 duplicate rows", () => {
-    expect(status({ total_revenue: "20530000", total_orders: "1454" })).toEqual(["incorrect", "incorrect"]);
+    expect(status({ total_revenue: "20530000", total_orders: "1454", average_order_value: "14119.62" })).toEqual(["incorrect", "incorrect", "correct"]);
+  });
+  it("enforces 0.5% tolerance for average order value", () => {
+    const check = (value: string) => checkMetrics(keys, { average_order_value: value }).find((c) => c.metric_key === "average_order_value")?.status;
+    expect(check("14190")).toBe("correct");
+    expect(check("14191")).toBe("incorrect");
   });
   it("five 20% criteria all at 3/5 give 60", () => {
     expect(weightedScore(Array.from({ length: 5 }, () => ({ score: 3, weight: 20 })))).toBe(60);
