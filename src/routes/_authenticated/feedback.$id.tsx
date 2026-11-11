@@ -115,9 +115,9 @@ function FeedbackPage() {
               <p className="text-xs uppercase tracking-wider opacity-70">Overall</p>
               <p className="font-display text-6xl font-bold text-highlight">{Number(ev.overall_score)}</p>
               <p className="text-xs opacity-70">out of 100 (weighted)</p>
-              {prevOverall !== null && <Delta value={Number(ev.overall_score) - prevOverall} label="vs previous attempt" />}
+              {prevOverall !== null && <Delta value={Number(ev.overall_score) - prevOverall} label="vs previous attempt" inverse />}
             </div>
-            <p className="self-center text-lg leading-relaxed opacity-90">{ev.summary}</p>
+            <p className="self-center text-base leading-relaxed md:text-lg opacity-90">{ev.summary}</p>
           </section>
 
           <section className="mt-8 rounded-xl border bg-card p-6 shadow-card">
@@ -211,11 +211,11 @@ function List({ title, items }: { title: string; items: string[] }) {
   );
 }
 
-function Delta({ value, label }: { value: number; label?: string }) {
+function Delta({ value, label, inverse }: { value: number; label?: string; inverse?: boolean }) {
   if (value === 0) return <span className="text-xs opacity-70">no change{label ? ` ${label}` : ""}</span>;
   const up = value > 0;
   return (
-    <span className={`inline-flex items-center gap-0.5 text-xs font-semibold ${up ? "text-primary" : "text-destructive"}`}>
+    <span className={`inline-flex items-center gap-0.5 text-xs font-semibold ${up ? (inverse ? "text-highlight" : "text-primary") : "text-destructive"}`}>
       {up ? <ArrowUp className="h-3 w-3" /> : <ArrowDown className="h-3 w-3" />}{Math.abs(value)}{label ? ` ${label}` : ""}
     </span>
   );

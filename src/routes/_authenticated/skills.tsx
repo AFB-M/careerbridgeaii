@@ -51,21 +51,19 @@ function Skills() {
       </div>
       <p className="mt-4 flex gap-2 rounded-lg bg-muted p-3 text-xs text-muted-foreground"><Info className="h-4 w-4 shrink-0" />Demonstrated scores come from formative AI-assisted feedback, not professional certification.</p>
 
-      <section className="mt-6 overflow-hidden rounded-xl border bg-card shadow-card">
-        <table className="w-full text-sm">
-          <thead className="bg-muted/60 text-left text-xs uppercase tracking-wider text-muted-foreground">
-            <tr><th className="p-3">Competency</th><th className="p-3">Self-reported</th><th className="p-3">Demonstrated</th></tr>
-          </thead>
-          <tbody className="divide-y">
-            {comps.map((c) => (
-              <tr key={c.id}>
-                <td className="p-3 font-medium">{c.title}</td>
-                <td className="p-3"><Bar value={self[c.id]} tone="bg-highlight" /></td>
-                <td className="p-3"><Bar value={shown[c.id]?.score} tone="bg-primary" /></td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+      <section className="mt-6 overflow-hidden rounded-xl border bg-card text-sm shadow-card">
+        <div className="hidden grid-cols-[minmax(0,1fr)_180px_180px] gap-3 bg-muted/60 p-3 text-xs uppercase tracking-wider text-muted-foreground sm:grid">
+          <span>Competency</span><span>Self-reported</span><span>Demonstrated</span>
+        </div>
+        <ul className="divide-y">
+          {comps.map((c) => (
+            <li key={c.id} className="grid gap-2 p-3 sm:grid-cols-[minmax(0,1fr)_180px_180px] sm:items-center sm:gap-3">
+              <span className="font-medium">{c.title}</span>
+              <span className="flex items-center justify-between gap-3 sm:block"><span className="text-xs text-muted-foreground sm:hidden">Self-reported</span><Bar value={self[c.id]} tone="bg-highlight" /></span>
+              <span className="flex items-center justify-between gap-3 sm:block"><span className="text-xs text-muted-foreground sm:hidden">Demonstrated</span><Bar value={shown[c.id]?.score} tone="bg-primary" /></span>
+            </li>
+          ))}
+        </ul>
       </section>
 
       <section className="mt-8">
