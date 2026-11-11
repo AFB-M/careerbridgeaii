@@ -52,7 +52,7 @@ function Onboarding() {
     setSaving(true);
     const { error } = await supabase.from("profiles").upsert(payload);
     setSaving(false);
-    if (error) return toast.error(error.message);
+    if (error) { toast.error(error.message); return; }
     await qc.invalidateQueries({ queryKey: ["my-profile"] });
     toast.success("Profile saved");
     if (isFirst) navigate({ to: "/dashboard" });
@@ -87,7 +87,7 @@ function Onboarding() {
   );
 }
 
-function Field({ label, name, defaultValue, className, ...rest }: { label: string; name: string; defaultValue?: string | null; className?: string; placeholder?: string; autoComplete?: string }) {
+function Field({ label, name, defaultValue, className, ...rest }: { label: string; name: string; defaultValue?: string | null | undefined; className?: string | undefined; placeholder?: string | undefined; autoComplete?: string | undefined }) {
   return (
     <div className={`space-y-1.5 ${className ?? ""}`}>
       <Label htmlFor={name}>{label}</Label>

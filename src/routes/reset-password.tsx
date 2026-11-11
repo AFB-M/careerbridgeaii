@@ -36,11 +36,11 @@ function ResetPassword() {
     e.preventDefault();
     const f = new FormData(e.currentTarget);
     const password = String(f.get("password"));
-    if (password !== String(f.get("confirm"))) return toast.error("Passwords do not match");
+    if (password !== String(f.get("confirm"))) { toast.error("Passwords do not match"); return; }
     setLoading(true);
     const { error } = await supabase.auth.updateUser({ password });
     setLoading(false);
-    if (error) return toast.error(error.message);
+    if (error) { toast.error(error.message); return; }
     toast.success("Password updated");
     navigate({ to: "/dashboard" });
   }
