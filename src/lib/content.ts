@@ -50,3 +50,47 @@ export function formatDuration(minutes: number) {
   const m = minutes % 60;
   return h ? `${h} hr${h > 1 ? "s" : ""}${m ? ` ${m} min` : ""}` : `${m} min`;
 }
+
+export const simulationMetricsQuery = (simulationId: string) =>
+  queryOptions({
+    queryKey: ["simulation-metrics", simulationId],
+    queryFn: async () => {
+      const { data, error } = await supabase.from("simulation_metrics").select("*").eq("simulation_id", simulationId).order("position");
+      if (error) throw error;
+      return data;
+    },
+  });
+
+export type CriterionFeedback = {
+  criterion_id: string; title: string; weight: number; score: number; rationale: string;
+  strengths: string[]; weaknesses: string[]; improvements: string[]; evidence_quotes: string[];
+};
+export type MetricCheck = { metric_key: string; status: "correct" | "incorrect" | "missing"; submitted: string | null; note: string };
+
+export const submissionQuery = (id: string) =>
+  queryOptions({
+    queryKey: ["submission", id],
+    queryFn: async () => {
+      const { data, error } = await supabase
+        .from("submissions")
+        .select("*, simulations(id, slug, title, simulation_tasks(id, position, title), simulation_metrics(metric_key, label)), evaluations(*)")
+        .eq("id", id)
+        .maybeSingle();
+      if (error) throw error;
+      return data;
+    },
+  });
+
+export const attemptsQuery = (simulationId: string) =>
+  queryOptions({
+    queryKey: ["attempts", simulationId],
+    queryFn: async () => {
+      const { data, error } = await supabase
+        .from("submissions")
+        .select("id, attempt_number, submitted_at, status, evaluations(status, overall_score, criteria)")
+        .eq("simulation_id", simulationId)
+        .order("attempt_number");
+      if (error) throw error;
+      return data;
+    },
+  });

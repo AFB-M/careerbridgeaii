@@ -18,6 +18,8 @@ import { Route as AuthenticatedDashboardRouteImport } from './routes/_authentica
 import { Route as AuthenticatedOnboardingRouteImport } from './routes/_authenticated/onboarding'
 import { Route as SimulationsIndexRouteImport } from './routes/simulations.index'
 import { Route as SimulationsSlugRouteImport } from './routes/simulations.$slug'
+import { Route as AuthenticatedFeedbackIdRouteImport } from './routes/_authenticated/feedback.$id'
+import { Route as AuthenticatedSubmitSlugRouteImport } from './routes/_authenticated/submit.$slug'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -63,6 +65,16 @@ const SimulationsSlugRoute = SimulationsSlugRouteImport.update({
   path: '/simulations/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AuthenticatedFeedbackIdRoute = AuthenticatedFeedbackIdRouteImport.update({
+  id: '/feedback/$id',
+  path: '/feedback/$id',
+  getParentRoute: () => AuthenticatedRouteRoute,
+} as any)
+const AuthenticatedSubmitSlugRoute = AuthenticatedSubmitSlugRouteImport.update({
+  id: '/submit/$slug',
+  path: '/submit/$slug',
+  getParentRoute: () => AuthenticatedRouteRoute,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -73,6 +85,8 @@ export interface FileRoutesByFullPath {
   '/onboarding': typeof AuthenticatedOnboardingRoute
   '/simulations/$slug': typeof SimulationsSlugRoute
   '/simulations/': typeof SimulationsIndexRoute
+  '/feedback/$id': typeof AuthenticatedFeedbackIdRoute
+  '/submit/$slug': typeof AuthenticatedSubmitSlugRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -83,6 +97,8 @@ export interface FileRoutesByTo {
   '/onboarding': typeof AuthenticatedOnboardingRoute
   '/simulations/$slug': typeof SimulationsSlugRoute
   '/simulations': typeof SimulationsIndexRoute
+  '/feedback/$id': typeof AuthenticatedFeedbackIdRoute
+  '/submit/$slug': typeof AuthenticatedSubmitSlugRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -95,6 +111,8 @@ export interface FileRoutesById {
   '/_authenticated/onboarding': typeof AuthenticatedOnboardingRoute
   '/simulations/$slug': typeof SimulationsSlugRoute
   '/simulations/': typeof SimulationsIndexRoute
+  '/_authenticated/feedback/$id': typeof AuthenticatedFeedbackIdRoute
+  '/_authenticated/submit/$slug': typeof AuthenticatedSubmitSlugRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -107,6 +125,8 @@ export interface FileRouteTypes {
     | '/onboarding'
     | '/simulations/$slug'
     | '/simulations/'
+    | '/feedback/$id'
+    | '/submit/$slug'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -117,6 +137,8 @@ export interface FileRouteTypes {
     | '/onboarding'
     | '/simulations/$slug'
     | '/simulations'
+    | '/feedback/$id'
+    | '/submit/$slug'
   id:
     | '__root__'
     | '/'
@@ -128,6 +150,8 @@ export interface FileRouteTypes {
     | '/_authenticated/onboarding'
     | '/simulations/$slug'
     | '/simulations/'
+    | '/_authenticated/feedback/$id'
+    | '/_authenticated/submit/$slug'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -205,17 +229,35 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SimulationsSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/_authenticated/feedback/$id': {
+      id: '/_authenticated/feedback/$id'
+      path: '/feedback/$id'
+      fullPath: '/feedback/$id'
+      preLoaderRoute: typeof AuthenticatedFeedbackIdRouteImport
+      parentRoute: typeof AuthenticatedRouteRoute
+    }
+    '/_authenticated/submit/$slug': {
+      id: '/_authenticated/submit/$slug'
+      path: '/submit/$slug'
+      fullPath: '/submit/$slug'
+      preLoaderRoute: typeof AuthenticatedSubmitSlugRouteImport
+      parentRoute: typeof AuthenticatedRouteRoute
+    }
   }
 }
 
 interface AuthenticatedRouteRouteChildren {
   AuthenticatedDashboardRoute: typeof AuthenticatedDashboardRoute
   AuthenticatedOnboardingRoute: typeof AuthenticatedOnboardingRoute
+  AuthenticatedFeedbackIdRoute: typeof AuthenticatedFeedbackIdRoute
+  AuthenticatedSubmitSlugRoute: typeof AuthenticatedSubmitSlugRoute
 }
 
 const AuthenticatedRouteRouteChildren: AuthenticatedRouteRouteChildren = {
   AuthenticatedDashboardRoute: AuthenticatedDashboardRoute,
   AuthenticatedOnboardingRoute: AuthenticatedOnboardingRoute,
+  AuthenticatedFeedbackIdRoute: AuthenticatedFeedbackIdRoute,
+  AuthenticatedSubmitSlugRoute: AuthenticatedSubmitSlugRoute,
 }
 
 const AuthenticatedRouteRouteWithChildren =

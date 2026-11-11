@@ -33,3 +33,5 @@ use the editor.
 - Simulation content (paths, competencies, simulations, tasks, rubric) is seeded via migrations and publicly readable; user data tables are owner-only via RLS — keeps briefs shareable and student work private.
 - Practice datasets are static files in public/datasets/ — they are non-sensitive and must be freely downloadable.
 - Public content pages use PageFrame (app nav when signed in, marketing header otherwise); signed-in-only pages live under src/routes/_authenticated/.
+- Assessment: answer_keys are service-role only; evaluations are written only by the server (admin client after verifying ownership) and are read-only to their owner — students cannot see reference values or forge feedback.
+- AI feedback runs server-side in src/lib/assessment (Responses API, structured output); deterministic checks in checks.ts are authoritative, and AI evidence quotes are dropped unless they appear verbatim in the submission.
