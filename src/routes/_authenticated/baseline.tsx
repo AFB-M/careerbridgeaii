@@ -61,7 +61,7 @@ function Baseline() {
     <AppShell>
       <h1 className="text-3xl font-bold">Baseline self-assessment</h1>
       <p className="mt-2 max-w-2xl text-muted-foreground">Be honest — this is your starting point, not a test. These ratings stay labelled as <strong>self-reported</strong> and are compared with what your submitted work actually shows.</p>
-      <form onSubmit={onSubmit} className="mt-8 space-y-4">
+      <form method="post" onSubmit={onSubmit} className="mt-8 space-y-4">
         <fieldset disabled={busy} className="space-y-4">
           {comps.map((c) => (
             <div key={c.id} className="rounded-xl border bg-card p-5 shadow-card">

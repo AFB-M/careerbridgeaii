@@ -1,4 +1,4 @@
-import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
+import { useHydrated, createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useState, type FormEvent } from "react";
 import { toast } from "sonner";
 import { supabase } from "@/integrations/supabase/client";
@@ -31,6 +31,7 @@ function AuthPage() {
   const { mode = "signin" } = Route.useSearch();
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
+  const hydrated = useHydrated();
   const [sent, setSent] = useState<string | null>(null);
   const setMode = (m: Mode) => { setSent(null); navigate({ to: "/auth", search: { mode: m }, replace: true }); };
 
@@ -84,7 +85,7 @@ function AuthPage() {
           {sent ? (
             <div className="mt-6 rounded-lg border bg-secondary p-4 text-sm" role="status">{sent}</div>
           ) : (
-            <form onSubmit={onSubmit} className="mt-6 space-y-4">
+            <form method="post" onSubmit={onSubmit} className="mt-6 space-y-4">
               {mode === "signup" && (
                 <div className="space-y-1.5"><Label htmlFor="full_name">Full name</Label><Input id="full_name" name="full_name" required autoComplete="name" /></div>
               )}
@@ -98,7 +99,7 @@ function AuthPage() {
                   <Input id="password" name="password" type="password" required minLength={8} autoComplete={mode === "signup" ? "new-password" : "current-password"} />
                 </div>
               )}
-              <Button type="submit" className="w-full" disabled={loading}>
+              <Button type="submit" className="w-full" disabled={loading || !hydrated}>
                 {loading ? "Please wait…" : mode === "signup" ? "Create account" : mode === "forgot" ? "Send reset link" : "Sign in"}
               </Button>
             </form>

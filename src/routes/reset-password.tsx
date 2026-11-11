@@ -1,4 +1,4 @@
-import { createFileRoute, useNavigate } from "@tanstack/react-router";
+import { useHydrated, createFileRoute, useNavigate } from "@tanstack/react-router";
 import { useEffect, useState, type FormEvent } from "react";
 import { toast } from "sonner";
 import { supabase } from "@/integrations/supabase/client";
@@ -25,6 +25,7 @@ function ResetPassword() {
   const navigate = useNavigate();
   const [ready, setReady] = useState(false);
   const [loading, setLoading] = useState(false);
+  const hydrated = useHydrated();
   useEffect(() => {
     const { data } = supabase.auth.onAuthStateChange((event) => { if (event === "PASSWORD_RECOVERY") setReady(true); });
     if (window.location.hash.includes("type=recovery")) setReady(true);
@@ -53,7 +54,7 @@ function ResetPassword() {
         {!ready ? (
           <p className="mt-4 text-sm text-muted-foreground">Open this page from the reset link in your email. If the link has expired, request a new one from the sign-in page.</p>
         ) : (
-          <form onSubmit={onSubmit} className="mt-6 space-y-4">
+          <form method="post" onSubmit={onSubmit} className="mt-6 space-y-4">
             <div className="space-y-1.5"><Label htmlFor="password">New password</Label><Input id="password" name="password" type="password" minLength={8} required autoComplete="new-password" /></div>
             <div className="space-y-1.5"><Label htmlFor="confirm">Confirm password</Label><Input id="confirm" name="confirm" type="password" minLength={8} required autoComplete="new-password" /></div>
             <Button className="w-full" disabled={loading}>{loading ? "Saving…" : "Update password"}</Button>

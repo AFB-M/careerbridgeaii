@@ -63,7 +63,7 @@ function Onboarding() {
       <div className="mx-auto max-w-2xl">
         <h1 className="text-3xl font-bold">{isFirst ? "Set up your career profile" : "Your career profile"}</h1>
         <p className="mt-2 text-muted-foreground">This helps us tailor simulations and feedback. You can update it any time.</p>
-        <form onSubmit={onSubmit} className="mt-8 grid gap-5 rounded-xl border bg-card p-6 shadow-card sm:grid-cols-2">
+        <form method="post" onSubmit={onSubmit} className="mt-8 grid gap-5 rounded-xl border bg-card p-6 shadow-card sm:grid-cols-2">
           <Field label="Full name" name="full_name" defaultValue={profile?.full_name} autoComplete="name" className="sm:col-span-2" />
           <Field label="University / institution" name="institution" defaultValue={profile?.institution} placeholder="e.g. University of Lagos" className="sm:col-span-2" />
           <Field label="Course of study" name="course_of_study" defaultValue={profile?.course_of_study} placeholder="e.g. B.Sc. Economics" />
