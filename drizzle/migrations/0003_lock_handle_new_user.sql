@@ -1,0 +1,2 @@
+REVOKE EXECUTE ON FUNCTION public.handle_new_user() FROM PUBLIC, anon, authenticated;
+COMMENT ON TABLE public.answer_keys IS 'Service-role only by design: no RLS policies so students can never read reference answers.';
