@@ -28,3 +28,8 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## CareerBridge AI
+- Simulation content (paths, competencies, simulations, tasks, rubric) is seeded via migrations and publicly readable; user data tables are owner-only via RLS — keeps briefs shareable and student work private.
+- Practice datasets are static files in public/datasets/ — they are non-sensitive and must be freely downloadable.
+- Public content pages use PageFrame (app nav when signed in, marketing header otherwise); signed-in-only pages live under src/routes/_authenticated/.
