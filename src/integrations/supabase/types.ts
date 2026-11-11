@@ -14,7 +14,333 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      career_paths: {
+        Row: {
+          created_at: string
+          description: string
+          id: string
+          slug: string
+          summary: string
+          title: string
+        }
+        Insert: {
+          created_at?: string
+          description: string
+          id?: string
+          slug: string
+          summary: string
+          title: string
+        }
+        Update: {
+          created_at?: string
+          description?: string
+          id?: string
+          slug?: string
+          summary?: string
+          title?: string
+        }
+        Relationships: []
+      }
+      competencies: {
+        Row: {
+          career_path_id: string
+          description: string
+          id: string
+          indicators: string[]
+          position: number
+          title: string
+        }
+        Insert: {
+          career_path_id: string
+          description: string
+          id?: string
+          indicators?: string[]
+          position: number
+          title: string
+        }
+        Update: {
+          career_path_id?: string
+          description?: string
+          id?: string
+          indicators?: string[]
+          position?: number
+          title?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "competencies_career_path_id_fkey"
+            columns: ["career_path_id"]
+            isOneToOne: false
+            referencedRelation: "career_paths"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      portfolio_entries: {
+        Row: {
+          created_at: string
+          id: string
+          submission_id: string | null
+          summary: string | null
+          title: string
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          id?: string
+          submission_id?: string | null
+          summary?: string | null
+          title: string
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          id?: string
+          submission_id?: string | null
+          summary?: string | null
+          title?: string
+          user_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "portfolio_entries_submission_id_fkey"
+            columns: ["submission_id"]
+            isOneToOne: false
+            referencedRelation: "submissions"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      profiles: {
+        Row: {
+          course_of_study: string | null
+          created_at: string
+          full_name: string | null
+          graduation_year: number | null
+          id: string
+          institution: string | null
+          location: string | null
+          onboarded_at: string | null
+          target_career_path_id: string | null
+          updated_at: string
+        }
+        Insert: {
+          course_of_study?: string | null
+          created_at?: string
+          full_name?: string | null
+          graduation_year?: number | null
+          id: string
+          institution?: string | null
+          location?: string | null
+          onboarded_at?: string | null
+          target_career_path_id?: string | null
+          updated_at?: string
+        }
+        Update: {
+          course_of_study?: string | null
+          created_at?: string
+          full_name?: string | null
+          graduation_year?: number | null
+          id?: string
+          institution?: string | null
+          location?: string | null
+          onboarded_at?: string | null
+          target_career_path_id?: string | null
+          updated_at?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "profiles_target_career_path_id_fkey"
+            columns: ["target_career_path_id"]
+            isOneToOne: false
+            referencedRelation: "career_paths"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      rubric_criteria: {
+        Row: {
+          competency_id: string | null
+          description: string
+          id: string
+          position: number
+          simulation_id: string
+          title: string
+          weight: number
+        }
+        Insert: {
+          competency_id?: string | null
+          description: string
+          id?: string
+          position: number
+          simulation_id: string
+          title: string
+          weight: number
+        }
+        Update: {
+          competency_id?: string | null
+          description?: string
+          id?: string
+          position?: number
+          simulation_id?: string
+          title?: string
+          weight?: number
+        }
+        Relationships: [
+          {
+            foreignKeyName: "rubric_criteria_competency_id_fkey"
+            columns: ["competency_id"]
+            isOneToOne: false
+            referencedRelation: "competencies"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "rubric_criteria_simulation_id_fkey"
+            columns: ["simulation_id"]
+            isOneToOne: false
+            referencedRelation: "simulations"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      simulation_tasks: {
+        Row: {
+          id: string
+          instructions: string
+          position: number
+          simulation_id: string
+          title: string
+        }
+        Insert: {
+          id?: string
+          instructions: string
+          position: number
+          simulation_id: string
+          title: string
+        }
+        Update: {
+          id?: string
+          instructions?: string
+          position?: number
+          simulation_id?: string
+          title?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "simulation_tasks_simulation_id_fkey"
+            columns: ["simulation_id"]
+            isOneToOne: false
+            referencedRelation: "simulations"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      simulations: {
+        Row: {
+          business_problem: string
+          career_path_id: string
+          created_at: string
+          dataset_description: string | null
+          dataset_filename: string | null
+          deliverables: string[]
+          difficulty: string
+          estimated_minutes: number
+          id: string
+          is_published: boolean
+          organisation_background: string
+          organisation_name: string
+          responsibilities: string[]
+          role_title: string
+          slug: string
+          title: string
+        }
+        Insert: {
+          business_problem: string
+          career_path_id: string
+          created_at?: string
+          dataset_description?: string | null
+          dataset_filename?: string | null
+          deliverables?: string[]
+          difficulty: string
+          estimated_minutes: number
+          id?: string
+          is_published?: boolean
+          organisation_background: string
+          organisation_name: string
+          responsibilities?: string[]
+          role_title: string
+          slug: string
+          title: string
+        }
+        Update: {
+          business_problem?: string
+          career_path_id?: string
+          created_at?: string
+          dataset_description?: string | null
+          dataset_filename?: string | null
+          deliverables?: string[]
+          difficulty?: string
+          estimated_minutes?: number
+          id?: string
+          is_published?: boolean
+          organisation_background?: string
+          organisation_name?: string
+          responsibilities?: string[]
+          role_title?: string
+          slug?: string
+          title?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "simulations_career_path_id_fkey"
+            columns: ["career_path_id"]
+            isOneToOne: false
+            referencedRelation: "career_paths"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      submissions: {
+        Row: {
+          attempt_number: number
+          created_at: string
+          id: string
+          simulation_id: string
+          status: string
+          submitted_at: string | null
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          attempt_number?: number
+          created_at?: string
+          id?: string
+          simulation_id: string
+          status?: string
+          submitted_at?: string | null
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          attempt_number?: number
+          created_at?: string
+          id?: string
+          simulation_id?: string
+          status?: string
+          submitted_at?: string | null
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "submissions_simulation_id_fkey"
+            columns: ["simulation_id"]
+            isOneToOne: false
+            referencedRelation: "simulations"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
     }
     Views: {
       [_ in never]: never
