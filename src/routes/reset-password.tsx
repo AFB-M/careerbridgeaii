@@ -57,7 +57,7 @@ function ResetPassword() {
           <form method="post" onSubmit={onSubmit} className="mt-6 space-y-4">
             <div className="space-y-1.5"><Label htmlFor="password">New password</Label><Input id="password" name="password" type="password" minLength={8} required autoComplete="new-password" /></div>
             <div className="space-y-1.5"><Label htmlFor="confirm">Confirm password</Label><Input id="confirm" name="confirm" type="password" minLength={8} required autoComplete="new-password" /></div>
-            <Button className="w-full" disabled={loading}>{loading ? "Saving…" : "Update password"}</Button>
+            <Button className="w-full" disabled={loading || !hydrated}>{loading ? "Saving…" : "Update password"}</Button>
           </form>
         )}
       </div>
