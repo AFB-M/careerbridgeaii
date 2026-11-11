@@ -211,11 +211,11 @@ function List({ title, items }: { title: string; items: string[] }) {
   );
 }
 
-function Delta({ value, label }: { value: number; label?: string }) {
+function Delta({ value, label, inverse }: { value: number; label?: string; inverse?: boolean }) {
   if (value === 0) return <span className="text-xs opacity-70">no change{label ? ` ${label}` : ""}</span>;
   const up = value > 0;
   return (
-    <span className={`inline-flex items-center gap-0.5 text-xs font-semibold ${up ? "text-primary" : "text-destructive"}`}>
+    <span className={`inline-flex items-center gap-0.5 text-xs font-semibold ${up ? (inverse ? "text-highlight" : "text-primary") : "text-destructive"}`}>
       {up ? <ArrowUp className="h-3 w-3" /> : <ArrowDown className="h-3 w-3" />}{Math.abs(value)}{label ? ` ${label}` : ""}
     </span>
   );
