@@ -8,6 +8,10 @@ import { AppShell } from "@/components/site/AppShell";
 import { Button } from "@/components/ui/button";
 import { attemptsQuery, submissionQuery, type CriterionFeedback, type MetricCheck } from "@/lib/content";
 import { retryEvaluation } from "@/lib/assessment/assessment.functions";
+import { addToPortfolio } from "@/lib/portfolio/portfolio.functions";
+import { supabase } from "@/integrations/supabase/client";
+import { FolderPlus, Paperclip } from "lucide-react";
+import { useNavigate } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/_authenticated/feedback/$id")({
   head: () => ({
@@ -48,6 +52,24 @@ function FeedbackPage() {
   const prevScores = new Map(((prev?.evaluations?.criteria ?? []) as unknown as CriterionFeedback[]).map((c) => [c.criterion_id, c.score]));
   const prevOverall = prev?.evaluations?.overall_score != null ? Number(prev.evaluations.overall_score) : null;
 
+  const addPortfolio = useServerFn(addToPortfolio);
+  const navigate = useNavigate();
+  async function onAddPortfolio() {
+    try {
+      await addPortfolio({ data: { submissionId: id } });
+      await qc.invalidateQueries();
+      toast.success("Added to your portfolio");
+      navigate({ to: "/portfolio" });
+    } catch (e) {
+      toast.error(e instanceof Error ? e.message : "Could not add to portfolio");
+    }
+  }
+  async function openFile() {
+    const { data, error } = await supabase.storage.from("evidence").createSignedUrl(sub!.evidence_file_path!, 300);
+    if (error || !data) return toast.error("Could not open the file");
+    window.open(data.signedUrl, "_blank", "noopener");
+  }
+
   async function onRetry() {
     setBusy(true);
     try {
@@ -66,7 +88,11 @@ function FeedbackPage() {
       <nav className="text-sm text-muted-foreground"><Link to="/simulations/$slug" params={{ slug: sim.slug }} className="hover:text-foreground">{sim.title}</Link> / Attempt {sub!.attempt_number}</nav>
       <div className="mt-3 flex flex-col justify-between gap-4 md:flex-row md:items-end">
         <h1 className="text-3xl font-bold">Feedback on attempt {sub!.attempt_number}</h1>
-        <Button variant="outline" asChild><Link to="/submit/$slug" params={{ slug: sim.slug }}><RefreshCcw /> Revise and resubmit</Link></Button>
+        <div className="flex flex-wrap gap-2">
+          {sub!.evidence_file_path && <Button variant="ghost" onClick={openFile}><Paperclip /> Attached file</Button>}
+          {ev?.status === "completed" && <Button variant="secondary" onClick={onAddPortfolio}><FolderPlus /> Add to portfolio</Button>}
+          <Button variant="outline" asChild><Link to="/submit/$slug" params={{ slug: sim.slug }}><RefreshCcw /> Revise and resubmit</Link></Button>
+        </div>
       </div>
       <p className="mt-3 flex gap-2 rounded-lg bg-muted p-3 text-xs text-muted-foreground"><Info className="h-4 w-4 shrink-0" />This is formative AI-assisted feedback to help you improve. It is not an independently verified professional certification.</p>
 

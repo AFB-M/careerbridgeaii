@@ -26,6 +26,8 @@ export function AppShell({ children }: { children: ReactNode }) {
             <Link to="/dashboard" className={link} activeProps={active}>Dashboard</Link>
             <Link to="/pathway" className={link} activeProps={active}>Pathway</Link>
             <Link to="/simulations" className={link} activeProps={active}>Simulations</Link>
+            <Link to="/skills" className={link} activeProps={active}>Skills</Link>
+            <Link to="/portfolio" className={link} activeProps={active}>Portfolio</Link>
             <Link to="/onboarding" className={link} activeProps={active}>Profile</Link>
           </nav>
           <Button variant="ghost" size="sm" onClick={signOut}><LogOut /> <span className="hidden sm:inline">Sign out</span></Button>
