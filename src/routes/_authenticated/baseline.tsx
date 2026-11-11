@@ -47,11 +47,11 @@ function Baseline() {
       const r = Number(f.get(`r-${c.id}`));
       return r ? [{ user_id: u.user!.id, competency_id: c.id, rating: r, note: String(f.get(`n-${c.id}`) ?? "").slice(0, 300) || null, updated_at: new Date().toISOString() }] : [];
     });
-    if (rows.length < comps.length) return toast.error("Please rate every competency.");
+    if (rows.length < comps.length) { toast.error("Please rate every competency."); return; }
     setBusy(true);
     const { error } = await supabase.from("skill_self_ratings").upsert(rows, { onConflict: "user_id,competency_id" });
     setBusy(false);
-    if (error) return toast.error("Could not save your ratings");
+    if (error) { toast.error("Could not save your ratings"); return; }
     await qc.invalidateQueries();
     toast.success("Baseline saved");
     navigate({ to: "/skills" });

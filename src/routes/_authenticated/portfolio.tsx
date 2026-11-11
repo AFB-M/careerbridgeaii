@@ -36,7 +36,7 @@ function Portfolio() {
   }
   async function remove(id: string) {
     const { error } = await supabase.from("portfolio_entries").delete().eq("id", id);
-    if (error) return toast.error("Could not remove");
+    if (error) { toast.error("Could not remove"); return; }
     await qc.invalidateQueries();
   }
   function copy(id: string) {

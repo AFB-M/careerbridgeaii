@@ -57,10 +57,10 @@ export const getPublicPortfolioEntry = createServerFn({ method: "GET" })
   .inputValidator((i: unknown) => z.object({ id: z.string().uuid() }).parse(i))
   .handler(async ({ data }) => {
     const { createClient } = await import("@supabase/supabase-js");
-    const key = process.env.SUPABASE_PUBLISHABLE_KEY!;
-    const sb = createClient(process.env.SUPABASE_URL!, key, {
+    const key = process.env["SUPABASE_PUBLISHABLE_KEY"]!;
+    const sb = createClient(process.env["SUPABASE_URL"]!, key, {
       auth: { storage: undefined, persistSession: false, autoRefreshToken: false },
-      global: key.startsWith("sb_") ? { fetch: (input, init) => { const h = new Headers(init?.headers); if (h.get("Authorization") === `Bearer ${key}`) h.delete("Authorization"); h.set("apikey", key); return fetch(input, { ...init, headers: h }); } } : undefined,
+      global: { fetch: (input, init) => { const h = new Headers(init?.headers); if (key.startsWith("sb_") && h.get("Authorization") === `Bearer ${key}`) h.delete("Authorization"); h.set("apikey", key); return fetch(input, { ...init, headers: h }); } },
     });
     const { data: row } = await sb
       .from("portfolio_entries")

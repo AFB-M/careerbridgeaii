@@ -90,7 +90,7 @@ function Skills() {
   );
 }
 
-function Bar({ value, tone }: { value?: number; tone: string }) {
+function Bar({ value, tone }: { value: number | undefined; tone: string }) {
   if (value === undefined) return <span className="text-muted-foreground">Not yet</span>;
   return (
     <div className="flex items-center gap-2">
