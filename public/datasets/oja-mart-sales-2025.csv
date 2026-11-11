@@ -1,0 +1,1523 @@
+order_id,order_date,store,channel,product_name,category,quantity,unit_price_ngn,payment_method
+OM100001,2025-06-15,Yaba,In-Store,Peak Milk Tin 400g,Groceries,1,2600,Card
+OM100002,2025-01-30,Lekki,Delivery App,Rechargeable Lantern,Electronics,2,8900,Card
+OM100003,2025-10-10,Ikeja,In-Store,Omo Detergent 900g,Household,1,2900,Transfer
+OM100004,2025-10-26,Yaba,Delivery App,Golden Penny Semovita 1kg,Groceries,1,1850,Transfer
+OM100005,2025-03-15,Ikeja,In-Store,Mortein Insecticide,Household,-2,2400,Transfer
+OM100006,2025-10-20,Lekki,In-Store,Nivea Body Lotion 400ml,Personal Care,2,4800,Card
+OM100007,2025-11-13,Yaba,In-Store,Nivea Body Lotion 400ml,Personal Care,2,4800,POS
+OM100008,2025-05-08,Lekki,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,Cash
+OM100009,2025-06-25,Yaba,In-Store,Dettol Soap 3-pack,Personal Care,6,1900,Card
+OM100010,2025-03-26,Surulere,Delivery App,Oraimo Power Bank 10000mAh,Electronics,2,14500,Card
+OM100011,2025-02-09,Surulere,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,POS
+OM100012,2025-08-22,IKEJA ,In-Store,Indomie Chicken 40-pack,Groceries,2,9800,Card
+OM100013,26/12/2025,Yaba,Delivery App,Close-Up Toothpaste,Personal Care,1,950,Cash
+OM100014,2025-08-25,Lekki,In-Store,Dangote Sugar 1kg,Groceries,2,1650,Transfer
+OM100015,2025-03-08,Lekki,In-Store,Dettol Soap 3-pack,Personal Care,5,,POS
+OM100016,2025-08-18,Surulere,In-Store,Omo Detergent 900g,Household,4,2900,Cash
+OM100017,2025-07-03,Yaba,In-Store,Nivea Body Lotion 400ml,Personal Care,1,4800,Transfer
+OM100018,2025-12-04,Lekki,Delivery App,Hypo Bleach 1L,Household,1,1200,POS
+OM100019,2025-11-09,Ikeja,In-Store,Peak Milk Tin 400g,Groceries,4,2600,POS
+OM100020,2025-07-21,Yaba,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,Card
+OM100021,2025-08-14,Ikeja,In-Store,Peak Milk Tin 400g,Groceries,1,2600,Card
+OM100022,2025-10-02,Surulere,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,Transfer
+OM100023,2025-03-18,Surulere,In-Store,Nivea Body Lotion 400ml,Personal Care,0,4800,POS
+OM100024,2025-09-07,Yaba,In-Store,Hypo Bleach 1L,Household,1,1200,Card
+OM100025,2025-05-16,Lekki,In-Store,Hypo Bleach 1L,Household,1,1200,Cash
+OM100026,2025-10-06,Ikeja,In-Store,Rechargeable Lantern,Electronics,1,8900,Card
+OM100027,2025-05-14,Surulere,In-Store,Mortein Insecticide,Household,1,2400,Transfer
+OM100028,2025-09-15,Lekki,In-Store,Dangote Sugar 1kg,Groceries,3,1650,Transfer
+OM100029,2025-07-25,Lekki,Delivery App,Dettol Soap 3-pack,Personal Care,2,1900,Card
+OM100030,2025-05-24,Surulere,Delivery App,Hypo Bleach 1L,Household,2,1200,Cash
+OM100031,2025-06-28,Ikeja,Delivery App,Dangote Sugar 1kg,Groceries,1,1650,Transfer
+OM100032,2025-09-05,Ikeja,In-Store,Close-Up Toothpaste,Personal Care,3,950,Card
+OM100033,2025-03-03,Yaba,In-Store,Rechargeable Lantern,Electronics,3,8900,POS
+OM100034,2025-08-11,Surulere,Delivery App,Oraimo Power Bank 10000mAh,Electronics,5,14500,POS
+OM100035,2025-02-13,Lekki,Delivery App,Dettol Soap 3-pack,Personal Care,1,1900,Transfer
+OM100036,2025-08-27,Lekki,In-Store,Oraimo Power Bank 10000mAh,Electronics,2,14500,POS
+OM100037,2025-06-29,Lekki,Delivery App,Peak Milk Tin 400g,Groceries,3,2600,Card
+OM100038,2025-03-13,Lekki,In-Store,Omo Detergent 900g,Household,1,2900,Cash
+OM100039,2025-09-14,SURULERE ,Delivery App,Mama Gold Rice 5kg,Groceries,2,11500,Transfer
+OM100040,2025-07-01,Yaba,In-Store,Rechargeable Lantern,Electronics,4,8900,POS
+OM100041,2025-09-14,Lekki,In-Store,Peak Milk Tin 400g,Groceries,1,2600,POS
+OM100042,2025-11-08,Lekki,Delivery App,Oraimo Power Bank 10000mAh,Electronics,2,14500,Card
+OM100043,2025-06-16,Yaba,In-Store,Nivea Body Lotion 400ml,Personal Care,1,4800,Card
+OM100044,2025-05-22,Ikeja,In-Store,Golden Penny Semovita 1kg,Groceries,2,1850,Card
+OM100045,2025-11-10,Lekki,In-Store,Close-Up Toothpaste,Personal Care,2,950,POS
+OM100046,2025-05-07,Surulere,In-Store,Dettol Soap 3-pack,Personal Care,4,1900,Transfer
+OM100047,2025-03-12,Ikeja,In-Store,Omo Detergent 900g,Household,1,2900,Transfer
+OM100048,2025-04-19,Surulere,In-Store,Nivea Body Lotion 400ml,Personal Care,4,4800,Transfer
+OM100049,2025-11-26,Surulere,In-Store,Peak Milk Tin 400g,Groceries,6,2600,Transfer
+OM100050,2025-02-18,Yaba,Delivery App,Omo Detergent 900g,Household,3,2900,Transfer
+OM100051,2025-08-09,Yaba,In-Store,Mortein Insecticide,Household,1,,Cash
+OM100052,2025-07-07,Surulere,In-Store,Golden Penny Semovita 1kg,Groceries,2,1850,Card
+OM100053,2025-09-22,Surulere,In-Store,Close-Up Toothpaste,Personal Care,1,950,Transfer
+OM100054,2025-02-23,Surulere,In-Store,Indomie Chicken 40-pack,Groceries,5,9800,Transfer
+OM100055,2025-03-08,Yaba,In-Store,Oraimo Earbuds,Electronics,3,19800,Cash
+OM100056,2025-10-02,Yaba,In-Store,Rechargeable Lantern,Electronics,1,8900,Card
+OM100057,2025-04-04,Ikeja,In-Store,Omo Detergent 900g,Household,1,2900,Card
+OM100058,12/02/2025,Lekki,Delivery App,Close-Up Toothpaste,Personal Care,4,950,POS
+OM100059,2025-10-11,Surulere,In-Store,Omo Detergent 900g,Household,1,2900,Transfer
+OM100060,2025-03-24,Ikeja,Delivery App,Kings Vegetable Oil 3L,Groceries,5,7800,Cash
+OM100061,2025-04-16,Yaba,In-Store,Kings Vegetable Oil 3L,Groceries,1,7800,Cash
+OM100062,2025-05-09,Ikeja,Delivery App,Golden Penny Semovita 1kg,Groceries,2,1850,Transfer
+OM100063,2025-05-06,Yaba,Delivery App,Rechargeable Lantern,Electronics,4,8900,POS
+OM100064,2025-10-07,Yaba,In-Store,Oraimo Earbuds,Electronics,1,19800,Transfer
+OM100065,2025-06-25,Lekki,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,Card
+OM100066,2025-01-08,Surulere,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,POS
+OM100067,2025-12-10,Lekki,In-Store,Close-Up Toothpaste,Personal Care,1,950,Transfer
+OM100068,2025-08-17,Surulere,In-Store,Golden Penny Semovita 1kg,Groceries,1,1850,Cash
+OM100069,2025-06-08,Surulere,Delivery App,Mama Gold Rice 5kg,Groceries,1,11500,Card
+OM100070,2025-09-15,Lekki,Delivery App,Nivea Body Lotion 400ml,Personal Care,3,4800,Card
+OM100071,2025-02-15,Yaba,In-Store,Peak Milk Tin 400g,Groceries,1,2600,Cash
+OM100072,2025-04-30,Lekki,In-Store,Indomie Chicken 40-pack,Groceries,3,9800,POS
+OM100073,2025-09-11,Surulere,In-Store,Peak Milk Tin 400g,Groceries,2,2600,Card
+OM100074,2025-09-20,Yaba,In-Store,Nivea Body Lotion 400ml,Personal Care,4,4800,Transfer
+OM100075,2025-09-16,Ikeja,In-Store,Close-Up Toothpaste,Personal Care,2,,Transfer
+OM100076,2025-01-22,Surulere,In-Store,Peak Milk Tin 400g,Groceries,1,2600,POS
+OM100077,2025-11-18,Lekki,In-Store,Mortein Insecticide,Household,1,2400,Card
+OM100078,2025-09-15,Ikeja,In-Store,Rechargeable Lantern,Electronics,1,8900,POS
+OM100079,2025-02-08,Surulere,In-Store,Oraimo Earbuds,Electronics,3,19800,Transfer
+OM100080,2025-08-24,Yaba,Delivery App,Hypo Bleach 1L,Household,5,1200,Cash
+OM101098,2025-10-01,Surulere,Delivery App,Kings Vegetable Oil 3L,Groceries,2,7800,POS
+OM100081,2025-11-12,Ikeja,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,Cash
+OM100082,2025-03-10,Yaba,Delivery App,Golden Penny Semovita 1kg,Groceries,1,1850,Card
+OM100083,2025-12-12,Surulere,In-Store,Dettol Soap 3-pack,Personal Care,2,1900,Card
+OM100084,2025-10-09,Surulere,In-Store,Mama Gold Rice 5kg,Groceries,5,11500,Card
+OM100085,2025-02-09,YABA ,In-Store,Oraimo Earbuds,Electronics,1,19800,Transfer
+OM100086,2025-02-16,Surulere,In-Store,Peak Milk Tin 400g,Groceries,1,2600,Cash
+OM100087,2025-12-27,Yaba,In-Store,Hypo Bleach 1L,Household,1,1200,POS
+OM100088,2025-07-27,Lekki,In-Store,Kings Vegetable Oil 3L,Groceries,1,7800,Card
+OM100089,2025-01-01,Surulere,In-Store,Dangote Sugar 1kg,Groceries,1,1650,Transfer
+OM100090,2025-05-29,Surulere,Delivery App,Kings Vegetable Oil 3L,Groceries,1,7800,Card
+OM100091,2025-08-08,Surulere,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,Card
+OM100092,2025-05-27,Lekki,Delivery App,Nivea Body Lotion 400ml,Personal Care,1,4800,Cash
+OM100093,2025-07-11,Yaba,In-Store,Oraimo Power Bank 10000mAh,Electronics,4,14500,POS
+OM100094,2025-10-11,Lekki,In-Store,Mortein Insecticide,Household,1,2400,POS
+OM100095,2025-03-12,Surulere,In-Store,Nivea Body Lotion 400ml,Personal Care,5,4800,Transfer
+OM100096,2025-08-01,Surulere,Delivery App,Dangote Sugar 1kg,Groceries,3,1650,Cash
+OM100097,2025-05-03,Yaba,In-Store,Kings Vegetable Oil 3L,Groceries,1,7800,Transfer
+OM100098,2025-02-08,Yaba,In-Store,Mama Gold Rice 5kg,Groceries,2,11500,Cash
+OM100099,2025-08-19,Lekki,In-Store,Omo Detergent 900g,Household,1,2900,Transfer
+OM100100,2025-02-16,Lekki,In-Store,Dangote Sugar 1kg,Groceries,4,1650,Transfer
+OM100101,2025-07-31,Yaba,In-Store,Omo Detergent 900g,Household,1,2900,Cash
+OM100102,2025-02-01,Surulere,In-Store,Hypo Bleach 1L,Household,1,,Transfer
+OM100103,2025-05-08,Yaba,In-Store,Omo Detergent 900g,Household,2,2900,Cash
+OM100104,2025-01-12,Ikeja,In-Store,Peak Milk Tin 400g,Groceries,3,2600,POS
+OM100105,2025-09-08,Ikeja,In-Store,Golden Penny Semovita 1kg,Groceries,5,1850,POS
+OM100106,2025-05-08,Ikeja,Delivery App,Oraimo Power Bank 10000mAh,Electronics,1,14500,Card
+OM100107,2025-12-25,Yaba,Delivery App,Oraimo Power Bank 10000mAh,Electronics,3,14500,Card
+OM101038,2025-12-11,Lekki,In-Store,Golden Penny Semovita 1kg,Groceries,1,1850,Cash
+OM100108,2025-04-30,Ikeja,In-Store,Close-Up Toothpaste,Personal Care,1,950,Transfer
+OM100109,2025-09-28,Yaba,In-Store,Nivea Body Lotion 400ml,Personal Care,1,4800,Card
+OM100110,26/10/2025,Yaba,Delivery App,Mama Gold Rice 5kg,Groceries,3,11500,Card
+OM100111,2025-06-04,Surulere,In-Store,Hypo Bleach 1L,Household,2,1200,Transfer
+OM100112,2025-05-01,Lekki,Delivery App,mortein insecticide,Household,2,2400,Cash
+OM100113,2025-04-10,Yaba,Delivery App,Hypo Bleach 1L,Household,1,1200,POS
+OM100114,2025-04-27,Ikeja,In-Store,Hypo Bleach 1L,Household,3,1200,Cash
+OM100115,2025-04-12,Surulere,In-Store,Golden Penny Semovita 1kg,Groceries,2,1850,Transfer
+OM100116,2025-04-13,Lekki,In-Store,Kings Vegetable Oil 3L,Groceries,-1,7800,Cash
+OM100117,2025-11-16,Lekki,In-Store,Peak Milk Tin 400g,Groceries,5,2600,Card
+OM100118,2025-03-16,Yaba,Delivery App,Rechargeable Lantern,Electronics,1,8900,Transfer
+OM100119,2025-12-30,Yaba,In-Store,Omo Detergent 900g,Household,4,2900,Card
+OM100120,26/03/2025,Lekki,Delivery App,Dangote Sugar 1kg,Groceries,5,1650,POS
+OM100121,07/12/2025,Surulere,In-Store,Oraimo Earbuds,Electronics,2,19800,Card
+OM100122,2025-05-24,Surulere,In-Store,Indomie Chicken 40-pack,Groceries,4,9800,Transfer
+OM100123,2025-06-08,Yaba,Delivery App,Oraimo Earbuds,Electronics,3,19800,Transfer
+OM100124,2025-08-17,Surulere,In-Store,Mama Gold Rice 5kg,Groceries,4,11500,Card
+OM100125,2025-05-07,Yaba,Delivery App,Oraimo Power Bank 10000mAh,Electronics,1,14500,Card
+OM100126,2025-02-01,Lekki,In-Store,Kings Vegetable Oil 3L,Groceries,4,7800,Cash
+OM100127,2025-06-21,Ikeja,Delivery App,Close-Up Toothpaste,Personal Care,3,950,Cash
+OM100128,2025-06-02,Ikeja,Delivery App,Golden Penny Semovita 1kg,Groceries,1,1850,POS
+OM100129,2025-08-27,Yaba,In-Store,Oraimo Power Bank 10000mAh,Electronics,5,14500,
+OM100130,2025-09-12,Ikeja,In-Store,Peak Milk Tin 400g,Groceries,3,2600,Transfer
+OM100131,2025-06-17,Surulere,In-Store,Oraimo Earbuds,Electronics,3,19800,Card
+OM100132,2025-07-20,Lekki,Delivery App,Oraimo Power Bank 10000mAh,Electronics,1,14500,Card
+OM100133,2025-10-06,Lekki,In-Store,Dangote Sugar 1kg,Groceries,4,1650,Card
+OM100134,2025-02-13,Ikeja,In-Store,Mama Gold Rice 5kg,Groceries,6,11500,POS
+OM100135,2025-03-10,Yaba,In-Store,Omo Detergent 900g,Household,3,2900,Card
+OM100136,2025-05-31,Surulere,In-Store,Kings Vegetable Oil 3L,Groceries,1,7800,Cash
+OM100137,2025-05-07,Lekki,Delivery App,Peak Milk Tin 400g,Groceries,1,2600,Transfer
+OM100138,2025-07-22,Lekki,In-Store,Kings Vegetable Oil 3L,Groceries,1,7800,Card
+OM100139,2025-01-19,Ikeja,In-Store,Indomie Chicken 40-pack,Groceries,4,9800,POS
+OM100140,2025-01-21,Surulere,In-Store,Rechargeable Lantern,Electronics,1,8900,Transfer
+OM100141,2025-07-10,Lekki,In-Store,Mortein Insecticide,Household,-1,2400,Card
+OM100142,2025-11-02,Lekki,Delivery App,Dangote Sugar 1kg,Groceries,1,1650,Card
+OM100143,2025-05-11,Lekki,In-Store,Golden Penny Semovita 1kg,Groceries,4,1850,POS
+OM100144,2025-04-05,Surulere,Delivery App,Close-Up Toothpaste,Personal Care,1,950,POS
+OM100145,2025-02-02,Ikeja,In-Store,Omo Detergent 900g,Household,3,2900,Transfer
+OM100146,2025-02-16,Lekki,In-Store,Nivea Body Lotion 400ml,Personal Care,1,4800,Cash
+OM100147,2025-08-02,Surulere,In-Store,Golden Penny Semovita 1kg,Groceries,4,1850,POS
+OM100148,2025-07-06,Lekki,In-Store,Nivea Body Lotion 400ml,Personal Care,2,4800,Card
+OM100149,2025-03-22,Ikeja,In-Store,Omo Detergent 900g,Household,2,2900,Cash
+OM100150,2025-03-25,Ikeja,Delivery App,Peak Milk Tin 400g,Groceries,1,,POS
+OM100151,2025-11-15,Lekki,Delivery App,Dettol Soap 3-pack,Personal Care,1,1900,Transfer
+OM100152,2025-02-25,Yaba,In-Store,Omo Detergent 900g,Household,3,2900,Transfer
+OM100153,2025-01-23,Yaba,In-Store,Rechargeable Lantern,Electronics,2,,POS
+OM100154,2025-12-31,Lekki,In-Store,Oraimo Earbuds,Electronics,4,19800,POS
+OM100155,2025-04-11,Yaba,Delivery App,Oraimo Earbuds,Electronics,1,19800,POS
+OM100156,2025-03-22,Surulere,Delivery App,omo detergent 900g,Household,1,2900,Transfer
+OM100157,2025-10-15,Ikeja,In-Store,Oraimo Earbuds,Electronics,1,19800,POS
+OM100240,2025-07-04,Ikeja,Delivery App,Nivea Body Lotion 400ml,Personal Care,1,4800,Cash
+OM100158,2025-10-09,Surulere,In-Store,Oraimo Earbuds,Electronics,1,19800,Transfer
+OM100159,2025-12-04,Yaba,Delivery App,Mortein Insecticide,Household,1,2400,POS
+OM100160,2025-08-17,Yaba,In-Store,Oraimo Power Bank 10000mAh,Electronics,-4,14500,POS
+OM100161,2025-03-07,Yaba,In-Store,dangote sugar 1kg,Groceries,4,1650,Card
+OM100162,2025-03-08,Surulere,In-Store,Indomie Chicken 40-pack,Groceries,2,9800,Card
+OM100163,2025-07-13,Lekki,Delivery App,Nivea Body Lotion 400ml,Personal Care,1,4800,Card
+OM100164,2025-09-09,LEKKI ,In-Store,Kings Vegetable Oil 3L,Groceries,3,7800,Transfer
+OM100165,2025-06-29,Surulere,Delivery App,Close-Up Toothpaste,Personal Care,4,950,Cash
+OM100166,2025-08-22,Surulere,In-Store,Peak Milk Tin 400g,Groceries,5,2600,Transfer
+OM100167,2025-11-12,Surulere,Delivery App,Dangote Sugar 1kg,Groceries,1,1650,Transfer
+OM100168,2025-05-23,Surulere,In-Store,Nivea Body Lotion 400ml,Personal Care,0,4800,Cash
+OM100169,2025-09-29,Surulere,In-Store,Golden Penny Semovita 1kg,Groceries,2,1850,Card
+OM100170,2025-10-02,Yaba,In-Store,Nivea Body Lotion 400ml,Personal Care,1,4800,POS
+OM100171,2025-10-23,Surulere,Delivery App,Peak Milk Tin 400g,Groceries,1,2600,Transfer
+OM100172,2025-01-25,Surulere,In-Store,Kings Vegetable Oil 3L,Groceries,6,7800,Cash
+OM100173,2025-01-18,Lekki,In-Store,Mama Gold Rice 5kg,Groceries,2,11500,POS
+OM100174,2025-01-25,Yaba,In-Store,peak milk tin 400g,Groceries,3,2600,Card
+OM100175,2025-10-18,Surulere,Delivery App,Dangote Sugar 1kg,Groceries,1,1650,Transfer
+OM100176,2025-06-04,Lekki,Delivery App,Close-Up Toothpaste,Personal Care,2,950,POS
+OM100177,2025-01-08,Lekki,In-Store,Rechargeable Lantern,Electronics,2,8900,Card
+OM100178,2025-12-07,Surulere,In-Store,Omo Detergent 900g,Household,1,2900,Cash
+OM100179,2025-10-24,YABA ,Delivery App,Hypo Bleach 1L,Household,5,1200,Card
+OM100180,13/01/2025,Lekki,In-Store,Omo Detergent 900g,Household,1,2900,Card
+OM100181,2025-10-10,Lekki,Delivery App,Nivea Body Lotion 400ml,Personal Care,1,4800,POS
+OM100182,2025-03-31,Surulere,Delivery App,Mortein Insecticide,Household,2,2400,POS
+OM100183,2025-01-04,Yaba,In-Store,Omo Detergent 900g,Household,2,2900,POS
+OM100184,2025-02-23,Lekki,In-Store,Kings Vegetable Oil 3L,Groceries,1,7800,Cash
+OM100185,2025-05-17,Yaba,In-Store,Nivea Body Lotion 400ml,Personal Care,5,4800,Cash
+OM100186,2025-04-22,Ikeja,Delivery App,Indomie Chicken 40-pack,Groceries,5,9800,Transfer
+OM100187,2025-06-17,Yaba,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,POS
+OM100188,2025-09-29,Ikeja,In-Store,Dettol Soap 3-pack,Personal Care,2,1900,Transfer
+OM100189,2025-06-07,Lekki,In-Store,Oraimo Power Bank 10000mAh,Electronics,2,14500,Transfer
+OM100190,2025-01-14,Ikeja,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,Transfer
+OM100191,2025-01-16,Lekki,In-Store,Golden Penny Semovita 1kg,Groceries,2,1850,Card
+OM100192,2025-02-03,Surulere,In-Store,Oraimo Earbuds,Electronics,5,19800,Card
+OM100193,2025-12-31,Lekki,Delivery App,Indomie Chicken 40-pack,Groceries,1,9800,Card
+OM100194,2025-11-21,Surulere,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,Transfer
+OM100195,2025-06-22,Surulere,Delivery App,omo detergent 900g,Household,1,2900,Cash
+OM100196,2025-07-08,Surulere,In-Store,Rechargeable Lantern,Electronics,2,8900,POS
+OM100197,2025-11-13,Yaba,Delivery App,Oraimo Power Bank 10000mAh,Electronics,2,14500,Card
+OM100198,2025-12-27,Lekki,In-Store,Close-Up Toothpaste,Personal Care,4,950,Cash
+OM100199,01/01/2025,Lekki,In-Store,Mortein Insecticide,Household,3,2400,Card
+OM100200,2025-09-09,Yaba,In-Store,Indomie Chicken 40-pack,Groceries,4,9800,POS
+OM100201,2025-09-21,Lekki,Delivery App,Kings Vegetable Oil 3L,Groceries,1,7800,Transfer
+OM100159,2025-12-04,Yaba,Delivery App,Mortein Insecticide,Household,1,2400,POS
+OM100202,2025-02-26,Ikeja,In-Store,Nivea Body Lotion 400ml,Personal Care,6,4800,Card
+OM100203,2025-07-02,Yaba,In-Store,Indomie Chicken 40-pack,Groceries,4,9800,Card
+OM100204,2025-11-27,Surulere,Delivery App,Mama Gold Rice 5kg,Groceries,5,11500,Transfer
+OM100205,2025-11-19,Lekki,In-Store,Hypo Bleach 1L,Household,3,1200,Card
+OM100206,2025-06-17,Lekki,In-Store,Mortein Insecticide,Household,2,2400,Cash
+OM100207,2025-08-13,Surulere,In-Store,Dettol Soap 3-pack,Personal Care,1,1900,POS
+OM100208,2025-12-23,Surulere,Delivery App,Mama Gold Rice 5kg,Groceries,3,11500,Transfer
+OM100209,2025-05-07,Surulere,In-Store,Dettol Soap 3-pack,Personal Care,1,1900,Transfer
+OM100210,2025-04-07,Ikeja,Delivery App,Kings Vegetable Oil 3L,Groceries,3,7800,Transfer
+OM100211,2025-03-17,Surulere,In-Store,Oraimo Power Bank 10000mAh,Electronics,-2,14500,Transfer
+OM100212,2025-02-24,Lekki,In-Store,Kings Vegetable Oil 3L,Groceries,2,7800,Card
+OM100213,12/08/2025,Lekki,In-Store,Dettol Soap 3-pack,Personal Care,2,1900,POS
+OM100214,2025-05-12,Yaba,Delivery App,Close-Up Toothpaste,Personal Care,1,950,POS
+OM100215,2025-10-28,Yaba,In-Store,Dettol Soap 3-pack,Personal Care,3,1900,Transfer
+OM100216,2025-11-25,Surulere,Delivery App,Omo Detergent 900g,Household,3,2900,POS
+OM100162,2025-03-08,Surulere,In-Store,Indomie Chicken 40-pack,Groceries,2,9800,Card
+OM100217,24/07/2025,Lekki,Delivery App,Dettol Soap 3-pack,Personal Care,2,1900,POS
+OM100218,2025-07-29,Lekki,In-Store,Mortein Insecticide,Household,1,2400,Card
+OM100219,2025-09-08,Ikeja,Delivery App,Rechargeable Lantern,Electronics,2,8900,Transfer
+OM100220,2025-04-13,Surulere,Delivery App,Mortein Insecticide,Household,2,2400,Transfer
+OM100221,2025-09-20,Surulere,In-Store,Golden Penny Semovita 1kg,Groceries,2,1850,POS
+OM100222,2025-12-17,Ikeja,In-Store,Mortein Insecticide,Household,2,2400,Card
+OM100223,2025-07-15,Ikeja,Delivery App,Omo Detergent 900g,Household,2,2900,POS
+OM100224,2025-12-12,Ikeja,Delivery App,Kings Vegetable Oil 3L,Groceries,3,7800,Transfer
+OM100225,2025-07-20,Lekki,Delivery App,Hypo Bleach 1L,Household,5,1200,Card
+OM100226,2025-11-21,Lekki,In-Store,Nivea Body Lotion 400ml,Personal Care,1,4800,POS
+OM100227,2025-05-31,Lekki,In-Store,Oraimo Power Bank 10000mAh,Electronics,2,14500,Transfer
+OM100228,12/07/2025,Surulere,In-Store,Nivea Body Lotion 400ml,Personal Care,3,4800,POS
+OM100229,2025-05-24,Lekki,In-Store,Dangote Sugar 1kg,Groceries,1,1650,POS
+OM100230,2025-11-23,Surulere,Delivery App,rechargeable lantern,Electronics,1,8900,POS
+OM100231,2025-10-17,Surulere,In-Store,Rechargeable Lantern,Electronics,1,8900,Cash
+OM100232,2025-01-08,Ikeja,In-Store,Nivea Body Lotion 400ml,Personal Care,1,4800,Cash
+OM100233,2025-02-21,Lekki,In-Store,Close-Up Toothpaste,Personal Care,1,950,POS
+OM100234,2025-03-20,Yaba,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,Card
+OM100235,2025-10-08,Surulere,Delivery App,Oraimo Power Bank 10000mAh,Electronics,3,14500,Card
+OM100236,2025-08-13,Ikeja,In-Store,Nivea Body Lotion 400ml,Personal Care,1,4800,Transfer
+OM100237,2025-08-31,Ikeja,In-Store,Hypo Bleach 1L,Household,5,1200,POS
+OM100238,2025-03-26,Ikeja,Delivery App,Mortein Insecticide,Household,1,2400,POS
+OM100239,2025-08-27,Yaba,In-Store,Dangote Sugar 1kg,Groceries,6,1650,Card
+OM100240,2025-07-04,Ikeja,Delivery App,Nivea Body Lotion 400ml,Personal Care,1,4800,Cash
+OM100241,2025-02-18,Yaba,In-Store,Mortein Insecticide,Household,4,2400,Card
+OM100242,2025-08-01,Lekki,In-Store,Nivea Body Lotion 400ml,Personal Care,4,4800,Cash
+OM100243,2025-09-27,Lekki,Delivery App,Mortein Insecticide,Household,1,2400,Cash
+OM100244,2025-05-29,Surulere,In-Store,Kings Vegetable Oil 3L,Groceries,2,7800,Cash
+OM100245,2025-06-26,Yaba,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,Cash
+OM100246,2025-03-07,Ikeja,In-Store,Close-Up Toothpaste,Personal Care,1,950,POS
+OM100247,2025-01-26,Surulere,Delivery App,Omo Detergent 900g,Household,1,2900,POS
+OM100248,2025-12-03,Yaba,In-Store,Mortein Insecticide,Household,2,2400,Card
+OM100249,2025-12-08,Lekki,Delivery App,Nivea Body Lotion 400ml,Personal Care,1,4800,Card
+OM100250,2025-02-21,Ikeja,In-Store,Rechargeable Lantern,Electronics,4,8900,Cash
+OM100251,2025-05-13,Surulere,Delivery App,Oraimo Earbuds,Electronics,1,19800,Card
+OM100252,2025-11-25,Ikeja,In-Store,Rechargeable Lantern,Electronics,2,8900,Card
+OM100253,2025-08-04,Yaba,In-Store,Close-Up Toothpaste,Personal Care,1,950,POS
+OM100254,2025-12-04,Yaba,In-Store,Hypo Bleach 1L,Household,1,1200,POS
+OM100255,2025-03-19,Ikeja,In-Store,Nivea Body Lotion 400ml,Personal Care,1,4800,Card
+OM100256,2025-02-15,Ikeja,Delivery App,Mama Gold Rice 5kg,Groceries,1,11500,Transfer
+OM100257,2025-04-06,Ikeja,In-Store,Rechargeable Lantern,Electronics,3,8900,Transfer
+OM100258,2025-02-13,Yaba,In-Store,Kings Vegetable Oil 3L,Groceries,5,7800,Cash
+OM100259,2025-01-27,Ikeja,Delivery App,Dettol Soap 3-pack,Personal Care,1,1900,Card
+OM100260,2025-06-09,Lekki,In-Store,Dettol Soap 3-pack,Personal Care,4,1900,Card
+OM100261,2025-10-22,Yaba,In-Store,Dettol Soap 3-pack,Personal Care,1,1900,Card
+OM100262,2025-11-27,Yaba,In-Store,Oraimo Power Bank 10000mAh,Electronics,3,14500,POS
+OM100263,2025-10-18,Surulere,Delivery App,Dangote Sugar 1kg,Groceries,2,1650,Cash
+OM100264,2025-01-08,Lekki,In-Store,Oraimo Earbuds,Electronics,1,19800,POS
+OM101333,01/01/2025,Surulere,In-Store,Mortein Insecticide,Household,1,2400,Card
+OM100265,2025-05-07,Yaba,In-Store,Omo Detergent 900g,Household,2,2900,Transfer
+OM100266,2025-05-26,Ikeja,In-Store,Dettol Soap 3-pack,Personal Care,1,1900,Transfer
+OM100267,2025-01-22,Lekki,In-Store,Kings Vegetable Oil 3L,Groceries,4,7800,Transfer
+OM100268,2025-10-08,Yaba,Delivery App,Nivea Body Lotion 400ml,Personal Care,1,4800,POS
+OM100269,2025-04-13,Lekki,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,POS
+OM100270,2025-04-16,Surulere,In-Store,Rechargeable Lantern,Electronics,1,8900,POS
+OM100271,2025-02-14,Surulere,In-Store,Mortein Insecticide,Household,1,2400,Cash
+OM100272,2025-09-25,Yaba,In-Store,Dangote Sugar 1kg,Groceries,1,1650,Transfer
+OM100273,2025-04-03,Surulere,In-Store,Oraimo Power Bank 10000mAh,Electronics,2,14500,POS
+OM100274,2025-03-18,Ikeja,In-Store,Mama Gold Rice 5kg,Groceries,2,11500,Card
+OM100275,2025-08-26,Ikeja,Delivery App,Oraimo Power Bank 10000mAh,Electronics,2,14500,Cash
+OM100276,2025-11-07,Lekki,In-Store,Golden Penny Semovita 1kg,Groceries,4,1850,POS
+OM100277,2025-04-20,Surulere,In-Store,Kings Vegetable Oil 3L,Groceries,5,7800,Transfer
+OM100278,2025-01-20,Lekki,In-Store,dangote sugar 1kg,Groceries,1,1650,Card
+OM100279,2025-10-13,Yaba,In-Store,Dangote Sugar 1kg,Groceries,4,1650,Card
+OM100280,2025-11-24,Ikeja,Delivery App,Indomie Chicken 40-pack,Groceries,2,9800,Card
+OM100281,2025-12-09,Yaba,In-Store,Peak Milk Tin 400g,Groceries,1,2600,Transfer
+OM100282,2025-04-24,Ikeja,In-Store,Peak Milk Tin 400g,Groceries,5,2600,Card
+OM100283,2025-01-15,Ikeja,In-Store,oraimo earbuds,Electronics,2,19800,POS
+OM100284,2025-03-16,Ikeja,In-Store,Dangote Sugar 1kg,Groceries,3,1650,Cash
+OM100285,2025-08-14,Ikeja,In-Store,Oraimo Power Bank 10000mAh,Electronics,0,14500,POS
+OM100286,2025-09-04,Lekki,In-Store,Omo Detergent 900g,Household,4,2900,Card
+OM100326,2025-04-07,Yaba,In-Store,Mortein Insecticide,Household,1,2400,Cash
+OM100287,2025-04-10,Ikeja,Delivery App,Oraimo Power Bank 10000mAh,Electronics,4,14500,Card
+OM100288,2025-07-11,Lekki,In-Store,Rechargeable Lantern,Electronics,5,8900,POS
+OM100289,2025-11-18,Surulere,In-Store,Dangote Sugar 1kg,Groceries,2,1650,Cash
+OM100290,2025-04-24,Ikeja,Delivery App,Dettol Soap 3-pack,Personal Care,2,1900,Transfer
+OM100291,2025-03-18,Yaba,In-Store,Kings Vegetable Oil 3L,Groceries,1,7800,Cash
+OM100292,2025-06-01,Lekki,Delivery App,Dangote Sugar 1kg,Groceries,1,1650,POS
+OM100293,2025-02-28,Ikeja,In-Store,Peak Milk Tin 400g,Groceries,3,2600,Transfer
+OM100294,2025-05-27,Surulere,In-Store,Indomie Chicken 40-pack,Groceries,6,9800,POS
+OM100295,2025-05-03,Lekki,Delivery App,rechargeable lantern,Electronics,1,8900,Transfer
+OM100296,2025-05-31,Ikeja,In-Store,Peak Milk Tin 400g,Groceries,2,2600,Transfer
+OM101157,2025-05-16,Yaba,In-Store,Dettol Soap 3-pack,Personal Care,1,1900,POS
+OM100297,2025-09-27,Lekki,In-Store,Kings Vegetable Oil 3L,Groceries,1,7800,POS
+OM100298,2025-10-20,Lekki,In-Store,Peak Milk Tin 400g,Groceries,2,2600,Transfer
+OM100299,2025-04-11,Ikeja,In-Store,Close-Up Toothpaste,Personal Care,4,950,POS
+OM100300,2025-03-31,Lekki,In-Store,Mama Gold Rice 5kg,Groceries,3,11500,Transfer
+OM100301,2025-04-14,Ikeja,In-Store,Golden Penny Semovita 1kg,Groceries,2,1850,Card
+OM100302,2025-06-27,Surulere,In-Store,Dangote Sugar 1kg,Groceries,4,,POS
+OM100303,2025-07-29,Yaba,Delivery App,Rechargeable Lantern,Electronics,3,8900,Transfer
+OM100304,2025-07-07,Lekki,In-Store,Golden Penny Semovita 1kg,Groceries,2,1850,Card
+OM100305,2025-08-17,Ikeja,Delivery App,Mortein Insecticide,Household,3,2400,Cash
+OM100306,2025-07-15,Ikeja,In-Store,Close-Up Toothpaste,Personal Care,1,950,POS
+OM100307,2025-01-14,Lekki,Delivery App,Mortein Insecticide,Household,6,2400,Transfer
+OM100308,27/03/2025,Surulere,In-Store,Indomie Chicken 40-pack,Groceries,4,9800,Card
+OM100309,2025-12-24,Ikeja,In-Store,Kings Vegetable Oil 3L,Groceries,2,7800,POS
+OM100310,2025-12-26,Ikeja,In-Store,Dangote Sugar 1kg,Groceries,1,1650,Card
+OM100311,2025-10-27,Surulere,Delivery App,Mortein Insecticide,Household,1,2400,Transfer
+OM100312,2025-04-27,Lekki,Delivery App,Oraimo Earbuds,Electronics,2,19800,POS
+OM100313,2025-01-10,Yaba,In-Store,Nivea Body Lotion 400ml,Personal Care,2,4800,Card
+OM100314,2025-01-27,Surulere,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,Cash
+OM100315,2025-10-16,Surulere,In-Store,Oraimo Power Bank 10000mAh,Electronics,4,14500,Card
+OM100316,2025-03-17,Surulere,In-Store,Nivea Body Lotion 400ml,Personal Care,2,4800,Card
+OM100317,2025-09-29,Ikeja,Delivery App,Peak Milk Tin 400g,Groceries,1,2600,Card
+OM100318,04/08/2025,Yaba,In-Store,Omo Detergent 900g,Household,4,2900,Card
+OM100319,2025-11-25,Surulere,In-Store,Rechargeable Lantern,Electronics,4,8900,Card
+OM100320,2025-05-09,Ikeja,In-Store,Indomie Chicken 40-pack,Groceries,-5,9800,Cash
+OM100321,2025-06-27,Lekki,Delivery App,Nivea Body Lotion 400ml,Personal Care,2,,Cash
+OM100322,2025-10-30,Lekki,In-Store,Mortein Insecticide,Household,2,2400,Cash
+OM100323,2025-10-23,Surulere,Delivery App,Kings Vegetable Oil 3L,Groceries,1,7800,Cash
+OM100324,2025-11-09,Yaba,Delivery App,Mama Gold Rice 5kg,Groceries,3,11500,POS
+OM100325,2025-06-05,Yaba,In-Store,Close-Up Toothpaste,Personal Care,1,950,Transfer
+OM100326,2025-04-07,Yaba,In-Store,Mortein Insecticide,Household,1,2400,Cash
+OM100327,2025-05-03,Surulere,In-Store,Dangote Sugar 1kg,Groceries,1,1650,Transfer
+OM100328,2025-01-12,Ikeja,In-Store,Peak Milk Tin 400g,Groceries,1,2600,Card
+OM100329,2025-08-14,Ikeja,In-Store,Dangote Sugar 1kg,Groceries,6,1650,Transfer
+OM100330,2025-12-09,Lekki,In-Store,Nivea Body Lotion 400ml,Personal Care,4,4800,Card
+OM100331,2025-09-01,Lekki,In-Store,Kings Vegetable Oil 3L,Groceries,1,7800,POS
+OM100332,2025-10-27,Yaba,In-Store,Indomie Chicken 40-pack,Groceries,6,9800,Transfer
+OM100333,2025-05-24,Ikeja,In-Store,Oraimo Earbuds,Electronics,2,19800,POS
+OM100334,2025-06-30,Surulere,In-Store,Kings Vegetable Oil 3L,Groceries,2,7800,POS
+OM100335,2025-01-04,Yaba,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,Cash
+OM100336,2025-08-12,Yaba,In-Store,Close-Up Toothpaste,Personal Care,1,950,Cash
+OM100337,08/11/2025,Lekki,In-Store,Dangote Sugar 1kg,Groceries,4,1650,Card
+OM100338,2025-05-12,Yaba,In-Store,Close-Up Toothpaste,Personal Care,2,950,Cash
+OM100339,2025-08-12,Yaba,In-Store,Mortein Insecticide,Household,1,2400,Cash
+OM100309,2025-12-24,Ikeja,In-Store,Kings Vegetable Oil 3L,Groceries,2,7800,POS
+OM100340,2025-01-06,Ikeja,In-Store,Nivea Body Lotion 400ml,Personal Care,1,4800,Cash
+OM100341,2025-11-29,Lekki,In-Store,Close-Up Toothpaste,Personal Care,6,950,POS
+OM100342,2025-11-16,Surulere,In-Store,Close-Up Toothpaste,Personal Care,3,950,Card
+OM100343,2025-06-12,Ikeja,In-Store,Dangote Sugar 1kg,Groceries,2,1650,Card
+OM100344,2025-05-31,Surulere,In-Store,Dettol Soap 3-pack,Personal Care,6,1900,POS
+OM100345,2025-09-26,LEKKI ,In-Store,Kings Vegetable Oil 3L,Groceries,1,7800,Transfer
+OM100346,2025-10-17,Ikeja,In-Store,Close-Up Toothpaste,Personal Care,6,950,Card
+OM100347,2025-01-06,Ikeja,In-Store,Oraimo Power Bank 10000mAh,Electronics,3,14500,Card
+OM100348,2025-07-23,Ikeja,In-Store,Oraimo Earbuds,Electronics,3,19800,Transfer
+OM100349,2025-10-11,Surulere,In-Store,Close-Up Toothpaste,Personal Care,4,950,Transfer
+OM100350,30/07/2025,Ikeja,Delivery App,Close-Up Toothpaste,Personal Care,2,950,Card
+OM100351,2025-02-08,Yaba,In-Store,Peak Milk Tin 400g,Groceries,2,2600,Card
+OM100352,17/12/2025,Lekki,In-Store,Dangote Sugar 1kg,Groceries,1,1650,Transfer
+OM100353,18/11/2025,Ikeja,Delivery App,Rechargeable Lantern,Electronics,2,8900,POS
+OM100354,2025-04-23,Yaba,In-Store,rechargeable lantern,Electronics,5,8900,POS
+OM100355,2025-05-03,Lekki,Delivery App,Mama Gold Rice 5kg,Groceries,5,11500,Transfer
+OM100356,2025-08-22,Yaba,In-Store,Kings Vegetable Oil 3L,Groceries,6,7800,POS
+OM100357,2025-02-04,Yaba,In-Store,Mama Gold Rice 5kg,Groceries,2,11500,POS
+OM100358,2025-12-31,Lekki,Delivery App,Oraimo Power Bank 10000mAh,Electronics,1,14500,POS
+OM100359,2025-05-29,Surulere,Delivery App,Omo Detergent 900g,Household,2,2900,POS
+OM100360,2025-11-30,Yaba,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,Transfer
+OM100361,2025-08-28,Surulere,Delivery App,Kings Vegetable Oil 3L,Groceries,1,7800,Card
+OM100362,2025-03-21,Lekki,Delivery App,Mama Gold Rice 5kg,Groceries,1,11500,Transfer
+OM100363,2025-08-28,Lekki,Delivery App,Oraimo Earbuds,Electronics,1,19800,POS
+OM100364,2025-10-25,Surulere,In-Store,Mama Gold Rice 5kg,Groceries,2,11500,Transfer
+OM100365,2025-12-12,Surulere,In-Store,Dettol Soap 3-pack,Personal Care,2,1900,Cash
+OM100366,2025-07-26,Lekki,Delivery App,Close-Up Toothpaste,Personal Care,3,950,Card
+OM100367,2025-05-19,Yaba,Delivery App,Dettol Soap 3-pack,Personal Care,3,1900,Transfer
+OM100368,2025-07-19,Ikeja,In-Store,Dettol Soap 3-pack,Personal Care,3,1900,Transfer
+OM100369,2025-12-06,SURULERE ,In-Store,Indomie Chicken 40-pack,Groceries,3,9800,Transfer
+OM100370,2025-06-09,Lekki,In-Store,Indomie Chicken 40-pack,Groceries,4,9800,POS
+OM100371,2025-07-26,Yaba,In-Store,Oraimo Earbuds,Electronics,4,19800,Transfer
+OM101365,2025-06-23,Yaba,In-Store,Kings Vegetable Oil 3L,Groceries,1,7800,Cash
+OM100372,2025-04-01,Surulere,In-Store,Golden Penny Semovita 1kg,Groceries,3,1850,Cash
+OM100373,2025-01-13,Yaba,In-Store,Nivea Body Lotion 400ml,Personal Care,4,4800,Cash
+OM100374,2025-02-20,Surulere,Delivery App,Peak Milk Tin 400g,Groceries,5,2600,Transfer
+OM100375,2025-01-21,Ikeja,In-Store,Omo Detergent 900g,Household,2,2900,Cash
+OM100376,2025-01-21,Surulere,In-Store,Mortein Insecticide,Household,5,2400,Transfer
+OM100377,2025-09-24,Yaba,In-Store,Kings Vegetable Oil 3L,Groceries,-2,7800,Card
+OM100378,2025-12-02,Ikeja,In-Store,Golden Penny Semovita 1kg,Groceries,3,1850,Card
+OM100379,2025-04-18,Surulere,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,POS
+OM100380,2025-11-12,Ikeja,Delivery App,Kings Vegetable Oil 3L,Groceries,5,7800,POS
+OM100381,2025-12-21,Yaba,In-Store,Dettol Soap 3-pack,Personal Care,3,1900,Transfer
+OM100382,2025-09-20,Lekki,In-Store,Oraimo Earbuds,Electronics,1,19800,Cash
+OM100383,2025-03-25,Lekki,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,Card
+OM100384,2025-06-27,Ikeja,Delivery App,Omo Detergent 900g,Household,1,2900,Transfer
+OM100385,2025-09-07,Yaba,Delivery App,Nivea Body Lotion 400ml,Personal Care,1,4800,
+OM100386,2025-11-25,Lekki,In-Store,Kings Vegetable Oil 3L,Groceries,1,7800,Transfer
+OM100387,2025-03-02,Yaba,In-Store,Mortein Insecticide,Household,1,2400,Transfer
+OM100388,25/08/2025,Yaba,In-Store,Oraimo Earbuds,Electronics,1,19800,Cash
+OM100389,2025-09-07,Ikeja,Delivery App,Mama Gold Rice 5kg,Groceries,-1,11500,Transfer
+OM100390,2025-06-08,Ikeja,Delivery App,Hypo Bleach 1L,Household,2,1200,Cash
+OM100391,2025-10-13,Ikeja,Delivery App,Indomie Chicken 40-pack,Groceries,6,,POS
+OM100392,2025-06-19,Surulere,Delivery App,Dettol Soap 3-pack,Personal Care,2,1900,POS
+OM100393,2025-10-06,Ikeja,In-Store,Dangote Sugar 1kg,Groceries,1,1650,Cash
+OM100740,2025-02-26,Yaba,In-Store,Dettol Soap 3-pack,Personal Care,3,1900,Cash
+OM100394,2025-12-01,Lekki,Delivery App,Nivea Body Lotion 400ml,Personal Care,3,4800,Card
+OM100395,2025-03-16,Surulere,Delivery App,Kings Vegetable Oil 3L,Groceries,-2,7800,Transfer
+OM100396,2025-06-08,Surulere,In-Store,Dettol Soap 3-pack,Personal Care,2,1900,Cash
+OM100397,2025-07-08,Surulere,In-Store,peak milk tin 400g,Groceries,1,2600,Card
+OM100398,2025-10-18,Yaba,In-Store,Oraimo Power Bank 10000mAh,Electronics,5,14500,POS
+OM100403,2025-03-26,Surulere,Delivery App,Omo Detergent 900g,Household,4,2900,Cash
+OM100399,2025-03-22,Ikeja,Delivery App,Kings Vegetable Oil 3L,Groceries,1,7800,Transfer
+OM100400,2025-07-25,Ikeja,In-Store,Indomie Chicken 40-pack,Groceries,2,9800,Transfer
+OM100401,2025-01-02,Yaba,Delivery App,Golden Penny Semovita 1kg,Groceries,1,1850,Card
+OM100402,2025-08-04,Surulere,Delivery App,Rechargeable Lantern,Electronics,1,8900,Transfer
+OM100403,2025-03-26,Surulere,Delivery App,Omo Detergent 900g,Household,4,2900,Cash
+OM100404,2025-08-29,Surulere,In-Store,Indomie Chicken 40-pack,Groceries,2,9800,Transfer
+OM100405,2025-11-08,Ikeja,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,Cash
+OM100406,2025-08-04,Yaba,In-Store,Dangote Sugar 1kg,Groceries,1,1650,Cash
+OM100407,2025-11-21,Lekki,In-Store,Mama Gold Rice 5kg,Groceries,2,11500,Card
+OM100408,2025-10-24,Yaba,In-Store,Dangote Sugar 1kg,Groceries,1,1650,POS
+OM100409,2025-02-28,Lekki,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,Card
+OM100410,2025-05-10,Ikeja,Delivery App,Nivea Body Lotion 400ml,Personal Care,3,4800,POS
+OM100411,2025-08-23,Ikeja,In-Store,Mama Gold Rice 5kg,Groceries,5,11500,Card
+OM100412,2025-12-14,Lekki,In-Store,Hypo Bleach 1L,Household,2,1200,Card
+OM100413,2025-09-21,Yaba,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,Transfer
+OM100414,2025-04-09,Yaba,In-Store,Close-Up Toothpaste,Personal Care,1,950,Card
+OM100415,2025-01-25,Ikeja,Delivery App,Dangote Sugar 1kg,Groceries,2,1650,Transfer
+OM100416,2025-03-03,Lekki,In-Store,Dettol Soap 3-pack,Personal Care,4,1900,Transfer
+OM100417,2025-07-01,Surulere,In-Store,Peak Milk Tin 400g,Groceries,1,2600,Card
+OM100418,2025-03-04,Surulere,In-Store,Mama Gold Rice 5kg,Groceries,2,11500,Cash
+OM100419,23/01/2025,Surulere,Delivery App,Oraimo Earbuds,Electronics,2,19800,Card
+OM100420,2025-12-12,Lekki,In-Store,Dangote Sugar 1kg,Groceries,-1,1650,POS
+OM100421,2025-01-11,Ikeja,Delivery App,Hypo Bleach 1L,Household,1,1200,Transfer
+OM100422,2025-05-29,Yaba,In-Store,Oraimo Earbuds,Electronics,2,19800,Cash
+OM100423,2025-12-20,Yaba,Delivery App,Kings Vegetable Oil 3L,Groceries,1,7800,Transfer
+OM100424,2025-09-05,Ikeja,In-Store,Oraimo Earbuds,Electronics,1,19800,Transfer
+OM100425,2025-11-27,Yaba,In-Store,Omo Detergent 900g,Household,3,2900,POS
+OM100426,2025-11-09,Surulere,In-Store,Dangote Sugar 1kg,Groceries,1,1650,Transfer
+OM100427,2025-01-23,Lekki,In-Store,Mama Gold Rice 5kg,Groceries,3,11500,Cash
+OM100428,2025-07-18,Surulere,In-Store,Rechargeable Lantern,Electronics,1,8900,POS
+OM100429,2025-01-11,Yaba,In-Store,Mama Gold Rice 5kg,Groceries,2,11500,Transfer
+OM100430,2025-03-15,Yaba,In-Store,Kings Vegetable Oil 3L,Groceries,2,7800,Cash
+OM100237,2025-08-31,Ikeja,In-Store,Hypo Bleach 1L,Household,5,1200,POS
+OM100431,2025-10-21,Lekki,In-Store,Mortein Insecticide,Household,1,2400,Card
+OM100432,2025-08-07,Ikeja,In-Store,Nivea Body Lotion 400ml,Personal Care,1,4800,Transfer
+OM100433,2025-03-14,Ikeja,In-Store,Nivea Body Lotion 400ml,Personal Care,3,4800,Cash
+OM100434,2025-11-22,Yaba,Delivery App,Oraimo Earbuds,Electronics,3,19800,Cash
+OM100435,2025-09-04,Surulere,In-Store,Mortein Insecticide,Household,4,2400,Cash
+OM100436,2025-04-16,Yaba,In-Store,Golden Penny Semovita 1kg,Groceries,1,1850,Cash
+OM100437,2025-10-28,LEKKI ,Delivery App,Indomie Chicken 40-pack,Groceries,1,9800,Cash
+OM100438,2025-04-08,Ikeja,In-Store,Close-Up Toothpaste,Personal Care,1,950,Cash
+OM100439,2025-07-02,Yaba,In-Store,Oraimo Power Bank 10000mAh,Electronics,5,14500,POS
+OM100440,2025-03-31,Surulere,In-Store,Kings Vegetable Oil 3L,Groceries,3,7800,Cash
+OM100441,2025-01-11,Ikeja,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,Cash
+OM100442,2025-11-28,IKEJA ,In-Store,Mama Gold Rice 5kg,Groceries,2,11500,Card
+OM100443,2025-10-22,Lekki,Delivery App,Dangote Sugar 1kg,Groceries,1,1650,Card
+OM100444,2025-01-15,Surulere,In-Store,Mama Gold Rice 5kg,Groceries,3,11500,POS
+OM100445,2025-12-14,Ikeja,In-Store,Peak Milk Tin 400g,Groceries,3,2600,Card
+OM100446,2025-06-21,Yaba,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,POS
+OM100447,2025-01-14,Surulere,In-Store,Rechargeable Lantern,Electronics,6,8900,Card
+OM100448,2025-12-30,Lekki,Delivery App,Dangote Sugar 1kg,Groceries,1,1650,Transfer
+OM100449,2025-02-16,Surulere,In-Store,Dangote Sugar 1kg,Groceries,2,1650,Transfer
+OM100450,2025-11-05,Surulere,In-Store,Mama Gold Rice 5kg,Groceries,2,11500,Card
+OM100451,2025-06-08,Yaba,In-Store,Nivea Body Lotion 400ml,Personal Care,1,4800,
+OM100452,2025-01-05,Yaba,Delivery App,Mortein Insecticide,Household,4,2400,Cash
+OM100453,2025-11-18,IKEJA ,In-Store,Oraimo Power Bank 10000mAh,Electronics,2,14500,Card
+OM100454,2025-09-14,Lekki,Delivery App,Mama Gold Rice 5kg,Groceries,2,11500,Transfer
+OM100455,2025-03-24,Ikeja,In-Store,Mortein Insecticide,Household,3,2400,POS
+OM100456,2025-09-13,Surulere,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,Transfer
+OM100457,2025-01-14,Ikeja,Delivery App,Indomie Chicken 40-pack,Groceries,2,9800,POS
+OM100458,2025-06-29,Lekki,In-Store,Golden Penny Semovita 1kg,Groceries,2,1850,POS
+OM100459,2025-11-18,Surulere,Delivery App,Golden Penny Semovita 1kg,Groceries,3,1850,Transfer
+OM100460,2025-04-15,Yaba,In-Store,Dangote Sugar 1kg,Groceries,1,1650,POS
+OM100461,2025-10-19,Lekki,In-Store,Oraimo Power Bank 10000mAh,Electronics,5,14500,Cash
+OM100462,2025-03-11,Surulere,In-Store,Oraimo Earbuds,Electronics,1,19800,POS
+OM100463,2025-05-08,Surulere,In-Store,Peak Milk Tin 400g,Groceries,2,2600,POS
+OM100464,2025-01-27,Lekki,In-Store,Rechargeable Lantern,Electronics,3,8900,Card
+OM100465,2025-08-13,Yaba,In-Store,Peak Milk Tin 400g,Groceries,6,2600,Cash
+OM100466,2025-02-27,Ikeja,Delivery App,Peak Milk Tin 400g,Groceries,1,,Cash
+OM100467,2025-03-28,Yaba,Delivery App,Hypo Bleach 1L,Household,1,1200,POS
+OM100468,17/01/2025,Lekki,In-Store,Close-Up Toothpaste,Personal Care,2,950,Card
+OM100469,2025-09-16,Lekki,In-Store,close-up toothpaste,Personal Care,3,950,Card
+OM100470,2025-06-12,Ikeja,Delivery App,Indomie Chicken 40-pack,Groceries,2,9800,Transfer
+OM100471,2025-01-02,Lekki,In-Store,Peak Milk Tin 400g,Groceries,1,2600,Card
+OM100472,2025-09-12,Ikeja,In-Store,Rechargeable Lantern,Electronics,1,8900,Transfer
+OM100473,2025-05-20,Lekki,Delivery App,Dettol Soap 3-pack,Personal Care,1,1900,Card
+OM100474,2025-01-25,Surulere,In-Store,Omo Detergent 900g,Household,1,2900,Card
+OM100475,2025-10-06,Surulere,In-Store,Kings Vegetable Oil 3L,Groceries,6,7800,Cash
+OM100476,2025-06-12,Yaba,In-Store,Mortein Insecticide,Household,1,2400,POS
+OM100477,2025-03-15,Ikeja,In-Store,Rechargeable Lantern,Electronics,2,8900,Cash
+OM100478,2025-07-13,Lekki,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,Card
+OM100479,2025-01-26,Surulere,In-Store,Omo Detergent 900g,Household,2,2900,Cash
+OM100480,2025-10-23,Yaba,In-Store,Golden Penny Semovita 1kg,Groceries,4,1850,Cash
+OM100481,2025-07-14,Yaba,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,Cash
+OM100482,2025-12-13,Lekki,In-Store,Indomie Chicken 40-pack,Groceries,3,9800,Cash
+OM100483,2025-08-31,Surulere,In-Store,Oraimo Earbuds,Electronics,2,19800,Transfer
+OM100484,2025-02-03,Surulere,In-Store,Rechargeable Lantern,Electronics,2,8900,Cash
+OM100485,2025-03-30,Yaba,Delivery App,Peak Milk Tin 400g,Groceries,5,2600,Card
+OM100486,2025-07-05,Yaba,Delivery App,Oraimo Earbuds,Electronics,1,19800,Cash
+OM100487,2025-07-06,Surulere,In-Store,Dangote Sugar 1kg,Groceries,1,1650,POS
+OM101426,2025-07-27,Ikeja,In-Store,Dettol Soap 3-pack,Personal Care,2,1900,Card
+OM100488,2025-08-17,Ikeja,In-Store,Dettol Soap 3-pack,Personal Care,2,1900,Transfer
+OM100489,2025-03-18,Lekki,In-Store,Golden Penny Semovita 1kg,Groceries,2,1850,Transfer
+OM100490,2025-09-25,Yaba,Delivery App,Dangote Sugar 1kg,Groceries,2,1650,Card
+OM100491,2025-01-30,Lekki,In-Store,Close-Up Toothpaste,Personal Care,2,950,Cash
+OM100492,2025-05-16,Yaba,Delivery App,Oraimo Earbuds,Electronics,2,19800,Card
+OM100493,2025-08-05,Surulere,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,Card
+OM100494,2025-07-12,Ikeja,In-Store,Dangote Sugar 1kg,Groceries,1,1650,POS
+OM100495,2025-11-08,Lekki,In-Store,Dangote Sugar 1kg,Groceries,2,1650,Transfer
+OM100496,2025-12-31,Lekki,Delivery App,Indomie Chicken 40-pack,Groceries,1,9800,POS
+OM100497,2025-09-27,Yaba,In-Store,Omo Detergent 900g,Household,-2,2900,Card
+OM100498,2025-10-16,Yaba,In-Store,Hypo Bleach 1L,Household,2,1200,POS
+OM100499,2025-02-03,Yaba,In-Store,Hypo Bleach 1L,Household,2,1200,Card
+OM100500,2025-04-13,Ikeja,In-Store,Omo Detergent 900g,Household,1,2900,Cash
+OM100501,2025-08-24,Ikeja,Delivery App,Indomie Chicken 40-pack,Groceries,-1,9800,Card
+OM100502,2025-02-15,Lekki,In-Store,Oraimo Earbuds,Electronics,1,19800,Transfer
+OM100503,2025-09-05,Ikeja,In-Store,Oraimo Earbuds,Electronics,3,19800,Transfer
+OM100504,2025-01-26,Lekki,In-Store,Oraimo Earbuds,Electronics,1,19800,Card
+OM100505,2025-10-03,Surulere,Delivery App,Kings Vegetable Oil 3L,Groceries,1,7800,Cash
+OM100506,2025-09-19,Yaba,In-Store,Rechargeable Lantern,Electronics,1,8900,Transfer
+OM100507,2025-08-12,Surulere,Delivery App,Oraimo Earbuds,Electronics,1,19800,Transfer
+OM100508,2025-07-11,Yaba,In-Store,Rechargeable Lantern,Electronics,3,8900,Transfer
+OM100509,2025-06-24,Yaba,In-Store,Mama Gold Rice 5kg,Groceries,2,11500,Card
+OM100510,05/01/2025,Ikeja,In-Store,Mortein Insecticide,Household,2,2400,Cash
+OM100511,2025-04-23,Yaba,In-Store,Oraimo Power Bank 10000mAh,Electronics,3,14500,POS
+OM100512,2025-08-16,Lekki,Delivery App,mama gold rice 5kg,Groceries,2,11500,Card
+OM100513,2025-02-06,Yaba,Delivery App,Oraimo Earbuds,Electronics,5,19800,Transfer
+OM100514,2025-12-12,Surulere,In-Store,Dettol Soap 3-pack,Personal Care,2,1900,Transfer
+OM100515,2025-04-16,Ikeja,In-Store,Mortein Insecticide,Household,1,2400,Card
+OM100516,2025-08-01,Surulere,In-Store,Mama Gold Rice 5kg,Groceries,2,11500,POS
+OM100517,2025-01-30,Lekki,Delivery App,Rechargeable Lantern,Electronics,4,8900,Cash
+OM100518,2025-10-26,Surulere,In-Store,Oraimo Power Bank 10000mAh,Electronics,3,14500,Cash
+OM100519,2025-06-16,Lekki,Delivery App,Mortein Insecticide,Household,3,2400,Transfer
+OM100520,2025-01-17,Yaba,Delivery App,Dangote Sugar 1kg,Groceries,1,1650,Card
+OM100521,18/03/2025,Lekki,In-Store,Dettol Soap 3-pack,Personal Care,3,1900,Card
+OM100522,2025-06-30,Lekki,In-Store,Indomie Chicken 40-pack,Groceries,5,9800,Card
+OM100523,2025-06-28,Yaba,In-Store,Golden Penny Semovita 1kg,Groceries,5,1850,Transfer
+OM100524,2025-06-05,Ikeja,Delivery App,Close-Up Toothpaste,Personal Care,2,950,Transfer
+OM100525,2025-06-03,Ikeja,In-Store,Golden Penny Semovita 1kg,Groceries,1,1850,Transfer
+OM100526,2025-01-26,Surulere,In-Store,Peak Milk Tin 400g,Groceries,2,2600,Cash
+OM100527,2025-04-02,Surulere,In-Store,Indomie Chicken 40-pack,Groceries,3,,POS
+OM100528,10/10/2025,Lekki,In-Store,Indomie Chicken 40-pack,Groceries,2,9800,Card
+OM100529,2025-10-24,YABA ,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,Cash
+OM100530,2025-12-06,Lekki,In-Store,Dangote Sugar 1kg,Groceries,1,1650,Card
+OM100531,2025-09-03,Lekki,Delivery App,Kings Vegetable Oil 3L,Groceries,0,7800,Transfer
+OM100532,2025-09-12,Ikeja,Delivery App,Kings Vegetable Oil 3L,Groceries,1,7800,Card
+OM100533,2025-07-07,Surulere,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,Transfer
+OM100534,2025-10-01,Lekki,In-Store,Mortein Insecticide,Household,1,2400,Card
+OM100535,2025-12-26,Lekki,Delivery App,Dettol Soap 3-pack,Personal Care,1,1900,Cash
+OM100536,2025-08-06,Ikeja,Delivery App,Omo Detergent 900g,Household,4,2900,Card
+OM100537,2025-04-22,Lekki,In-Store,Mama Gold Rice 5kg,Groceries,3,11500,Card
+OM100538,2025-02-07,Surulere,In-Store,Close-Up Toothpaste,Personal Care,1,950,Transfer
+OM100539,2025-06-25,Yaba,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,Cash
+OM100540,2025-07-30,Yaba,Delivery App,Oraimo Power Bank 10000mAh,Electronics,3,14500,Transfer
+OM100541,2025-12-14,Surulere,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,Transfer
+OM100542,2025-12-29,Yaba,Delivery App,Golden Penny Semovita 1kg,Groceries,2,1850,Cash
+OM100543,2025-11-05,Ikeja,In-Store,Mama Gold Rice 5kg,Groceries,3,11500,Card
+OM100544,2025-06-28,Lekki,In-Store,Close-Up Toothpaste,Personal Care,2,950,
+OM100545,2025-12-22,Ikeja,In-Store,Rechargeable Lantern,Electronics,4,8900,Transfer
+OM100546,2025-11-24,SURULERE ,In-Store,Oraimo Earbuds,Electronics,2,19800,Card
+OM100547,2025-05-10,Lekki,Delivery App,Oraimo Power Bank 10000mAh,Electronics,2,14500,Transfer
+OM100548,2025-10-22,Ikeja,In-Store,Rechargeable Lantern,Electronics,3,8900,Cash
+OM100549,2025-07-27,Lekki,In-Store,Indomie Chicken 40-pack,Groceries,4,9800,Cash
+OM100550,2025-08-07,Surulere,Delivery App,Oraimo Power Bank 10000mAh,Electronics,2,14500,Card
+OM100551,2025-09-01,Yaba,In-Store,Omo Detergent 900g,Household,2,2900,Cash
+OM100552,2025-02-12,Yaba,In-Store,Dangote Sugar 1kg,Groceries,2,1650,Cash
+OM100553,2025-05-19,Yaba,In-Store,Peak Milk Tin 400g,Groceries,0,2600,Transfer
+OM100554,2025-12-16,Lekki,Delivery App,Omo Detergent 900g,Household,1,2900,Transfer
+OM100555,2025-04-25,Yaba,In-Store,Dangote Sugar 1kg,Groceries,1,1650,Transfer
+OM100556,2025-03-25,Ikeja,Delivery App,Omo Detergent 900g,Household,1,2900,Transfer
+OM100557,2025-12-03,Ikeja,In-Store,Dangote Sugar 1kg,Groceries,3,1650,
+OM100558,2025-05-10,Yaba,Delivery App,Nivea Body Lotion 400ml,Personal Care,2,4800,POS
+OM100559,2025-06-01,Surulere,In-Store,Dangote Sugar 1kg,Groceries,2,1650,POS
+OM100560,2025-12-13,Yaba,In-Store,nivea body lotion 400ml,Personal Care,3,4800,Card
+OM100561,2025-12-16,Yaba,Delivery App,Omo Detergent 900g,Household,2,2900,Transfer
+OM100562,2025-08-23,Surulere,In-Store,Golden Penny Semovita 1kg,Groceries,1,1850,Cash
+OM100563,2025-10-28,Ikeja,In-Store,Rechargeable Lantern,Electronics,1,8900,Cash
+OM100564,2025-05-04,Ikeja,In-Store,Kings Vegetable Oil 3L,Groceries,6,7800,Card
+OM100565,2025-12-13,Surulere,In-Store,Hypo Bleach 1L,Household,1,1200,Transfer
+OM100566,2025-09-11,Ikeja,In-Store,Oraimo Earbuds,Electronics,1,19800,Transfer
+OM100567,2025-02-01,Surulere,In-Store,Peak Milk Tin 400g,Groceries,1,2600,Cash
+OM100568,2025-10-28,Yaba,In-Store,Kings Vegetable Oil 3L,Groceries,1,7800,Transfer
+OM100569,2025-09-01,Surulere,In-Store,Mama Gold Rice 5kg,Groceries,2,11500,Cash
+OM100570,2025-06-13,Yaba,Delivery App,Omo Detergent 900g,Household,1,2900,POS
+OM100571,2025-07-29,Lekki,In-Store,Nivea Body Lotion 400ml,Personal Care,1,4800,Transfer
+OM100572,2025-10-02,Yaba,In-Store,Hypo Bleach 1L,Household,1,1200,Cash
+OM100573,2025-07-22,Surulere,In-Store,Mortein Insecticide,Household,1,2400,POS
+OM100574,2025-01-22,Surulere,In-Store,Mortein Insecticide,Household,5,2400,Cash
+OM100575,2025-02-05,Ikeja,In-Store,Rechargeable Lantern,Electronics,3,8900,POS
+OM100576,2025-12-31,Lekki,In-Store,Kings Vegetable Oil 3L,Groceries,6,7800,Card
+OM100577,2025-07-21,Surulere,In-Store,Oraimo Earbuds,Electronics,2,19800,Cash
+OM100578,2025-04-06,Lekki,In-Store,Dettol Soap 3-pack,Personal Care,2,1900,
+OM100579,2025-06-23,Ikeja,In-Store,Nivea Body Lotion 400ml,Personal Care,1,4800,Card
+OM100580,2025-12-08,Yaba,Delivery App,Omo Detergent 900g,Household,3,2900,Transfer
+OM100581,2025-12-10,Ikeja,In-Store,Mama Gold Rice 5kg,Groceries,4,11500,POS
+OM100582,2025-03-09,Yaba,In-Store,Nivea Body Lotion 400ml,Personal Care,1,4800,Card
+OM100583,2025-11-06,Lekki,In-Store,Kings Vegetable Oil 3L,Groceries,1,7800,Cash
+OM100584,2025-02-10,Ikeja,In-Store,Dangote Sugar 1kg,Groceries,1,1650,Cash
+OM100585,2025-08-23,Lekki,In-Store,Nivea Body Lotion 400ml,Personal Care,2,4800,POS
+OM100586,2025-11-01,Yaba,Delivery App,Golden Penny Semovita 1kg,Groceries,1,1850,Cash
+OM100587,2025-09-29,Lekki,Delivery App,Close-Up Toothpaste,Personal Care,3,950,Transfer
+OM100588,2025-10-23,Ikeja,Delivery App,Mortein Insecticide,Household,1,2400,Cash
+OM100589,2025-02-02,Surulere,In-Store,Nivea Body Lotion 400ml,Personal Care,2,4800,POS
+OM100590,2025-10-29,Lekki,In-Store,Omo Detergent 900g,Household,4,2900,Card
+OM100591,2025-09-30,Surulere,Delivery App,Dangote Sugar 1kg,Groceries,2,1650,Transfer
+OM100592,2025-12-16,Yaba,Delivery App,Close-Up Toothpaste,Personal Care,2,950,Card
+OM100593,2025-05-25,Lekki,Delivery App,Oraimo Power Bank 10000mAh,Electronics,4,14500,Card
+OM100594,2025-04-12,Lekki,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,Cash
+OM100595,2025-01-12,Ikeja,Delivery App,Rechargeable Lantern,Electronics,1,8900,Card
+OM100596,2025-11-25,Surulere,In-Store,Nivea Body Lotion 400ml,Personal Care,2,4800,Cash
+OM100597,2025-06-06,Ikeja,In-Store,Indomie Chicken 40-pack,Groceries,3,9800,POS
+OM100598,2025-08-21,Ikeja,In-Store,Oraimo Power Bank 10000mAh,Electronics,4,14500,Cash
+OM100599,2025-08-30,Ikeja,In-Store,Hypo Bleach 1L,Household,3,1200,POS
+OM100600,2025-03-07,Ikeja,In-Store,Oraimo Earbuds,Electronics,1,19800,POS
+OM100601,2025-05-09,Ikeja,In-Store,Nivea Body Lotion 400ml,Personal Care,1,4800,Cash
+OM100602,2025-09-23,Yaba,Delivery App,Omo Detergent 900g,Household,4,2900,
+OM100603,07/01/2025,Lekki,In-Store,Indomie Chicken 40-pack,Groceries,2,9800,Card
+OM100604,2025-02-14,Ikeja,In-Store,Hypo Bleach 1L,Household,2,1200,Card
+OM100605,23/06/2025,Yaba,In-Store,Close-Up Toothpaste,Personal Care,2,950,Transfer
+OM100606,2025-04-15,Surulere,In-Store,Rechargeable Lantern,Electronics,1,8900,Transfer
+OM100607,2025-08-14,Yaba,In-Store,Hypo Bleach 1L,Household,2,1200,Card
+OM100608,2025-03-28,Lekki,In-Store,Omo Detergent 900g,Household,2,2900,POS
+OM100609,2025-03-02,Yaba,In-Store,Rechargeable Lantern,Electronics,1,8900,Transfer
+OM100610,2025-04-28,Yaba,In-Store,Golden Penny Semovita 1kg,Groceries,3,1850,Transfer
+OM100611,2025-11-28,Lekki,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,Card
+OM100612,2025-04-23,Ikeja,In-Store,Oraimo Power Bank 10000mAh,Electronics,2,14500,POS
+OM100613,2025-03-20,Ikeja,In-Store,Hypo Bleach 1L,Household,5,1200,Card
+OM100614,2025-09-28,Surulere,Delivery App,Peak Milk Tin 400g,Groceries,3,2600,POS
+OM100615,2025-01-02,Ikeja,In-Store,Indomie Chicken 40-pack,Groceries,4,9800,Card
+OM100616,05/12/2025,Yaba,In-Store,Kings Vegetable Oil 3L,Groceries,1,7800,Transfer
+OM100617,2025-09-17,Yaba,Delivery App,Oraimo Power Bank 10000mAh,Electronics,3,14500,Transfer
+OM100618,2025-02-26,Ikeja,In-Store,Close-Up Toothpaste,Personal Care,1,,Card
+OM100619,2025-05-03,Ikeja,Delivery App,Oraimo Earbuds,Electronics,1,19800,Cash
+OM100620,2025-03-17,Surulere,In-Store,hypo bleach 1l,Household,1,1200,Card
+OM100621,2025-12-16,Lekki,In-Store,Close-Up Toothpaste,Personal Care,2,950,POS
+OM100622,2025-10-22,Lekki,In-Store,Nivea Body Lotion 400ml,Personal Care,3,4800,Card
+OM100623,2025-01-31,Ikeja,In-Store,Dettol Soap 3-pack,Personal Care,1,1900,POS
+OM100624,2025-01-29,Surulere,In-Store,Peak Milk Tin 400g,Groceries,3,2600,Cash
+OM100625,2025-06-28,Surulere,In-Store,Golden Penny Semovita 1kg,Groceries,1,1850,Transfer
+OM100626,2025-12-01,Surulere,Delivery App,Hypo Bleach 1L,Household,1,1200,POS
+OM100627,2025-06-24,Surulere,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,Transfer
+OM100628,2025-02-10,Lekki,Delivery App,Mortein Insecticide,Household,4,2400,Cash
+OM100629,2025-06-22,Ikeja,In-Store,Dangote Sugar 1kg,Groceries,6,1650,Transfer
+OM100630,2025-01-28,Lekki,In-Store,Nivea Body Lotion 400ml,Personal Care,2,4800,Card
+OM100631,2025-04-22,Ikeja,In-Store,Kings Vegetable Oil 3L,Groceries,2,7800,Card
+OM100632,2025-04-01,Yaba,In-Store,Close-Up Toothpaste,Personal Care,1,950,Cash
+OM100633,2025-05-08,Surulere,In-Store,Dangote Sugar 1kg,Groceries,1,1650,Transfer
+OM100634,2025-11-13,Lekki,In-Store,Nivea Body Lotion 400ml,Personal Care,2,4800,POS
+OM100635,2025-02-02,Ikeja,In-Store,Dettol Soap 3-pack,Personal Care,1,1900,Card
+OM100636,2025-02-27,Yaba,In-Store,Dettol Soap 3-pack,Personal Care,2,1900,Cash
+OM100637,2025-08-19,Ikeja,Delivery App,Peak Milk Tin 400g,Groceries,1,2600,Transfer
+OM100638,2025-02-18,Yaba,In-Store,Oraimo Earbuds,Electronics,4,19800,Card
+OM100639,2025-04-26,Lekki,In-Store,Indomie Chicken 40-pack,Groceries,3,9800,Cash
+OM100640,2025-04-08,Ikeja,Delivery App,Indomie Chicken 40-pack,Groceries,3,9800,Cash
+OM100641,2025-04-03,Lekki,In-Store,Golden Penny Semovita 1kg,Groceries,4,1850,Card
+OM100642,2025-11-30,Lekki,Delivery App,Close-Up Toothpaste,Personal Care,1,950,Cash
+OM100643,2025-03-08,Surulere,In-Store,Rechargeable Lantern,Electronics,3,8900,Transfer
+OM100644,2025-05-09,Surulere,Delivery App,Dangote Sugar 1kg,Groceries,3,1650,Transfer
+OM100645,2025-03-26,Yaba,In-Store,Kings Vegetable Oil 3L,Groceries,1,7800,Transfer
+OM100646,2025-07-16,Surulere,Delivery App,Oraimo Earbuds,Electronics,4,19800,Cash
+OM100647,2025-01-26,Yaba,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,Card
+OM100648,2025-09-07,Ikeja,In-Store,Indomie Chicken 40-pack,Groceries,3,9800,Card
+OM100649,2025-09-06,Lekki,In-Store,Hypo Bleach 1L,Household,0,1200,Card
+OM100650,2025-02-04,Surulere,In-Store,Kings Vegetable Oil 3L,Groceries,1,7800,Cash
+OM100651,2025-02-06,Lekki,In-Store,Mortein Insecticide,Household,-1,2400,POS
+OM100652,2025-08-10,Ikeja,Delivery App,Mortein Insecticide,Household,1,2400,Cash
+OM100653,2025-02-12,SURULERE ,In-Store,Hypo Bleach 1L,Household,5,1200,Transfer
+OM100654,2025-08-20,SURULERE ,Delivery App,Nivea Body Lotion 400ml,Personal Care,1,4800,Cash
+OM100655,2025-12-27,Surulere,Delivery App,Hypo Bleach 1L,Household,1,1200,Card
+OM100656,2025-12-18,Lekki,In-Store,Mortein Insecticide,Household,3,2400,Transfer
+OM100657,2025-03-16,Surulere,In-Store,Omo Detergent 900g,Household,4,2900,Cash
+OM100658,2025-11-30,Ikeja,In-Store,Mama Gold Rice 5kg,Groceries,5,11500,Card
+OM100659,2025-01-19,Yaba,In-Store,Kings Vegetable Oil 3L,Groceries,4,7800,Cash
+OM100660,2025-10-26,Ikeja,In-Store,Mama Gold Rice 5kg,Groceries,3,11500,Card
+OM100661,2025-09-05,Ikeja,In-Store,Mama Gold Rice 5kg,Groceries,2,11500,POS
+OM100662,2025-04-19,Lekki,Delivery App,Close-Up Toothpaste,Personal Care,2,950,Cash
+OM100663,2025-08-22,Lekki,In-Store,Kings Vegetable Oil 3L,Groceries,3,7800,Card
+OM100664,2025-06-25,Ikeja,In-Store,Omo Detergent 900g,Household,3,2900,Transfer
+OM100665,2025-01-01,Surulere,In-Store,Peak Milk Tin 400g,Groceries,2,2600,
+OM100666,2025-05-04,Ikeja,In-Store,Mortein Insecticide,Household,2,2400,Transfer
+OM100667,2025-03-11,Surulere,In-Store,Close-Up Toothpaste,Personal Care,1,950,Transfer
+OM100668,2025-02-11,Yaba,In-Store,Close-Up Toothpaste,Personal Care,1,950,Transfer
+OM100669,2025-05-18,Yaba,Delivery App,Dettol Soap 3-pack,Personal Care,2,1900,Card
+OM100670,2025-05-29,Surulere,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,Transfer
+OM100671,2025-09-29,Surulere,In-Store,Omo Detergent 900g,Household,3,2900,Card
+OM101336,2025-05-12,Ikeja,Delivery App,Peak Milk Tin 400g,Groceries,1,2600,Cash
+OM100672,2025-09-13,Surulere,In-Store,Nivea Body Lotion 400ml,Personal Care,6,4800,Transfer
+OM100673,2025-10-31,Surulere,In-Store,Rechargeable Lantern,Electronics,1,8900,Cash
+OM100674,2025-07-30,Surulere,In-Store,Dangote Sugar 1kg,Groceries,1,1650,Card
+OM100675,2025-08-30,Surulere,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,POS
+OM100676,2025-12-30,Lekki,In-Store,Rechargeable Lantern,Electronics,1,8900,Transfer
+OM100677,2025-02-15,Yaba,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,Transfer
+OM100678,2025-12-29,Yaba,In-Store,Nivea Body Lotion 400ml,Personal Care,1,4800,Transfer
+OM100915,2025-09-22,Surulere,Delivery App,Hypo Bleach 1L,Household,1,1200,Cash
+OM100679,2025-05-17,Ikeja,In-Store,Indomie Chicken 40-pack,Groceries,4,9800,POS
+OM100680,2025-08-29,Yaba,In-Store,Close-Up Toothpaste,Personal Care,2,950,Cash
+OM100681,2025-08-12,Lekki,In-Store,Dangote Sugar 1kg,Groceries,3,1650,Transfer
+OM100682,2025-03-01,Surulere,In-Store,Nivea Body Lotion 400ml,Personal Care,2,4800,Transfer
+OM100683,2025-04-11,Surulere,In-Store,Dangote Sugar 1kg,Groceries,1,1650,Card
+OM100684,2025-12-07,Ikeja,Delivery App,Close-Up Toothpaste,Personal Care,1,950,POS
+OM100685,2025-05-20,Ikeja,In-Store,Golden Penny Semovita 1kg,Groceries,4,1850,Card
+OM100686,03/01/2025,Lekki,In-Store,Peak Milk Tin 400g,Groceries,5,2600,Transfer
+OM100687,2025-02-28,IKEJA ,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,Cash
+OM100688,2025-06-28,Surulere,In-Store,Dangote Sugar 1kg,Groceries,2,1650,Cash
+OM100689,2025-02-12,Lekki,In-Store,Kings Vegetable Oil 3L,Groceries,1,7800,Card
+OM100690,2025-05-15,Surulere,In-Store,Peak Milk Tin 400g,Groceries,2,2600,Transfer
+OM100691,2025-10-14,Ikeja,In-Store,Oraimo Power Bank 10000mAh,Electronics,4,14500,POS
+OM100692,2025-01-09,SURULERE ,In-Store,Mama Gold Rice 5kg,Groceries,4,11500,Card
+OM100693,2025-03-19,Yaba,In-Store,Mama Gold Rice 5kg,Groceries,3,11500,Transfer
+OM100694,2025-12-06,Lekki,Delivery App,Omo Detergent 900g,Household,-5,2900,Transfer
+OM100695,2025-11-21,Surulere,In-Store,Oraimo Power Bank 10000mAh,Electronics,2,14500,Cash
+OM100696,2025-01-16,Ikeja,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,POS
+OM100697,2025-04-05,Surulere,In-Store,Mama Gold Rice 5kg,Groceries,4,11500,Transfer
+OM100698,2025-04-26,Surulere,In-Store,Hypo Bleach 1L,Household,3,1200,Cash
+OM100699,2025-09-25,Surulere,Delivery App,Dettol Soap 3-pack,Personal Care,2,1900,Card
+OM100700,2025-06-16,Lekki,Delivery App,Mortein Insecticide,Household,5,2400,Transfer
+OM100701,2025-04-12,Ikeja,In-Store,Dangote Sugar 1kg,Groceries,3,1650,Cash
+OM100702,2025-09-01,Surulere,In-Store,Mortein Insecticide,Household,1,2400,Card
+OM100703,2025-08-12,Ikeja,Delivery App,Hypo Bleach 1L,Household,3,1200,Transfer
+OM100704,2025-09-02,Yaba,In-Store,Dettol Soap 3-pack,Personal Care,1,1900,POS
+OM100705,2025-06-11,Ikeja,Delivery App,Close-Up Toothpaste,Personal Care,2,950,
+OM100706,2025-10-13,Ikeja,In-Store,Peak Milk Tin 400g,Groceries,2,2600,Cash
+OM100707,05/12/2025,Ikeja,Delivery App,Omo Detergent 900g,Household,3,2900,Card
+OM100708,2025-12-10,Ikeja,Delivery App,Indomie Chicken 40-pack,Groceries,4,9800,POS
+OM100709,2025-03-30,Yaba,In-Store,Omo Detergent 900g,Household,1,2900,Transfer
+OM100710,2025-10-10,Ikeja,Delivery App,Indomie Chicken 40-pack,Groceries,3,9800,POS
+OM100711,2025-04-05,Surulere,In-Store,Close-Up Toothpaste,Personal Care,1,950,Transfer
+OM100712,2025-03-08,Lekki,In-Store,Dettol Soap 3-pack,Personal Care,2,1900,Cash
+OM100713,2025-01-15,Yaba,In-Store,Kings Vegetable Oil 3L,Groceries,3,7800,Cash
+OM100714,2025-06-24,Lekki,In-Store,Nivea Body Lotion 400ml,Personal Care,1,4800,Card
+OM100715,2025-10-22,Ikeja,In-Store,Dangote Sugar 1kg,Groceries,1,1650,Card
+OM100716,2025-06-17,Surulere,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,Cash
+OM100717,2025-11-13,Surulere,Delivery App,Omo Detergent 900g,Household,1,2900,POS
+OM100718,2025-10-18,Lekki,In-Store,Oraimo Power Bank 10000mAh,Electronics,2,14500,Card
+OM100719,2025-03-29,Lekki,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,Cash
+OM100720,2025-06-07,Lekki,In-Store,Peak Milk Tin 400g,Groceries,1,2600,Card
+OM100721,2025-03-30,Surulere,In-Store,Oraimo Earbuds,Electronics,1,19800,Card
+OM100722,2025-10-08,Surulere,In-Store,Hypo Bleach 1L,Household,2,1200,Transfer
+OM100723,2025-07-04,Ikeja,Delivery App,Mama Gold Rice 5kg,Groceries,1,11500,Card
+OM100724,2025-01-14,Surulere,Delivery App,Mama Gold Rice 5kg,Groceries,1,11500,Card
+OM100725,2025-08-25,Yaba,In-Store,Nivea Body Lotion 400ml,Personal Care,2,4800,POS
+OM100726,2025-11-20,Yaba,Delivery App,Close-Up Toothpaste,Personal Care,1,950,Cash
+OM100727,2025-06-30,Ikeja,In-Store,Close-Up Toothpaste,Personal Care,6,950,Card
+OM100728,2025-08-02,Lekki,Delivery App,Golden Penny Semovita 1kg,Groceries,1,1850,Cash
+OM100729,2025-12-04,Ikeja,In-Store,Indomie Chicken 40-pack,Groceries,2,9800,Card
+OM100730,2025-08-08,Lekki,In-Store,Indomie Chicken 40-pack,Groceries,-4,9800,Cash
+OM100731,2025-11-06,Surulere,In-Store,Mama Gold Rice 5kg,Groceries,6,11500,POS
+OM100732,2025-11-23,Yaba,Delivery App,Rechargeable Lantern,Electronics,1,8900,Cash
+OM100733,2025-04-06,Ikeja,In-Store,Hypo Bleach 1L,Household,1,1200,POS
+OM100734,2025-10-15,Lekki,Delivery App,Rechargeable Lantern,Electronics,5,8900,Card
+OM100735,2025-07-05,Ikeja,Delivery App,Golden Penny Semovita 1kg,Groceries,1,1850,Transfer
+OM100736,2025-03-21,Lekki,Delivery App,Mortein Insecticide,Household,2,2400,Card
+OM100737,2025-11-05,Surulere,Delivery App,close-up toothpaste,Personal Care,1,950,POS
+OM100738,2025-01-03,Surulere,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,Transfer
+OM100739,2025-04-29,Lekki,In-Store,Mortein Insecticide,Household,1,2400,Transfer
+OM100740,2025-02-26,Yaba,In-Store,Dettol Soap 3-pack,Personal Care,3,1900,Cash
+OM100741,2025-08-06,Ikeja,In-Store,Rechargeable Lantern,Electronics,1,8900,Card
+OM100742,2025-10-14,Yaba,Delivery App,Nivea Body Lotion 400ml,Personal Care,2,4800,Transfer
+OM100743,2025-06-22,Lekki,In-Store,Omo Detergent 900g,Household,1,2900,POS
+OM100744,2025-08-12,Surulere,Delivery App,Kings Vegetable Oil 3L,Groceries,1,7800,Card
+OM100745,2025-10-29,Ikeja,In-Store,Dangote Sugar 1kg,Groceries,1,1650,POS
+OM100746,2025-10-31,Yaba,In-Store,Hypo Bleach 1L,Household,2,1200,Transfer
+OM100747,2025-09-18,Lekki,Delivery App,Peak Milk Tin 400g,Groceries,1,2600,POS
+OM100748,2025-07-26,Surulere,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,POS
+OM100872,2025-06-06,Ikeja,Delivery App,Omo Detergent 900g,Household,1,2900,Cash
+OM100749,2025-08-27,Ikeja,Delivery App,Oraimo Earbuds,Electronics,3,19800,POS
+OM100750,2025-11-19,Yaba,In-Store,Nivea Body Lotion 400ml,Personal Care,2,4800,Transfer
+OM100751,2025-12-06,Lekki,In-Store,Golden Penny Semovita 1kg,Groceries,3,1850,POS
+OM100752,2025-10-30,Lekki,Delivery App,Close-Up Toothpaste,Personal Care,5,950,POS
+OM100753,2025-05-27,Lekki,In-Store,Indomie Chicken 40-pack,Groceries,4,9800,Card
+OM100754,2025-09-03,Yaba,Delivery App,Hypo Bleach 1L,Household,2,1200,Card
+OM100755,2025-09-30,Surulere,In-Store,Oraimo Power Bank 10000mAh,Electronics,2,14500,Cash
+OM100756,2025-11-09,Surulere,Delivery App,Oraimo Power Bank 10000mAh,Electronics,4,14500,Card
+OM100757,18/11/2025,Surulere,Delivery App,Kings Vegetable Oil 3L,Groceries,2,7800,POS
+OM100758,2025-04-09,Ikeja,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,Cash
+OM100759,2025-01-30,Surulere,Delivery App,Omo Detergent 900g,Household,6,2900,Card
+OM100760,10/10/2025,Ikeja,In-Store,Mortein Insecticide,Household,1,2400,Transfer
+OM100761,2025-09-12,Yaba,In-Store,Oraimo Earbuds,Electronics,2,19800,Transfer
+OM100762,2025-06-04,Ikeja,Delivery App,Golden Penny Semovita 1kg,Groceries,1,1850,Card
+OM100763,2025-12-22,Yaba,Delivery App,Indomie Chicken 40-pack,Groceries,1,9800,Cash
+OM100764,2025-04-12,Ikeja,In-Store,Dangote Sugar 1kg,Groceries,2,1650,POS
+OM100765,2025-08-17,Yaba,In-Store,Mama Gold Rice 5kg,Groceries,6,11500,Transfer
+OM100766,2025-03-19,Surulere,In-Store,Oraimo Power Bank 10000mAh,Electronics,3,14500,POS
+OM100767,2025-12-15,Yaba,In-Store,Oraimo Power Bank 10000mAh,Electronics,4,14500,Card
+OM100768,2025-01-12,Surulere,In-Store,Close-Up Toothpaste,Personal Care,2,950,Transfer
+OM100769,2025-10-15,Lekki,In-Store,Mortein Insecticide,Household,3,2400,Transfer
+OM100770,2025-01-03,Ikeja,In-Store,Mortein Insecticide,Household,1,2400,Transfer
+OM100771,2025-12-06,Lekki,Delivery App,Hypo Bleach 1L,Household,1,1200,Cash
+OM100772,2025-04-19,Ikeja,In-Store,Oraimo Power Bank 10000mAh,Electronics,3,14500,Cash
+OM100773,2025-10-14,Surulere,Delivery App,Kings Vegetable Oil 3L,Groceries,4,7800,POS
+OM100774,2025-02-12,Ikeja,Delivery App,Hypo Bleach 1L,Household,3,1200,POS
+OM100775,2025-10-28,Yaba,In-Store,Mortein Insecticide,Household,-1,2400,Transfer
+OM100776,2025-05-22,Ikeja,In-Store,Rechargeable Lantern,Electronics,2,,Cash
+OM100777,2025-08-18,Surulere,Delivery App,Nivea Body Lotion 400ml,Personal Care,2,4800,Cash
+OM100778,2025-12-02,Surulere,Delivery App,Oraimo Power Bank 10000mAh,Electronics,2,14500,POS
+OM100779,2025-12-21,Surulere,In-Store,Oraimo Power Bank 10000mAh,Electronics,4,14500,POS
+OM100780,2025-12-24,Ikeja,In-Store,indomie chicken 40-pack,Groceries,1,9800,Cash
+OM100781,2025-10-04,Lekki,In-Store,Dettol Soap 3-pack,Personal Care,4,1900,Transfer
+OM100172,2025-01-25,Surulere,In-Store,Kings Vegetable Oil 3L,Groceries,6,7800,Cash
+OM100782,2025-09-17,Yaba,In-Store,Golden Penny Semovita 1kg,Groceries,1,1850,Card
+OM100783,2025-11-04,Ikeja,In-Store,Dettol Soap 3-pack,Personal Care,1,1900,Transfer
+OM100784,2025-11-27,Lekki,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,Transfer
+OM100785,2025-04-25,Lekki,In-Store,Hypo Bleach 1L,Household,5,1200,Transfer
+OM100786,2025-11-10,Ikeja,In-Store,Oraimo Power Bank 10000mAh,Electronics,2,14500,POS
+OM100787,2025-08-02,Yaba,In-Store,Rechargeable Lantern,Electronics,3,8900,POS
+OM100339,2025-08-12,Yaba,In-Store,Mortein Insecticide,Household,1,2400,Cash
+OM100788,2025-08-26,Lekki,In-Store,Hypo Bleach 1L,Household,1,1200,Card
+OM100789,2025-07-27,Lekki,In-Store,Rechargeable Lantern,Electronics,4,8900,POS
+OM100790,2025-05-18,Surulere,Delivery App,Close-Up Toothpaste,Personal Care,2,950,Cash
+OM100791,2025-02-18,Yaba,In-Store,Dangote Sugar 1kg,Groceries,6,1650,Transfer
+OM100792,2025-05-25,Yaba,In-Store,Dangote Sugar 1kg,Groceries,1,1650,Card
+OM100793,2025-08-23,Surulere,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,Cash
+OM100794,2025-11-21,Lekki,Delivery App,Oraimo Earbuds,Electronics,2,19800,Cash
+OM100795,2025-12-30,Ikeja,In-Store,Close-Up Toothpaste,Personal Care,1,950,Card
+OM100796,2025-09-17,Ikeja,In-Store,Nivea Body Lotion 400ml,Personal Care,1,4800,Card
+OM100589,2025-02-02,Surulere,In-Store,Nivea Body Lotion 400ml,Personal Care,2,4800,POS
+OM100797,2025-02-21,Ikeja,In-Store,Mama Gold Rice 5kg,Groceries,6,11500,Card
+OM100798,10/06/2025,Ikeja,In-Store,Rechargeable Lantern,Electronics,1,8900,Transfer
+OM100799,2025-04-14,Lekki,Delivery App,Peak Milk Tin 400g,Groceries,5,2600,Cash
+OM100800,2025-09-21,Yaba,In-Store,Dangote Sugar 1kg,Groceries,3,1650,Card
+OM100801,2025-12-24,Surulere,In-Store,Indomie Chicken 40-pack,Groceries,2,9800,Card
+OM100802,2025-01-28,Yaba,Delivery App,Omo Detergent 900g,Household,3,2900,Transfer
+OM100803,2025-07-09,Lekki,Delivery App,Kings Vegetable Oil 3L,Groceries,1,7800,Card
+OM100804,2025-03-05,Surulere,In-Store,Peak Milk Tin 400g,Groceries,2,2600,POS
+OM100805,2025-10-06,Ikeja,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,Transfer
+OM100806,2025-01-03,Surulere,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,POS
+OM100807,2025-08-08,Yaba,In-Store,Dangote Sugar 1kg,Groceries,1,1650,Card
+OM100808,2025-09-15,Ikeja,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,Card
+OM100809,2025-06-19,IKEJA ,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,Cash
+OM100810,2025-08-17,Lekki,Delivery App,Mama Gold Rice 5kg,Groceries,2,11500,Card
+OM100811,2025-08-08,Lekki,In-Store,Rechargeable Lantern,Electronics,2,8900,Transfer
+OM100812,2025-01-30,Ikeja,In-Store,Kings Vegetable Oil 3L,Groceries,1,7800,Transfer
+OM100813,2025-03-28,Lekki,In-Store,Mama Gold Rice 5kg,Groceries,3,11500,Card
+OM100814,2025-08-28,Lekki,In-Store,Golden Penny Semovita 1kg,Groceries,1,,POS
+OM100815,2025-12-18,Surulere,Delivery App,Dangote Sugar 1kg,Groceries,3,1650,Cash
+OM100816,2025-07-25,Yaba,Delivery App,Omo Detergent 900g,Household,1,2900,Card
+OM100817,2025-05-15,Ikeja,In-Store,Rechargeable Lantern,Electronics,3,8900,Cash
+OM100818,2025-12-09,Yaba,Delivery App,Close-Up Toothpaste,Personal Care,5,950,
+OM100819,2025-02-04,Yaba,Delivery App,Hypo Bleach 1L,Household,3,1200,Transfer
+OM100820,2025-01-24,Ikeja,Delivery App,Oraimo Power Bank 10000mAh,Electronics,1,14500,Card
+OM100821,2025-05-18,Lekki,In-Store,Dangote Sugar 1kg,Groceries,1,1650,Cash
+OM100822,2025-08-13,Lekki,Delivery App,Hypo Bleach 1L,Household,1,1200,POS
+OM100823,2025-11-23,Surulere,In-Store,Nivea Body Lotion 400ml,Personal Care,1,,POS
+OM100824,2025-04-24,Lekki,Delivery App,Golden Penny Semovita 1kg,Groceries,1,1850,Cash
+OM100825,2025-06-12,Yaba,In-Store,Oraimo Earbuds,Electronics,2,19800,Transfer
+OM100826,2025-04-15,Surulere,Delivery App,Hypo Bleach 1L,Household,1,1200,Transfer
+OM100827,2025-12-04,Ikeja,In-Store,mortein insecticide,Household,3,2400,Transfer
+OM100828,2025-05-31,Ikeja,In-Store,Kings Vegetable Oil 3L,Groceries,3,7800,Cash
+OM100829,2025-05-08,Yaba,In-Store,Dettol Soap 3-pack,Personal Care,1,1900,Card
+OM100830,2025-09-05,Lekki,In-Store,Dangote Sugar 1kg,Groceries,4,1650,Cash
+OM100831,2025-02-14,Surulere,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,Transfer
+OM100832,2025-08-10,Surulere,In-Store,Nivea Body Lotion 400ml,Personal Care,3,4800,Cash
+OM100833,2025-06-24,Yaba,Delivery App,Dangote Sugar 1kg,Groceries,6,1650,Cash
+OM100834,2025-04-28,Surulere,In-Store,Dangote Sugar 1kg,Groceries,3,1650,Transfer
+OM100835,2025-07-09,Surulere,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,Transfer
+OM100836,2025-08-04,Yaba,Delivery App,Oraimo Earbuds,Electronics,1,19800,Transfer
+OM100837,2025-04-04,Lekki,In-Store,Dettol Soap 3-pack,Personal Care,1,1900,Transfer
+OM100838,2025-03-30,Ikeja,In-Store,Rechargeable Lantern,Electronics,1,8900,Cash
+OM100839,2025-02-27,Surulere,In-Store,Rechargeable Lantern,Electronics,1,8900,Cash
+OM100840,2025-07-20,Lekki,In-Store,Omo Detergent 900g,Household,-1,2900,Cash
+OM100841,2025-06-14,Lekki,In-Store,Dangote Sugar 1kg,Groceries,2,1650,Transfer
+OM100842,2025-10-24,Lekki,Delivery App,Nivea Body Lotion 400ml,Personal Care,1,4800,Transfer
+OM100843,2025-10-28,Surulere,Delivery App,Oraimo Power Bank 10000mAh,Electronics,2,14500,Card
+OM100844,04/03/2025,Lekki,In-Store,Mama Gold Rice 5kg,Groceries,6,11500,Cash
+OM100845,2025-04-27,Surulere,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,POS
+OM100846,2025-10-28,Yaba,In-Store,Mama Gold Rice 5kg,Groceries,2,11500,Cash
+OM100847,2025-09-03,Ikeja,Delivery App,Hypo Bleach 1L,Household,1,1200,Transfer
+OM100848,2025-03-31,Yaba,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,Card
+OM100849,2025-08-14,IKEJA ,In-Store,Rechargeable Lantern,Electronics,4,8900,Card
+OM100850,2025-02-16,Surulere,Delivery App,Peak Milk Tin 400g,Groceries,2,2600,POS
+OM100851,2025-12-26,Lekki,Delivery App,Dangote Sugar 1kg,Groceries,2,1650,Card
+OM100852,2025-10-05,Lekki,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,Cash
+OM100853,2025-10-14,Surulere,Delivery App,Close-Up Toothpaste,Personal Care,1,950,Cash
+OM100854,2025-07-07,Surulere,Delivery App,Nivea Body Lotion 400ml,Personal Care,3,4800,Card
+OM100855,2025-08-02,Surulere,Delivery App,Golden Penny Semovita 1kg,Groceries,1,1850,Transfer
+OM100856,2025-08-17,Yaba,Delivery App,Dangote Sugar 1kg,Groceries,1,1650,POS
+OM100857,2025-07-11,Ikeja,Delivery App,Oraimo Earbuds,Electronics,1,19800,Cash
+OM100858,2025-12-12,Yaba,In-Store,Mortein Insecticide,Household,2,2400,Card
+OM100859,2025-12-22,Lekki,In-Store,Oraimo Power Bank 10000mAh,Electronics,3,14500,Cash
+OM100860,2025-10-01,Yaba,In-Store,Peak Milk Tin 400g,Groceries,1,2600,Cash
+OM100861,2025-12-14,Lekki,In-Store,Close-Up Toothpaste,Personal Care,3,950,Cash
+OM100862,2025-07-06,Yaba,In-Store,Hypo Bleach 1L,Household,1,1200,Card
+OM100863,2025-02-24,Ikeja,In-Store,Indomie Chicken 40-pack,Groceries,3,9800,Transfer
+OM100864,2025-02-05,Ikeja,Delivery App,Peak Milk Tin 400g,Groceries,4,,POS
+OM100865,2025-12-19,Lekki,Delivery App,Mama Gold Rice 5kg,Groceries,4,11500,Cash
+OM100866,2025-03-09,Surulere,Delivery App,dangote sugar 1kg,Groceries,1,1650,Card
+OM100867,2025-12-26,Surulere,In-Store,Kings Vegetable Oil 3L,Groceries,5,7800,Transfer
+OM100868,2025-08-14,Surulere,In-Store,Close-Up Toothpaste,Personal Care,1,950,Card
+OM100869,2025-04-27,Ikeja,In-Store,Kings Vegetable Oil 3L,Groceries,3,7800,POS
+OM100870,2025-03-15,Yaba,In-Store,Omo Detergent 900g,Household,4,2900,Transfer
+OM100871,2025-04-23,Surulere,In-Store,Kings Vegetable Oil 3L,Groceries,4,7800,
+OM100872,2025-06-06,Ikeja,Delivery App,Omo Detergent 900g,Household,1,2900,Cash
+OM100873,2025-06-28,Yaba,Delivery App,Mortein Insecticide,Household,3,2400,Cash
+OM100874,2025-03-23,Yaba,In-Store,Dangote Sugar 1kg,Groceries,3,1650,POS
+OM100875,2025-03-20,Lekki,In-Store,Omo Detergent 900g,Household,2,2900,Transfer
+OM100876,2025-05-08,Ikeja,In-Store,Dangote Sugar 1kg,Groceries,1,1650,Card
+OM100877,2025-07-12,Lekki,In-Store,Close-Up Toothpaste,Personal Care,4,950,Cash
+OM100878,2025-03-12,Lekki,In-Store,Mortein Insecticide,Household,1,2400,Card
+OM100879,2025-12-14,Yaba,In-Store,Hypo Bleach 1L,Household,3,1200,POS
+OM100880,2025-02-21,Yaba,Delivery App,Peak Milk Tin 400g,Groceries,4,2600,Cash
+OM100881,2025-08-11,Surulere,Delivery App,Omo Detergent 900g,Household,1,2900,Transfer
+OM100882,28/10/2025,Lekki,In-Store,Mortein Insecticide,Household,2,2400,Card
+OM100883,2025-04-13,Ikeja,In-Store,Hypo Bleach 1L,Household,2,1200,Card
+OM100884,2025-04-22,Surulere,In-Store,Oraimo Earbuds,Electronics,2,19800,Transfer
+OM101400,2025-05-19,Surulere,In-Store,Oraimo Power Bank 10000mAh,Electronics,2,14500,POS
+OM100885,2025-07-10,Yaba,In-Store,Indomie Chicken 40-pack,Groceries,6,9800,Transfer
+OM100886,2025-03-20,Ikeja,Delivery App,Kings Vegetable Oil 3L,Groceries,2,7800,Card
+OM100887,2025-04-16,Surulere,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,POS
+OM100888,2025-01-01,Yaba,In-Store,Kings Vegetable Oil 3L,Groceries,-1,7800,POS
+OM100889,2025-04-25,Ikeja,Delivery App,Oraimo Earbuds,Electronics,3,19800,POS
+OM100890,2025-01-12,Lekki,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,POS
+OM100891,2025-10-01,Lekki,Delivery App,Omo Detergent 900g,Household,1,2900,POS
+OM100892,2025-10-27,Yaba,Delivery App,Oraimo Power Bank 10000mAh,Electronics,4,14500,POS
+OM100893,2025-01-26,Lekki,In-Store,Mortein Insecticide,Household,2,2400,Transfer
+OM100894,2025-09-18,Ikeja,Delivery App,Oraimo Earbuds,Electronics,1,19800,POS
+OM100895,2025-01-07,Yaba,In-Store,Kings Vegetable Oil 3L,Groceries,4,7800,POS
+OM100896,2025-06-03,Lekki,Delivery App,Omo Detergent 900g,Household,1,2900,Card
+OM100897,2025-01-12,Yaba,In-Store,Omo Detergent 900g,Household,2,2900,Transfer
+OM100898,2025-03-07,Ikeja,In-Store,Golden Penny Semovita 1kg,Groceries,3,1850,Cash
+OM100899,19/12/2025,Ikeja,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,Cash
+OM100900,2025-07-08,Lekki,In-Store,Dettol Soap 3-pack,Personal Care,2,1900,POS
+OM100901,2025-03-02,Yaba,In-Store,Mortein Insecticide,Household,-6,2400,POS
+OM100902,2025-04-27,Lekki,In-Store,Omo Detergent 900g,Household,2,2900,POS
+OM100903,2025-10-12,Ikeja,In-Store,Kings Vegetable Oil 3L,Groceries,3,7800,Cash
+OM100904,2025-04-14,Yaba,In-Store,Peak Milk Tin 400g,Groceries,2,2600,Cash
+OM100905,2025-09-23,Yaba,Delivery App,Peak Milk Tin 400g,Groceries,0,2600,Transfer
+OM100906,2025-01-09,Ikeja,Delivery App,Omo Detergent 900g,Household,2,2900,Cash
+OM100907,2025-08-14,Ikeja,Delivery App,Dettol Soap 3-pack,Personal Care,4,1900,POS
+OM100908,10/01/2025,Yaba,In-Store,Oraimo Power Bank 10000mAh,Electronics,3,14500,Card
+OM100909,2025-03-19,Lekki,In-Store,Mortein Insecticide,Household,4,2400,Transfer
+OM100910,2025-02-06,Surulere,In-Store,Peak Milk Tin 400g,Groceries,2,2600,Cash
+OM100911,2025-06-10,Ikeja,In-Store,Oraimo Earbuds,Electronics,6,19800,POS
+OM100912,2025-01-30,Ikeja,Delivery App,Oraimo Earbuds,Electronics,1,19800,Transfer
+OM100913,2025-05-23,Yaba,In-Store,Nivea Body Lotion 400ml,Personal Care,2,4800,Card
+OM100914,2025-10-27,Surulere,In-Store,Dangote Sugar 1kg,Groceries,2,,Card
+OM100915,2025-09-22,Surulere,Delivery App,Hypo Bleach 1L,Household,1,1200,Cash
+OM100916,2025-07-11,Yaba,In-Store,Mama Gold Rice 5kg,Groceries,2,11500,Transfer
+OM100917,2025-08-27,Lekki,Delivery App,Kings Vegetable Oil 3L,Groceries,2,7800,Transfer
+OM100918,2025-10-13,Ikeja,Delivery App,Golden Penny Semovita 1kg,Groceries,3,1850,Cash
+OM100919,2025-11-12,Yaba,Delivery App,Omo Detergent 900g,Household,3,2900,Cash
+OM100920,2025-02-23,Yaba,In-Store,peak milk tin 400g,Groceries,2,2600,POS
+OM100921,2025-04-08,Yaba,In-Store,Omo Detergent 900g,Household,1,2900,Cash
+OM100922,2025-10-19,Yaba,Delivery App,Omo Detergent 900g,Household,5,2900,Cash
+OM100923,2025-08-27,Ikeja,Delivery App,Golden Penny Semovita 1kg,Groceries,3,1850,Transfer
+OM100924,2025-05-18,Yaba,In-Store,Rechargeable Lantern,Electronics,1,8900,Cash
+OM100925,2025-04-05,Lekki,Delivery App,Oraimo Earbuds,Electronics,1,19800,Transfer
+OM100926,2025-02-22,Lekki,Delivery App,Mortein Insecticide,Household,2,2400,Cash
+OM100927,2025-05-28,Ikeja,In-Store,Kings Vegetable Oil 3L,Groceries,1,7800,Card
+OM100928,2025-04-23,Yaba,Delivery App,Omo Detergent 900g,Household,4,2900,POS
+OM100929,2025-02-18,Yaba,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,Card
+OM100930,2025-08-03,Ikeja,Delivery App,Close-Up Toothpaste,Personal Care,1,950,Card
+OM100711,2025-04-05,Surulere,In-Store,Close-Up Toothpaste,Personal Care,1,950,Transfer
+OM100931,2025-01-17,Ikeja,In-Store,Rechargeable Lantern,Electronics,2,8900,POS
+OM100932,2025-07-24,Yaba,Delivery App,Peak Milk Tin 400g,Groceries,1,,Transfer
+OM100933,2025-10-21,Surulere,In-Store,Oraimo Power Bank 10000mAh,Electronics,5,14500,Cash
+OM100934,2025-06-16,Surulere,In-Store,Golden Penny Semovita 1kg,Groceries,1,1850,Cash
+OM100935,2025-11-27,Yaba,In-Store,Kings Vegetable Oil 3L,Groceries,2,7800,POS
+OM100936,2025-10-18,Ikeja,In-Store,Dangote Sugar 1kg,Groceries,1,1650,Card
+OM100937,2025-12-17,Lekki,Delivery App,Dettol Soap 3-pack,Personal Care,1,1900,Cash
+OM100938,2025-06-20,Yaba,In-Store,Dettol Soap 3-pack,Personal Care,1,1900,Transfer
+OM100939,2025-01-30,Yaba,Delivery App,Peak Milk Tin 400g,Groceries,2,2600,Card
+OM100940,2025-07-30,Ikeja,In-Store,Mortein Insecticide,Household,4,2400,Card
+OM100941,2025-05-02,Surulere,In-Store,Dangote Sugar 1kg,Groceries,2,1650,Card
+OM100942,2025-09-16,Surulere,Delivery App,Golden Penny Semovita 1kg,Groceries,3,1850,POS
+OM100943,2025-06-21,Ikeja,Delivery App,Golden Penny Semovita 1kg,Groceries,1,1850,POS
+OM100944,2025-09-08,Yaba,In-Store,Dettol Soap 3-pack,Personal Care,4,1900,POS
+OM100945,2025-01-07,Surulere,In-Store,Omo Detergent 900g,Household,5,2900,POS
+OM100946,2025-07-12,Yaba,Delivery App,Indomie Chicken 40-pack,Groceries,3,9800,POS
+OM100947,2025-09-16,Ikeja,Delivery App,close-up toothpaste,Personal Care,2,950,Cash
+OM100948,2025-08-04,Surulere,In-Store,Nivea Body Lotion 400ml,Personal Care,1,4800,POS
+OM100949,2025-05-07,Yaba,In-Store,Dangote Sugar 1kg,Groceries,1,1650,Card
+OM100950,2025-10-06,Yaba,In-Store,Mama Gold Rice 5kg,Groceries,2,11500,Card
+OM100951,2025-10-10,Lekki,In-Store,Nivea Body Lotion 400ml,Personal Care,2,4800,Card
+OM100952,2025-12-08,Ikeja,In-Store,Dangote Sugar 1kg,Groceries,1,1650,Transfer
+OM100953,2025-05-02,Yaba,In-Store,Dettol Soap 3-pack,Personal Care,3,1900,Cash
+OM100954,2025-03-14,Ikeja,In-Store,Oraimo Power Bank 10000mAh,Electronics,2,14500,POS
+OM100955,2025-03-20,Yaba,Delivery App,Oraimo Power Bank 10000mAh,Electronics,2,14500,Cash
+OM100956,2025-01-10,Surulere,In-Store,Mortein Insecticide,Household,1,2400,Card
+OM100957,2025-01-01,Ikeja,In-Store,Omo Detergent 900g,Household,1,2900,
+OM100838,2025-03-30,Ikeja,In-Store,Rechargeable Lantern,Electronics,1,8900,Cash
+OM100958,2025-06-05,Ikeja,In-Store,Mortein Insecticide,Household,1,2400,POS
+OM100959,2025-03-15,Ikeja,In-Store,Hypo Bleach 1L,Household,5,1200,Cash
+OM101473,2025-03-01,Yaba,In-Store,Dettol Soap 3-pack,Personal Care,1,1900,POS
+OM100960,2025-01-01,Surulere,Delivery App,Golden Penny Semovita 1kg,Groceries,3,1850,POS
+OM100961,2025-06-17,Lekki,In-Store,Oraimo Earbuds,Electronics,1,19800,POS
+OM100962,2025-12-13,Surulere,In-Store,Kings Vegetable Oil 3L,Groceries,1,7800,Cash
+OM100963,2025-05-05,Ikeja,In-Store,Dettol Soap 3-pack,Personal Care,1,1900,Cash
+OM100964,2025-06-06,Ikeja,In-Store,Dangote Sugar 1kg,Groceries,5,1650,POS
+OM100965,2025-10-04,Yaba,Delivery App,Peak Milk Tin 400g,Groceries,1,2600,Transfer
+OM100027,2025-05-14,Surulere,In-Store,Mortein Insecticide,Household,1,2400,Transfer
+OM100966,2025-02-07,Ikeja,Delivery App,Rechargeable Lantern,Electronics,3,8900,
+OM100967,2025-08-21,Ikeja,In-Store,Nivea Body Lotion 400ml,Personal Care,0,4800,POS
+OM100968,2025-07-23,Lekki,Delivery App,Dangote Sugar 1kg,Groceries,3,1650,Cash
+OM100969,2025-09-30,Lekki,In-Store,Dangote Sugar 1kg,Groceries,1,1650,POS
+OM100970,2025-03-02,Yaba,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,POS
+OM100971,2025-11-15,Yaba,Delivery App,Indomie Chicken 40-pack,Groceries,2,9800,POS
+OM100972,2025-05-13,Ikeja,Delivery App,Omo Detergent 900g,Household,3,2900,Transfer
+OM100973,2025-04-08,Yaba,In-Store,Golden Penny Semovita 1kg,Groceries,4,1850,Cash
+OM100974,2025-03-05,Ikeja,In-Store,Mortein Insecticide,Household,3,2400,Cash
+OM100975,2025-03-07,Surulere,In-Store,Kings Vegetable Oil 3L,Groceries,2,7800,POS
+OM100976,2025-11-15,Surulere,In-Store,Rechargeable Lantern,Electronics,4,8900,POS
+OM100977,2025-01-13,Yaba,In-Store,Kings Vegetable Oil 3L,Groceries,4,7800,Transfer
+OM100978,2025-01-11,Yaba,In-Store,Hypo Bleach 1L,Household,3,,Card
+OM100979,2025-04-24,Yaba,Delivery App,Kings Vegetable Oil 3L,Groceries,1,7800,POS
+OM100980,2025-07-07,Ikeja,Delivery App,Omo Detergent 900g,Household,1,2900,Card
+OM100981,2025-08-17,Yaba,In-Store,Oraimo Power Bank 10000mAh,Electronics,2,14500,Transfer
+OM100982,2025-11-17,Yaba,Delivery App,Mortein Insecticide,Household,1,2400,POS
+OM100983,2025-01-20,Lekki,In-Store,Hypo Bleach 1L,Household,4,1200,Card
+OM100984,2025-02-10,Lekki,In-Store,Rechargeable Lantern,Electronics,3,8900,POS
+OM100985,2025-07-29,Ikeja,Delivery App,Mortein Insecticide,Household,1,2400,Transfer
+OM100986,2025-07-14,Surulere,In-Store,Peak Milk Tin 400g,Groceries,1,2600,Cash
+OM100987,2025-04-25,Ikeja,Delivery App,Indomie Chicken 40-pack,Groceries,1,9800,POS
+OM100988,2025-05-23,Yaba,In-Store,Dangote Sugar 1kg,Groceries,1,1650,POS
+OM100989,2025-08-21,Surulere,In-Store,Dettol Soap 3-pack,Personal Care,1,1900,POS
+OM100990,2025-02-03,Surulere,In-Store,Mama Gold Rice 5kg,Groceries,3,11500,Transfer
+OM100991,21/02/2025,Surulere,In-Store,Mortein Insecticide,Household,2,2400,Cash
+OM100992,2025-08-16,Yaba,In-Store,Dettol Soap 3-pack,Personal Care,3,1900,Cash
+OM100993,2025-10-21,Lekki,Delivery App,Dettol Soap 3-pack,Personal Care,3,1900,Cash
+OM100994,2025-09-02,Surulere,In-Store,Close-Up Toothpaste,Personal Care,6,,POS
+OM100995,2025-01-06,Ikeja,In-Store,Close-Up Toothpaste,Personal Care,3,950,Cash
+OM100996,2025-08-11,Lekki,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,Transfer
+OM100997,2025-01-01,Surulere,In-Store,Dettol Soap 3-pack,Personal Care,3,1900,Transfer
+OM100998,2025-08-15,Lekki,Delivery App,Oraimo Power Bank 10000mAh,Electronics,2,14500,Transfer
+OM100999,2025-04-12,Yaba,In-Store,Kings Vegetable Oil 3L,Groceries,1,7800,Cash
+OM101000,2025-04-09,Lekki,Delivery App,Close-Up Toothpaste,Personal Care,3,950,Card
+OM101001,2025-10-29,Ikeja,Delivery App,Peak Milk Tin 400g,Groceries,3,2600,POS
+OM101002,2025-08-21,Surulere,In-Store,Rechargeable Lantern,Electronics,3,8900,Cash
+OM101003,2025-01-07,Surulere,In-Store,Mama Gold Rice 5kg,Groceries,3,11500,POS
+OM101004,2025-06-25,Surulere,In-Store,Golden Penny Semovita 1kg,Groceries,2,1850,
+OM101005,2025-07-07,Surulere,In-Store,Indomie Chicken 40-pack,Groceries,2,9800,POS
+OM101006,2025-10-24,Yaba,In-Store,Rechargeable Lantern,Electronics,1,8900,Card
+OM101007,2025-11-15,Lekki,In-Store,Mortein Insecticide,Household,1,2400,Transfer
+OM101008,13/05/2025,Ikeja,Delivery App,Close-Up Toothpaste,Personal Care,1,950,Transfer
+OM101009,2025-12-25,Yaba,Delivery App,Peak Milk Tin 400g,Groceries,2,2600,Card
+OM101010,2025-11-17,Yaba,Delivery App,Mortein Insecticide,Household,3,,Card
+OM101011,2025-06-28,Yaba,Delivery App,Indomie Chicken 40-pack,Groceries,2,9800,Transfer
+OM101012,2025-11-20,Lekki,In-Store,Close-Up Toothpaste,Personal Care,1,950,Transfer
+OM101013,2025-06-21,Ikeja,In-Store,Hypo Bleach 1L,Household,1,1200,POS
+OM101014,2025-06-26,Yaba,In-Store,Golden Penny Semovita 1kg,Groceries,1,1850,Card
+OM101015,2025-08-24,Lekki,In-Store,Oraimo Power Bank 10000mAh,Electronics,-1,14500,Transfer
+OM101016,2025-10-14,Surulere,In-Store,Dettol Soap 3-pack,Personal Care,1,1900,Card
+OM101017,2025-01-23,Yaba,In-Store,Kings Vegetable Oil 3L,Groceries,2,7800,Cash
+OM101018,2025-06-04,Ikeja,Delivery App,Oraimo Earbuds,Electronics,1,19800,Transfer
+OM101019,2025-12-13,Ikeja,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,Card
+OM101020,2025-01-09,Yaba,In-Store,Mortein Insecticide,Household,2,2400,Cash
+OM101021,2025-01-15,Surulere,In-Store,Omo Detergent 900g,Household,1,2900,POS
+OM101022,2025-04-18,Lekki,Delivery App,Mama Gold Rice 5kg,Groceries,2,11500,
+OM101023,2025-07-31,Ikeja,In-Store,Dangote Sugar 1kg,Groceries,3,1650,Card
+OM101024,2025-10-27,Ikeja,In-Store,Oraimo Earbuds,Electronics,1,19800,POS
+OM101025,2025-09-20,Lekki,In-Store,Omo Detergent 900g,Household,5,2900,Cash
+OM101026,2025-05-03,Yaba,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,Card
+OM101027,2025-09-19,Lekki,In-Store,Mortein Insecticide,Household,1,,Card
+OM101028,2025-04-29,Lekki,Delivery App,Dangote Sugar 1kg,Groceries,2,,Card
+OM101029,2025-09-02,Lekki,In-Store,Hypo Bleach 1L,Household,1,1200,Transfer
+OM101030,2025-12-15,Yaba,Delivery App,Oraimo Power Bank 10000mAh,Electronics,1,14500,Transfer
+OM101031,2025-03-02,Lekki,In-Store,Dettol Soap 3-pack,Personal Care,1,1900,Cash
+OM101032,2025-09-22,Lekki,In-Store,Close-Up Toothpaste,Personal Care,2,950,Cash
+OM101033,2025-09-10,Yaba,In-Store,Close-Up Toothpaste,Personal Care,1,950,POS
+OM101034,2025-02-04,Lekki,In-Store,Omo Detergent 900g,Household,1,2900,POS
+OM101035,2025-05-14,Surulere,In-Store,Dangote Sugar 1kg,Groceries,1,1650,Card
+OM101036,28/02/2025,Yaba,In-Store,Omo Detergent 900g,Household,2,2900,Cash
+OM101037,2025-10-17,Lekki,In-Store,Golden Penny Semovita 1kg,Groceries,5,1850,Cash
+OM101038,2025-12-11,Lekki,In-Store,Golden Penny Semovita 1kg,Groceries,1,1850,Cash
+OM101039,2025-08-29,Yaba,Delivery App,Hypo Bleach 1L,Household,-1,1200,Cash
+OM101040,2025-10-31,Yaba,In-Store,Oraimo Earbuds,Electronics,6,19800,POS
+OM101041,2025-02-05,Yaba,In-Store,Dettol Soap 3-pack,Personal Care,2,,Transfer
+OM101042,2025-10-29,Yaba,In-Store,Golden Penny Semovita 1kg,Groceries,2,1850,Card
+OM101043,2025-08-14,Lekki,In-Store,Dangote Sugar 1kg,Groceries,1,1650,POS
+OM101044,2025-04-04,Surulere,In-Store,Dettol Soap 3-pack,Personal Care,3,1900,Card
+OM101045,2025-11-07,Yaba,In-Store,Kings Vegetable Oil 3L,Groceries,1,7800,Cash
+OM101046,2025-08-18,Surulere,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,Cash
+OM101407,2025-08-21,Yaba,In-Store,Dettol Soap 3-pack,Personal Care,1,1900,POS
+OM101047,2025-03-18,Surulere,In-Store,Rechargeable Lantern,Electronics,2,8900,Cash
+OM101048,2025-03-21,Surulere,In-Store,Kings Vegetable Oil 3L,Groceries,1,7800,Transfer
+OM101049,2025-08-16,Lekki,In-Store,Peak Milk Tin 400g,Groceries,1,2600,Cash
+OM101050,2025-09-01,Lekki,In-Store,Omo Detergent 900g,Household,5,2900,POS
+OM101051,2025-11-27,Surulere,In-Store,Rechargeable Lantern,Electronics,1,8900,Cash
+OM101052,2025-03-07,Surulere,In-Store,Rechargeable Lantern,Electronics,4,8900,
+OM101053,2025-11-26,Surulere,Delivery App,Nivea Body Lotion 400ml,Personal Care,3,4800,POS
+OM101054,2025-05-14,Lekki,Delivery App,Indomie Chicken 40-pack,Groceries,1,9800,POS
+OM101055,2025-05-08,Surulere,In-Store,Kings Vegetable Oil 3L,Groceries,3,7800,Card
+OM101056,2025-10-17,Ikeja,In-Store,Nivea Body Lotion 400ml,Personal Care,1,4800,Cash
+OM101057,2025-02-10,Yaba,In-Store,Oraimo Earbuds,Electronics,2,19800,Cash
+OM101058,2025-06-06,Ikeja,In-Store,Kings Vegetable Oil 3L,Groceries,3,7800,Cash
+OM101059,2025-04-12,Surulere,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,Card
+OM101060,2025-01-23,Yaba,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,POS
+OM101061,2025-05-18,Lekki,In-Store,Mama Gold Rice 5kg,Groceries,6,11500,Cash
+OM101062,2025-02-26,Lekki,Delivery App,Mortein Insecticide,Household,1,2400,
+OM101063,03/08/2025,Yaba,Delivery App,Rechargeable Lantern,Electronics,1,8900,Card
+OM101064,2025-06-12,Lekki,Delivery App,Oraimo Earbuds,Electronics,1,19800,
+OM101065,2025-05-31,Ikeja,In-Store,Oraimo Earbuds,Electronics,1,19800,POS
+OM101066,2025-10-05,Surulere,Delivery App,Nivea Body Lotion 400ml,Personal Care,1,4800,Transfer
+OM101470,2025-03-15,SURULERE ,In-Store,Omo Detergent 900g,Household,2,2900,Cash
+OM101067,2025-04-03,Surulere,In-Store,Peak Milk Tin 400g,Groceries,2,2600,Transfer
+OM101068,2025-02-14,Surulere,In-Store,Mortein Insecticide,Household,2,2400,Card
+OM101069,2025-10-02,Ikeja,In-Store,Mortein Insecticide,Household,2,2400,Transfer
+OM101070,2025-06-14,Yaba,Delivery App,Oraimo Earbuds,Electronics,1,19800,Transfer
+OM101071,2025-08-04,Surulere,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,Cash
+OM101072,2025-07-10,Surulere,In-Store,Dangote Sugar 1kg,Groceries,5,1650,POS
+OM101073,2025-01-23,Surulere,In-Store,Dangote Sugar 1kg,Groceries,2,1650,Cash
+OM101074,2025-06-30,Yaba,In-Store,Dettol Soap 3-pack,Personal Care,1,1900,Cash
+OM101075,2025-03-12,Ikeja,In-Store,Rechargeable Lantern,Electronics,1,8900,Card
+OM101076,2025-12-03,Ikeja,In-Store,Golden Penny Semovita 1kg,Groceries,2,1850,Transfer
+OM101077,2025-10-13,Ikeja,Delivery App,Mortein Insecticide,Household,1,2400,Transfer
+OM101078,2025-08-15,Ikeja,In-Store,Nivea Body Lotion 400ml,Personal Care,1,4800,Card
+OM101079,2025-03-20,Lekki,Delivery App,Omo Detergent 900g,Household,2,2900,POS
+OM101080,2025-05-23,Lekki,In-Store,Golden Penny Semovita 1kg,Groceries,1,1850,POS
+OM101081,2025-01-18,Yaba,In-Store,Dangote Sugar 1kg,Groceries,3,1650,
+OM101082,2025-11-03,Surulere,In-Store,Mortein Insecticide,Household,1,2400,POS
+OM101083,2025-10-09,Ikeja,Delivery App,Peak Milk Tin 400g,Groceries,3,2600,POS
+OM101084,2025-01-15,Yaba,Delivery App,Nivea Body Lotion 400ml,Personal Care,1,,Card
+OM101085,2025-07-24,Lekki,Delivery App,Dangote Sugar 1kg,Groceries,2,1650,Card
+OM101086,2025-10-03,Yaba,In-Store,Oraimo Earbuds,Electronics,2,19800,Cash
+OM101087,2025-04-22,Yaba,Delivery App,Oraimo Earbuds,Electronics,1,19800,Cash
+OM101088,2025-10-05,Lekki,In-Store,Omo Detergent 900g,Household,1,2900,Transfer
+OM101089,2025-07-25,Surulere,Delivery App,Kings Vegetable Oil 3L,Groceries,2,7800,Cash
+OM101090,2025-10-15,Surulere,In-Store,Omo Detergent 900g,Household,2,2900,Transfer
+OM101091,2025-08-26,Surulere,In-Store,Oraimo Earbuds,Electronics,1,19800,Cash
+OM101092,2025-09-17,Ikeja,In-Store,Rechargeable Lantern,Electronics,4,8900,POS
+OM101093,2025-04-29,Surulere,In-Store,Kings Vegetable Oil 3L,Groceries,6,7800,Card
+OM101094,2025-10-25,Surulere,In-Store,Dangote Sugar 1kg,Groceries,3,1650,Cash
+OM101095,2025-06-18,Surulere,Delivery App,Oraimo Earbuds,Electronics,3,19800,Card
+OM101096,02/02/2025,Surulere,In-Store,Hypo Bleach 1L,Household,5,1200,Card
+OM101097,2025-04-21,SURULERE ,In-Store,Omo Detergent 900g,Household,1,2900,Card
+OM101098,2025-10-01,Surulere,Delivery App,Kings Vegetable Oil 3L,Groceries,2,7800,POS
+OM101099,2025-05-12,Ikeja,In-Store,Rechargeable Lantern,Electronics,1,8900,Cash
+OM101100,2025-07-08,Ikeja,Delivery App,Golden Penny Semovita 1kg,Groceries,3,,POS
+OM101101,2025-06-23,Surulere,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,Card
+OM101102,2025-08-23,Lekki,In-Store,Hypo Bleach 1L,Household,5,1200,Cash
+OM101103,2025-06-24,Yaba,In-Store,Oraimo Earbuds,Electronics,4,19800,POS
+OM101104,2025-10-21,Lekki,Delivery App,Oraimo Earbuds,Electronics,6,19800,Card
+OM101105,2025-08-13,Lekki,In-Store,Dangote Sugar 1kg,Groceries,4,1650,Cash
+OM101106,2025-01-02,Ikeja,In-Store,Nivea Body Lotion 400ml,Personal Care,2,4800,Transfer
+OM100229,2025-05-24,Lekki,In-Store,Dangote Sugar 1kg,Groceries,1,1650,POS
+OM101107,2025-10-31,Lekki,In-Store,Oraimo Earbuds,Electronics,6,19800,Card
+OM100817,2025-05-15,Ikeja,In-Store,Rechargeable Lantern,Electronics,3,8900,Cash
+OM101108,2025-07-06,Ikeja,Delivery App,Dangote Sugar 1kg,Groceries,1,1650,Transfer
+OM101109,2025-08-19,Ikeja,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,Transfer
+OM101110,2025-08-13,Ikeja,In-Store,Close-Up Toothpaste,Personal Care,1,950,POS
+OM101111,2025-07-25,Lekki,In-Store,Hypo Bleach 1L,Household,3,1200,Transfer
+OM101112,2025-12-14,Yaba,Delivery App,Hypo Bleach 1L,Household,3,1200,Cash
+OM101113,2025-02-12,Yaba,In-Store,Close-Up Toothpaste,Personal Care,2,950,Transfer
+OM101114,2025-08-05,Lekki,In-Store,Hypo Bleach 1L,Household,1,1200,Card
+OM101115,2025-10-13,Surulere,In-Store,Peak Milk Tin 400g,Groceries,2,2600,Transfer
+OM101116,2025-12-20,Yaba,In-Store,Oraimo Earbuds,Electronics,2,19800,Transfer
+OM101117,2025-06-26,Surulere,Delivery App,Oraimo Earbuds,Electronics,1,19800,POS
+OM101118,2025-08-25,Yaba,Delivery App,Nivea Body Lotion 400ml,Personal Care,1,4800,Card
+OM101119,2025-04-07,Lekki,Delivery App,Golden Penny Semovita 1kg,Groceries,4,1850,POS
+OM100794,2025-11-21,Lekki,Delivery App,Oraimo Earbuds,Electronics,2,19800,Cash
+OM101120,2025-04-18,Lekki,In-Store,Dangote Sugar 1kg,Groceries,1,1650,Card
+OM101121,14/06/2025,Ikeja,Delivery App,Dettol Soap 3-pack,Personal Care,1,1900,Card
+OM101122,2025-07-19,Yaba,In-Store,Mortein Insecticide,Household,1,2400,Card
+OM101123,2025-11-15,Ikeja,Delivery App,Peak Milk Tin 400g,Groceries,4,2600,POS
+OM101124,17/05/2025,Yaba,Delivery App,Oraimo Power Bank 10000mAh,Electronics,1,14500,Cash
+OM101125,2025-02-07,Yaba,In-Store,Rechargeable Lantern,Electronics,1,8900,POS
+OM101126,2025-09-03,Ikeja,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,Card
+OM101127,2025-09-30,Lekki,In-Store,Oraimo Earbuds,Electronics,1,19800,Cash
+OM101128,2025-12-19,Lekki,In-Store,Omo Detergent 900g,Household,3,,Card
+OM101129,2025-04-30,Lekki,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,Card
+OM101130,2025-12-07,Yaba,Delivery App,Oraimo Earbuds,Electronics,1,19800,Card
+OM101131,2025-06-22,Lekki,In-Store,Omo Detergent 900g,Household,3,2900,Transfer
+OM101132,2025-06-23,YABA ,In-Store,Dettol Soap 3-pack,Personal Care,2,1900,POS
+OM101133,2025-02-19,Surulere,In-Store,Indomie Chicken 40-pack,Groceries,2,9800,Card
+OM101134,2025-11-12,Lekki,In-Store,Golden Penny Semovita 1kg,Groceries,2,1850,Transfer
+OM101135,2025-08-04,Lekki,Delivery App,Omo Detergent 900g,Household,1,2900,Cash
+OM101136,2025-03-30,Surulere,In-Store,Hypo Bleach 1L,Household,2,1200,Cash
+OM101137,2025-04-27,Surulere,In-Store,Hypo Bleach 1L,Household,2,1200,Cash
+OM101138,2025-10-05,Lekki,Delivery App,Oraimo Power Bank 10000mAh,Electronics,6,14500,Transfer
+OM101139,2025-03-24,Lekki,Delivery App,Hypo Bleach 1L,Household,1,1200,POS
+OM101140,2025-09-05,Surulere,In-Store,Golden Penny Semovita 1kg,Groceries,4,1850,Transfer
+OM101141,2025-07-04,Surulere,Delivery App,Dangote Sugar 1kg,Groceries,2,1650,Cash
+OM101142,2025-09-10,Ikeja,In-Store,Nivea Body Lotion 400ml,Personal Care,1,4800,POS
+OM101143,2025-04-16,Yaba,In-Store,Oraimo Earbuds,Electronics,1,19800,POS
+OM101144,2025-03-02,Surulere,Delivery App,Golden Penny Semovita 1kg,Groceries,2,1850,Transfer
+OM101145,2025-11-14,IKEJA ,In-Store,Mortein Insecticide,Household,1,2400,Cash
+OM101146,2025-03-01,Yaba,In-Store,Peak Milk Tin 400g,Groceries,1,2600,POS
+OM101147,2025-04-12,Yaba,In-Store,Kings Vegetable Oil 3L,Groceries,3,7800,Transfer
+OM101148,2025-07-30,Yaba,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,Transfer
+OM101149,2025-03-18,Lekki,In-Store,Nivea Body Lotion 400ml,Personal Care,4,4800,Transfer
+OM101150,2025-03-28,Lekki,Delivery App,Mama Gold Rice 5kg,Groceries,1,11500,POS
+OM101151,13/06/2025,Ikeja,In-Store,Nivea Body Lotion 400ml,Personal Care,1,4800,Card
+OM101152,2025-02-18,Ikeja,Delivery App,Close-Up Toothpaste,Personal Care,1,950,POS
+OM101153,2025-06-24,Yaba,In-Store,Dangote Sugar 1kg,Groceries,2,1650,Transfer
+OM101154,2025-10-03,Ikeja,In-Store,Rechargeable Lantern,Electronics,3,8900,Transfer
+OM101155,2025-07-23,Lekki,In-Store,Hypo Bleach 1L,Household,2,1200,Card
+OM101156,2025-08-07,Surulere,In-Store,Omo Detergent 900g,Household,6,2900,POS
+OM101157,2025-05-16,Yaba,In-Store,Dettol Soap 3-pack,Personal Care,1,1900,POS
+OM101158,2025-01-14,Yaba,Delivery App,Nivea Body Lotion 400ml,Personal Care,-4,4800,Cash
+OM101159,2025-09-05,Ikeja,In-Store,Indomie Chicken 40-pack,Groceries,2,9800,Cash
+OM101160,2025-05-22,Surulere,In-Store,Mortein Insecticide,Household,1,2400,Card
+OM101161,2025-02-14,Surulere,Delivery App,Dangote Sugar 1kg,Groceries,3,1650,Cash
+OM101162,2025-09-10,Ikeja,Delivery App,Close-Up Toothpaste,Personal Care,6,950,Cash
+OM101163,2025-06-19,Lekki,In-Store,Omo Detergent 900g,Household,2,2900,Card
+OM101164,2025-11-01,Surulere,In-Store,Mama Gold Rice 5kg,Groceries,3,11500,Transfer
+OM101165,2025-10-26,Ikeja,In-Store,Close-Up Toothpaste,Personal Care,1,950,POS
+OM101166,2025-05-26,Surulere,Delivery App,Omo Detergent 900g,Household,2,2900,Transfer
+OM101167,2025-05-19,Yaba,In-Store,Peak Milk Tin 400g,Groceries,2,2600,Transfer
+OM101168,2025-02-08,Surulere,In-Store,Omo Detergent 900g,Household,1,2900,Card
+OM101169,2025-04-25,Ikeja,In-Store,Hypo Bleach 1L,Household,2,1200,Cash
+OM101170,2025-09-12,Ikeja,In-Store,Peak Milk Tin 400g,Groceries,3,2600,Transfer
+OM101171,2025-11-05,Surulere,In-Store,Hypo Bleach 1L,Household,1,1200,Cash
+OM101172,2025-05-01,Surulere,In-Store,Mortein Insecticide,Household,5,2400,Card
+OM101173,2025-11-22,Lekki,In-Store,Mama Gold Rice 5kg,Groceries,5,11500,
+OM101174,2025-01-05,Lekki,In-Store,Peak Milk Tin 400g,Groceries,2,2600,Cash
+OM101175,2025-01-27,Surulere,In-Store,Rechargeable Lantern,Electronics,1,8900,POS
+OM101176,2025-03-21,Ikeja,Delivery App,Kings Vegetable Oil 3L,Groceries,2,7800,Transfer
+OM101177,2025-08-19,Ikeja,In-Store,Peak Milk Tin 400g,Groceries,1,2600,POS
+OM101178,2025-04-06,Surulere,In-Store,Peak Milk Tin 400g,Groceries,2,,POS
+OM100763,2025-12-22,Yaba,Delivery App,Indomie Chicken 40-pack,Groceries,1,9800,Cash
+OM101179,2025-02-12,Lekki,In-Store,Omo Detergent 900g,Household,4,2900,Transfer
+OM101180,2025-06-15,Ikeja,In-Store,Indomie Chicken 40-pack,Groceries,6,,Cash
+OM101181,2025-12-24,Lekki,In-Store,Mortein Insecticide,Household,1,2400,POS
+OM101182,2025-02-17,Surulere,In-Store,Oraimo Earbuds,Electronics,1,19800,Card
+OM101183,2025-05-01,Ikeja,In-Store,Kings Vegetable Oil 3L,Groceries,4,7800,Card
+OM101184,31/08/2025,Yaba,Delivery App,Mama Gold Rice 5kg,Groceries,1,11500,Transfer
+OM101185,2025-03-10,Ikeja,In-Store,Close-Up Toothpaste,Personal Care,1,950,Transfer
+OM101186,2025-05-16,Ikeja,Delivery App,Mama Gold Rice 5kg,Groceries,1,11500,Transfer
+OM101187,2025-11-08,Lekki,In-Store,Peak Milk Tin 400g,Groceries,-3,2600,Card
+OM101188,2025-04-24,Ikeja,Delivery App,Peak Milk Tin 400g,Groceries,1,2600,Cash
+OM101189,2025-07-13,YABA ,In-Store,Mortein Insecticide,Household,6,2400,Transfer
+OM101190,2025-08-20,Ikeja,In-Store,Oraimo Earbuds,Electronics,2,19800,POS
+OM101191,23/11/2025,Surulere,In-Store,Golden Penny Semovita 1kg,Groceries,1,1850,Transfer
+OM101192,2025-09-17,Surulere,In-Store,Kings Vegetable Oil 3L,Groceries,2,7800,POS
+OM101193,2025-02-17,Ikeja,In-Store,Kings Vegetable Oil 3L,Groceries,2,7800,Transfer
+OM101194,2025-09-13,Surulere,Delivery App,Mama Gold Rice 5kg,Groceries,1,11500,Cash
+OM101195,10/07/2025,Surulere,Delivery App,Mama Gold Rice 5kg,Groceries,2,11500,Card
+OM101196,2025-12-14,Yaba,Delivery App,Close-Up Toothpaste,Personal Care,1,950,POS
+OM101197,2025-02-15,Yaba,In-Store,Nivea Body Lotion 400ml,Personal Care,1,4800,Transfer
+OM101198,2025-01-17,Yaba,In-Store,Kings Vegetable Oil 3L,Groceries,2,7800,POS
+OM101199,2025-09-22,Surulere,Delivery App,Dangote Sugar 1kg,Groceries,1,1650,POS
+OM101200,2025-06-14,Lekki,Delivery App,Dangote Sugar 1kg,Groceries,1,1650,POS
+OM101201,2025-05-08,Lekki,Delivery App,Oraimo Power Bank 10000mAh,Electronics,1,14500,POS
+OM101202,2025-12-01,Ikeja,Delivery App,Golden Penny Semovita 1kg,Groceries,2,1850,Card
+OM101203,2025-01-23,Ikeja,In-Store,Dangote Sugar 1kg,Groceries,1,1650,Transfer
+OM101204,2025-11-27,Surulere,In-Store,Indomie Chicken 40-pack,Groceries,4,9800,Cash
+OM101205,2025-04-04,Surulere,Delivery App,Oraimo Earbuds,Electronics,1,19800,POS
+OM101206,2025-02-23,Surulere,Delivery App,Close-Up Toothpaste,Personal Care,1,950,Transfer
+OM101207,2025-12-30,Lekki,In-Store,Nivea Body Lotion 400ml,Personal Care,3,4800,Card
+OM101208,2025-10-25,Yaba,In-Store,Mortein Insecticide,Household,2,2400,Card
+OM101209,2025-03-30,Lekki,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,Cash
+OM101210,2025-08-24,Surulere,In-Store,Close-Up Toothpaste,Personal Care,1,950,Transfer
+OM101211,2025-06-01,Surulere,In-Store,Hypo Bleach 1L,Household,1,1200,Cash
+OM101212,2025-01-31,Surulere,Delivery App,Kings Vegetable Oil 3L,Groceries,1,7800,Transfer
+OM101213,2025-06-14,YABA ,In-Store,Golden Penny Semovita 1kg,Groceries,3,1850,Transfer
+OM101214,2025-08-30,Surulere,Delivery App,Peak Milk Tin 400g,Groceries,1,2600,POS
+OM101215,2025-07-16,Ikeja,In-Store,Mortein Insecticide,Household,1,2400,Cash
+OM101216,2025-02-06,Surulere,Delivery App,Nivea Body Lotion 400ml,Personal Care,4,4800,Cash
+OM101217,2025-02-28,Lekki,In-Store,Nivea Body Lotion 400ml,Personal Care,3,4800,Cash
+OM101218,2025-10-05,Lekki,Delivery App,Oraimo Earbuds,Electronics,2,19800,Cash
+OM101219,2025-10-20,SURULERE ,In-Store,Nivea Body Lotion 400ml,Personal Care,2,4800,POS
+OM101220,2025-07-03,Lekki,In-Store,Indomie Chicken 40-pack,Groceries,2,9800,Cash
+OM101221,2025-12-10,Surulere,Delivery App,Golden Penny Semovita 1kg,Groceries,2,,Card
+OM101222,2025-05-29,Ikeja,In-Store,Indomie Chicken 40-pack,Groceries,3,9800,Cash
+OM101223,2025-01-27,Lekki,Delivery App,Dettol Soap 3-pack,Personal Care,5,1900,Transfer
+OM101224,2025-08-06,Surulere,In-Store,Kings Vegetable Oil 3L,Groceries,4,7800,Cash
+OM101225,2025-10-13,Ikeja,In-Store,Nivea Body Lotion 400ml,Personal Care,1,4800,Cash
+OM101226,2025-01-08,Lekki,Delivery App,Mama Gold Rice 5kg,Groceries,2,11500,
+OM101227,2025-07-09,Lekki,In-Store,Oraimo Earbuds,Electronics,3,19800,POS
+OM101228,2025-11-19,Lekki,In-Store,Mortein Insecticide,Household,1,2400,POS
+OM101229,2025-04-13,Yaba,In-Store,Kings Vegetable Oil 3L,Groceries,1,7800,Card
+OM101230,2025-02-09,Lekki,In-Store,Close-Up Toothpaste,Personal Care,1,950,Card
+OM101231,2025-11-19,Yaba,In-Store,Mortein Insecticide,Household,2,2400,POS
+OM101232,2025-04-16,Ikeja,In-Store,Peak Milk Tin 400g,Groceries,2,2600,Card
+OM101233,2025-03-12,Ikeja,In-Store,Oraimo Earbuds,Electronics,2,19800,Cash
+OM101234,2025-02-25,Yaba,In-Store,Oraimo Power Bank 10000mAh,Electronics,2,14500,POS
+OM101235,2025-05-24,Lekki,In-Store,Golden Penny Semovita 1kg,Groceries,3,1850,Cash
+OM101236,2025-06-27,Surulere,In-Store,Golden Penny Semovita 1kg,Groceries,1,1850,Cash
+OM101237,2025-04-20,Ikeja,In-Store,Dangote Sugar 1kg,Groceries,3,1650,POS
+OM101238,2025-06-19,Lekki,In-Store,Kings Vegetable Oil 3L,Groceries,2,7800,POS
+OM100287,2025-04-10,Ikeja,Delivery App,Oraimo Power Bank 10000mAh,Electronics,4,14500,Card
+OM101239,2025-06-01,Yaba,Delivery App,Indomie Chicken 40-pack,Groceries,1,9800,Transfer
+OM100970,2025-03-02,Yaba,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,POS
+OM101240,2025-06-24,Lekki,In-Store,Mama Gold Rice 5kg,Groceries,4,11500,POS
+OM101241,2025-12-16,Surulere,Delivery App,Oraimo Power Bank 10000mAh,Electronics,1,14500,POS
+OM101242,2025-11-08,Yaba,In-Store,Mortein Insecticide,Household,4,2400,POS
+OM101243,2025-07-11,Ikeja,Delivery App,Indomie Chicken 40-pack,Groceries,3,9800,Cash
+OM101244,2025-09-20,Ikeja,Delivery App,Kings Vegetable Oil 3L,Groceries,1,7800,Transfer
+OM101245,2025-08-22,Yaba,Delivery App,Peak Milk Tin 400g,Groceries,1,2600,Cash
+OM101346,2025-12-09,Ikeja,In-Store,Oraimo Earbuds,Electronics,2,19800,Card
+OM101246,2025-11-12,Yaba,Delivery App,Dangote Sugar 1kg,Groceries,2,1650,POS
+OM101247,2025-03-04,Yaba,In-Store,Kings Vegetable Oil 3L,Groceries,4,7800,Cash
+OM101248,2025-11-30,Ikeja,Delivery App,oraimo earbuds,Electronics,2,19800,Cash
+OM101249,2025-03-21,Lekki,In-Store,Hypo Bleach 1L,Household,2,1200,Transfer
+OM101250,2025-04-29,Lekki,Delivery App,Mama Gold Rice 5kg,Groceries,1,11500,POS
+OM101251,2025-09-21,Surulere,In-Store,Hypo Bleach 1L,Household,1,1200,Card
+OM101252,2025-09-16,Ikeja,In-Store,mortein insecticide,Household,3,2400,Cash
+OM101253,2025-04-06,Yaba,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,Transfer
+OM101254,10/03/2025,Lekki,In-Store,Dettol Soap 3-pack,Personal Care,2,1900,POS
+OM101255,26/03/2025,Ikeja,In-Store,Mama Gold Rice 5kg,Groceries,3,11500,Transfer
+OM101256,2025-09-08,Ikeja,Delivery App,Oraimo Earbuds,Electronics,5,19800,Card
+OM101257,2025-07-27,Ikeja,In-Store,Oraimo Power Bank 10000mAh,Electronics,2,14500,Card
+OM101258,2025-03-30,Yaba,In-Store,Omo Detergent 900g,Household,3,2900,Cash
+OM101259,2025-01-23,Surulere,In-Store,Omo Detergent 900g,Household,4,2900,Transfer
+OM101260,2025-02-01,Lekki,In-Store,Indomie Chicken 40-pack,Groceries,4,9800,POS
+OM101261,26/10/2025,Yaba,Delivery App,Hypo Bleach 1L,Household,2,1200,Transfer
+OM101262,2025-01-07,Yaba,In-Store,Mama Gold Rice 5kg,Groceries,2,,Transfer
+OM101263,2025-10-30,Ikeja,Delivery App,Mama Gold Rice 5kg,Groceries,3,11500,POS
+OM101264,2025-01-14,Surulere,In-Store,Mortein Insecticide,Household,2,2400,POS
+OM101265,2025-07-30,Ikeja,In-Store,Peak Milk Tin 400g,Groceries,2,2600,Card
+OM100936,2025-10-18,Ikeja,In-Store,Dangote Sugar 1kg,Groceries,1,1650,Card
+OM101266,2025-06-30,Ikeja,In-Store,Dangote Sugar 1kg,Groceries,2,1650,Transfer
+OM101267,2025-08-28,Lekki,In-Store,Oraimo Power Bank 10000mAh,Electronics,4,14500,Transfer
+OM101268,2025-11-09,Lekki,In-Store,Dettol Soap 3-pack,Personal Care,1,1900,POS
+OM101269,2025-08-03,Lekki,In-Store,Omo Detergent 900g,Household,2,2900,POS
+OM101270,2025-12-06,Ikeja,Delivery App,Oraimo Power Bank 10000mAh,Electronics,1,14500,Cash
+OM101271,2025-04-16,Ikeja,Delivery App,Rechargeable Lantern,Electronics,1,8900,Card
+OM101272,2025-01-22,Surulere,In-Store,Nivea Body Lotion 400ml,Personal Care,1,4800,Cash
+OM101273,2025-08-16,Lekki,In-Store,Mortein Insecticide,Household,1,2400,Card
+OM101274,2025-02-15,Yaba,In-Store,Oraimo Power Bank 10000mAh,Electronics,3,14500,Transfer
+OM101275,2025-11-07,LEKKI ,Delivery App,Omo Detergent 900g,Household,3,2900,Transfer
+OM101276,2025-08-02,Surulere,In-Store,Golden Penny Semovita 1kg,Groceries,3,1850,Card
+OM100094,2025-10-11,Lekki,In-Store,Mortein Insecticide,Household,1,2400,POS
+OM101277,2025-05-23,Yaba,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,Transfer
+OM101278,2025-03-24,Surulere,In-Store,Golden Penny Semovita 1kg,Groceries,3,1850,Cash
+OM101279,2025-10-14,Lekki,Delivery App,Golden Penny Semovita 1kg,Groceries,1,1850,Card
+OM101280,2025-05-16,Ikeja,Delivery App,Golden Penny Semovita 1kg,Groceries,1,1850,
+OM101281,2025-08-16,Ikeja,In-Store,Dettol Soap 3-pack,Personal Care,6,1900,Card
+OM101282,2025-02-03,Lekki,In-Store,Rechargeable Lantern,Electronics,2,8900,Transfer
+OM101283,2025-03-05,Lekki,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,Card
+OM101284,2025-10-21,Surulere,Delivery App,Rechargeable Lantern,Electronics,4,8900,Cash
+OM101285,2025-05-03,Yaba,In-Store,Rechargeable Lantern,Electronics,5,8900,Cash
+OM101286,2025-06-03,Ikeja,Delivery App,Oraimo Earbuds,Electronics,4,19800,Cash
+OM101287,2025-06-18,Yaba,In-Store,Golden Penny Semovita 1kg,Groceries,2,1850,Card
+OM101288,2025-03-21,Surulere,In-Store,Kings Vegetable Oil 3L,Groceries,1,7800,POS
+OM101289,2025-07-06,Ikeja,In-Store,Dettol Soap 3-pack,Personal Care,1,1900,Card
+OM101290,2025-11-20,YABA ,In-Store,Dettol Soap 3-pack,Personal Care,3,1900,POS
+OM101291,2025-09-12,Lekki,Delivery App,Rechargeable Lantern,Electronics,3,8900,POS
+OM101292,2025-02-06,Surulere,In-Store,Oraimo Power Bank 10000mAh,Electronics,4,14500,Transfer
+OM101293,2025-06-15,Lekki,In-Store,Close-Up Toothpaste,Personal Care,3,950,POS
+OM101294,2025-09-23,Lekki,In-Store,Mortein Insecticide,Household,2,2400,Transfer
+OM101295,2025-12-24,Lekki,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,POS
+OM101296,2025-08-12,Surulere,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,Cash
+OM101297,2025-03-18,Surulere,In-Store,Golden Penny Semovita 1kg,Groceries,3,1850,Transfer
+OM101298,2025-08-11,Yaba,In-Store,Dangote Sugar 1kg,Groceries,6,1650,Cash
+OM101299,2025-02-26,Ikeja,In-Store,Indomie Chicken 40-pack,Groceries,2,9800,Card
+OM101350,2025-10-22,Surulere,In-Store,Mortein Insecticide,Household,1,2400,Card
+OM101300,2025-05-08,Lekki,In-Store,Mortein Insecticide,Household,3,2400,Card
+OM101301,2025-01-22,Ikeja,In-Store,Oraimo Power Bank 10000mAh,Electronics,3,14500,Cash
+OM101302,2025-06-16,Yaba,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,Transfer
+OM101303,2025-02-10,Ikeja,Delivery App,Golden Penny Semovita 1kg,Groceries,3,1850,Cash
+OM101304,2025-03-07,Surulere,In-Store,Dangote Sugar 1kg,Groceries,2,1650,Card
+OM101305,2025-07-18,Surulere,In-Store,Mortein Insecticide,Household,6,2400,POS
+OM101306,2025-11-30,Ikeja,Delivery App,Oraimo Power Bank 10000mAh,Electronics,6,14500,Card
+OM101307,2025-07-08,Surulere,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,POS
+OM101308,2025-10-21,Yaba,Delivery App,Close-Up Toothpaste,Personal Care,1,950,POS
+OM101309,2025-05-21,Lekki,In-Store,Rechargeable Lantern,Electronics,2,8900,Card
+OM101310,2025-03-06,Surulere,Delivery App,Dettol Soap 3-pack,Personal Care,4,1900,Cash
+OM101311,2025-06-05,Ikeja,In-Store,Hypo Bleach 1L,Household,1,1200,Card
+OM101312,2025-08-31,Lekki,In-Store,Close-Up Toothpaste,Personal Care,2,950,
+OM101313,2025-12-24,Ikeja,In-Store,Oraimo Power Bank 10000mAh,Electronics,2,14500,Transfer
+OM101314,2025-06-03,Yaba,Delivery App,Indomie Chicken 40-pack,Groceries,1,9800,Cash
+OM101315,2025-12-26,Yaba,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,Cash
+OM101316,2025-04-29,YABA ,In-Store,Omo Detergent 900g,Household,1,2900,Transfer
+OM101317,2025-11-14,Lekki,In-Store,Mortein Insecticide,Household,2,2400,Cash
+OM101318,2025-09-22,Lekki,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,Transfer
+OM101319,2025-09-18,Ikeja,In-Store,Dettol Soap 3-pack,Personal Care,2,1900,POS
+OM101320,2025-09-22,Ikeja,In-Store,Golden Penny Semovita 1kg,Groceries,1,1850,Cash
+OM101321,2025-05-27,Lekki,In-Store,Dangote Sugar 1kg,Groceries,1,1650,Transfer
+OM101322,2025-07-10,Surulere,Delivery App,Mortein Insecticide,Household,2,2400,POS
+OM101323,2025-02-26,Surulere,In-Store,Oraimo Power Bank 10000mAh,Electronics,2,14500,POS
+OM101324,2025-07-05,Yaba,In-Store,Hypo Bleach 1L,Household,5,1200,Cash
+OM101325,2025-07-09,Ikeja,Delivery App,Peak Milk Tin 400g,Groceries,1,2600,Transfer
+OM101326,2025-09-10,Yaba,Delivery App,Peak Milk Tin 400g,Groceries,1,2600,Card
+OM101327,2025-01-13,Lekki,In-Store,Oraimo Earbuds,Electronics,4,19800,Cash
+OM101328,2025-05-08,Yaba,Delivery App,Dettol Soap 3-pack,Personal Care,6,1900,Card
+OM101329,2025-01-27,Surulere,In-Store,Indomie Chicken 40-pack,Groceries,2,9800,Transfer
+OM101330,2025-11-26,Lekki,Delivery App,Mama Gold Rice 5kg,Groceries,1,11500,Card
+OM101331,2025-02-11,Lekki,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,Card
+OM101332,2025-02-04,Lekki,Delivery App,Peak Milk Tin 400g,Groceries,2,,Cash
+OM101333,01/01/2025,Surulere,In-Store,Mortein Insecticide,Household,1,2400,Card
+OM101334,2025-10-09,Lekki,In-Store,Dettol Soap 3-pack,Personal Care,3,1900,Transfer
+OM101335,2025-12-19,Ikeja,Delivery App,Oraimo Earbuds,Electronics,3,19800,Card
+OM101336,2025-05-12,Ikeja,Delivery App,Peak Milk Tin 400g,Groceries,1,2600,Cash
+OM101337,2025-01-05,Surulere,In-Store,Peak Milk Tin 400g,Groceries,1,2600,POS
+OM101338,2025-11-29,Yaba,In-Store,Hypo Bleach 1L,Household,1,1200,POS
+OM101339,2025-06-21,Yaba,Delivery App,Oraimo Power Bank 10000mAh,Electronics,4,14500,Transfer
+OM101340,2025-08-22,Lekki,Delivery App,Mama Gold Rice 5kg,Groceries,1,11500,Card
+OM101318,2025-09-22,Lekki,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,Transfer
+OM101341,2025-07-18,Lekki,In-Store,Hypo Bleach 1L,Household,3,1200,POS
+OM101342,2025-06-27,Ikeja,Delivery App,Oraimo Earbuds,Electronics,1,19800,Cash
+OM101343,2025-10-10,Lekki,In-Store,Close-Up Toothpaste,Personal Care,1,950,Transfer
+OM101344,2025-02-16,Surulere,In-Store,Kings Vegetable Oil 3L,Groceries,6,7800,Cash
+OM101345,2025-02-15,Ikeja,Delivery App,Kings Vegetable Oil 3L,Groceries,2,7800,Card
+OM101346,2025-12-09,Ikeja,In-Store,Oraimo Earbuds,Electronics,2,19800,Card
+OM101347,2025-10-07,Lekki,In-Store,Dangote Sugar 1kg,Groceries,1,1650,POS
+OM101348,2025-06-29,LEKKI ,In-Store,Rechargeable Lantern,Electronics,2,8900,Card
+OM101349,2025-02-01,Ikeja,Delivery App,Golden Penny Semovita 1kg,Groceries,4,1850,Card
+OM101350,2025-10-22,Surulere,In-Store,Mortein Insecticide,Household,1,2400,Card
+OM101351,2025-04-10,Ikeja,Delivery App,Omo Detergent 900g,Household,2,2900,Cash
+OM101352,2025-01-25,Lekki,Delivery App,Close-Up Toothpaste,Personal Care,2,950,Card
+OM101353,2025-02-27,Surulere,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,Card
+OM101354,2025-05-12,Yaba,In-Store,Dettol Soap 3-pack,Personal Care,2,1900,Card
+OM101355,2025-02-16,Yaba,Delivery App,Oraimo Earbuds,Electronics,1,19800,Cash
+OM101356,06/01/2025,Ikeja,In-Store,Omo Detergent 900g,Household,1,2900,Transfer
+OM101357,2025-04-09,Surulere,In-Store,Peak Milk Tin 400g,Groceries,3,2600,Card
+OM101358,2025-02-16,Surulere,In-Store,Indomie Chicken 40-pack,Groceries,2,9800,Card
+OM101359,2025-08-18,Ikeja,Delivery App,Oraimo Earbuds,Electronics,3,19800,Cash
+OM101360,2025-03-18,Ikeja,Delivery App,Golden Penny Semovita 1kg,Groceries,1,1850,POS
+OM101402,2025-11-22,Surulere,In-Store,Indomie Chicken 40-pack,Groceries,2,9800,POS
+OM101361,2025-10-18,Lekki,Delivery App,Dangote Sugar 1kg,Groceries,4,1650,POS
+OM101362,2025-08-28,Ikeja,Delivery App,Close-Up Toothpaste,Personal Care,2,950,Transfer
+OM101363,2025-09-02,Yaba,In-Store,Dangote Sugar 1kg,Groceries,4,1650,POS
+OM101364,2025-01-03,Surulere,In-Store,Close-Up Toothpaste,Personal Care,4,950,POS
+OM101365,2025-06-23,Yaba,In-Store,Kings Vegetable Oil 3L,Groceries,1,7800,Cash
+OM101366,2025-09-28,Surulere,Delivery App,Peak Milk Tin 400g,Groceries,3,2600,POS
+OM101367,2025-07-31,Surulere,In-Store,Close-Up Toothpaste,Personal Care,2,950,Transfer
+OM101368,2025-12-07,YABA ,In-Store,Peak Milk Tin 400g,Groceries,4,2600,Cash
+OM101369,2025-11-07,Lekki,Delivery App,Close-Up Toothpaste,Personal Care,1,950,Card
+OM101370,2025-10-26,Yaba,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,Cash
+OM101371,2025-09-08,Lekki,In-Store,Dangote Sugar 1kg,Groceries,1,1650,Transfer
+OM101372,2025-06-14,Surulere,In-Store,Hypo Bleach 1L,Household,4,1200,Card
+OM101373,2025-01-07,Yaba,Delivery App,Nivea Body Lotion 400ml,Personal Care,2,4800,POS
+OM101374,2025-02-06,Surulere,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,Card
+OM101375,2025-05-20,Surulere,In-Store,Hypo Bleach 1L,Household,1,1200,Cash
+OM101376,2025-06-11,Surulere,Delivery App,Dangote Sugar 1kg,Groceries,1,1650,Cash
+OM101377,2025-06-17,Lekki,In-Store,Indomie Chicken 40-pack,Groceries,4,9800,Transfer
+OM101378,2025-01-26,Yaba,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,POS
+OM101379,22/10/2025,Lekki,Delivery App,Close-Up Toothpaste,Personal Care,1,950,POS
+OM101380,2025-03-19,Lekki,In-Store,Hypo Bleach 1L,Household,6,1200,Cash
+OM101381,2025-11-01,Lekki,In-Store,oraimo earbuds,Electronics,1,19800,Card
+OM101382,2025-09-06,Lekki,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,Card
+OM101383,2025-12-09,Yaba,In-Store,Mama Gold Rice 5kg,Groceries,4,11500,Cash
+OM101384,2025-05-21,Surulere,Delivery App,Rechargeable Lantern,Electronics,5,8900,Card
+OM101385,2025-09-20,Lekki,In-Store,Close-Up Toothpaste,Personal Care,2,950,Transfer
+OM101386,2025-10-17,Surulere,In-Store,Dettol Soap 3-pack,Personal Care,1,1900,Card
+OM101387,2025-05-15,Surulere,In-Store,Dangote Sugar 1kg,Groceries,3,1650,POS
+OM101388,2025-12-30,Surulere,In-Store,Dangote Sugar 1kg,Groceries,4,1650,Cash
+OM101389,2025-12-09,Lekki,In-Store,Golden Penny Semovita 1kg,Groceries,3,1850,Cash
+OM101390,2025-02-02,Surulere,In-Store,Dettol Soap 3-pack,Personal Care,3,1900,Transfer
+OM101391,2025-03-08,Surulere,In-Store,Omo Detergent 900g,Household,3,2900,Transfer
+OM101392,2025-05-31,Ikeja,In-Store,Indomie Chicken 40-pack,Groceries,2,9800,Card
+OM101393,2025-08-18,Lekki,Delivery App,Golden Penny Semovita 1kg,Groceries,1,1850,Cash
+OM101394,2025-04-27,Yaba,Delivery App,Mortein Insecticide,Household,1,2400,Card
+OM101395,2025-10-11,Surulere,In-Store,Mortein Insecticide,Household,4,2400,Transfer
+OM101396,2025-08-10,Lekki,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,POS
+OM101397,2025-12-23,Ikeja,In-Store,Omo Detergent 900g,Household,3,2900,Card
+OM101398,2025-10-18,Surulere,In-Store,Golden Penny Semovita 1kg,Groceries,3,1850,Cash
+OM101399,2025-12-16,Surulere,Delivery App,Golden Penny Semovita 1kg,Groceries,2,1850,POS
+OM101400,2025-05-19,Surulere,In-Store,Oraimo Power Bank 10000mAh,Electronics,2,14500,POS
+OM101401,2025-04-28,Ikeja,In-Store,Mortein Insecticide,Household,2,2400,Card
+OM101402,2025-11-22,Surulere,In-Store,Indomie Chicken 40-pack,Groceries,2,9800,POS
+OM101403,2025-02-05,Surulere,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,Transfer
+OM101404,2025-05-19,Surulere,In-Store,Rechargeable Lantern,Electronics,2,8900,Cash
+OM101405,2025-02-12,Yaba,In-Store,Omo Detergent 900g,Household,1,2900,POS
+OM101406,2025-01-11,Yaba,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,Transfer
+OM101407,2025-08-21,Yaba,In-Store,Dettol Soap 3-pack,Personal Care,1,1900,POS
+OM101408,2025-11-18,Surulere,In-Store,Kings Vegetable Oil 3L,Groceries,2,7800,POS
+OM101409,2025-10-23,Surulere,In-Store,Golden Penny Semovita 1kg,Groceries,1,1850,
+OM101410,2025-04-26,Lekki,In-Store,Omo Detergent 900g,Household,4,2900,Card
+OM101411,2025-01-10,Yaba,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,POS
+OM101412,2025-08-26,Ikeja,In-Store,Dettol Soap 3-pack,Personal Care,2,1900,Transfer
+OM101413,2025-03-19,Ikeja,In-Store,Rechargeable Lantern,Electronics,1,8900,Transfer
+OM101414,2025-12-24,Ikeja,In-Store,Oraimo Earbuds,Electronics,1,19800,Card
+OM101415,2025-06-14,Ikeja,In-Store,Dangote Sugar 1kg,Groceries,1,1650,Cash
+OM101416,2025-06-18,Yaba,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,POS
+OM101417,2025-08-29,Lekki,In-Store,Kings Vegetable Oil 3L,Groceries,2,7800,Card
+OM101418,2025-08-05,Surulere,In-Store,Dettol Soap 3-pack,Personal Care,3,1900,Transfer
+OM101419,2025-09-30,Lekki,Delivery App,Omo Detergent 900g,Household,2,2900,Cash
+OM101420,2025-03-21,Surulere,In-Store,Golden Penny Semovita 1kg,Groceries,1,1850,Cash
+OM101421,2025-01-05,Surulere,In-Store,Nivea Body Lotion 400ml,Personal Care,1,4800,POS
+OM101422,2025-03-24,Yaba,In-Store,Oraimo Power Bank 10000mAh,Electronics,2,14500,POS
+OM101423,03/09/2025,Lekki,In-Store,Dangote Sugar 1kg,Groceries,3,1650,POS
+OM101424,2025-12-22,Ikeja,Delivery App,Oraimo Power Bank 10000mAh,Electronics,1,14500,POS
+OM101425,2025-10-20,Surulere,In-Store,Golden Penny Semovita 1kg,Groceries,1,1850,Transfer
+OM101426,2025-07-27,Ikeja,In-Store,Dettol Soap 3-pack,Personal Care,2,1900,Card
+OM101427,2025-10-06,Lekki,In-Store,Rechargeable Lantern,Electronics,1,8900,POS
+OM101428,2025-07-06,Yaba,In-Store,Oraimo Power Bank 10000mAh,Electronics,2,14500,POS
+OM101429,2025-04-01,Ikeja,In-Store,Mama Gold Rice 5kg,Groceries,2,11500,Cash
+OM101430,2025-12-14,Yaba,In-Store,Oraimo Earbuds,Electronics,3,19800,Card
+OM101431,2025-01-03,Ikeja,In-Store,Kings Vegetable Oil 3L,Groceries,2,7800,POS
+OM101432,2025-07-19,Yaba,In-Store,Omo Detergent 900g,Household,4,2900,Cash
+OM101433,2025-05-28,Surulere,Delivery App,Dangote Sugar 1kg,Groceries,1,1650,Card
+OM101434,2025-02-10,Surulere,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,POS
+OM101435,2025-04-23,Surulere,Delivery App,Oraimo Power Bank 10000mAh,Electronics,2,14500,POS
+OM101436,2025-12-03,Surulere,In-Store,Golden Penny Semovita 1kg,Groceries,1,1850,Card
+OM101437,2025-06-16,Surulere,In-Store,Dettol Soap 3-pack,Personal Care,6,1900,Transfer
+OM101438,2025-07-12,Ikeja,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,POS
+OM101439,2025-10-08,Yaba,Delivery App,Nivea Body Lotion 400ml,Personal Care,6,4800,POS
+OM101440,2025-05-02,Yaba,In-Store,Rechargeable Lantern,Electronics,1,8900,Transfer
+OM101441,2025-10-21,Lekki,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,Transfer
+OM100066,2025-01-08,Surulere,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,POS
+OM101442,2025-01-20,Ikeja,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,Transfer
+OM101443,2025-02-02,Ikeja,In-Store,Dangote Sugar 1kg,Groceries,1,1650,Transfer
+OM101444,2025-08-06,Yaba,In-Store,Close-Up Toothpaste,Personal Care,1,950,Card
+OM101445,2025-06-21,Surulere,In-Store,Indomie Chicken 40-pack,Groceries,3,9800,Transfer
+OM101446,2025-01-29,Ikeja,In-Store,Rechargeable Lantern,Electronics,4,8900,Card
+OM101447,2025-11-23,Yaba,In-Store,Dangote Sugar 1kg,Groceries,5,1650,Cash
+OM101448,2025-10-16,Surulere,Delivery App,Nivea Body Lotion 400ml,Personal Care,2,4800,POS
+OM101449,2025-02-12,Lekki,In-Store,Dangote Sugar 1kg,Groceries,1,1650,Card
+OM101450,2025-05-05,Yaba,In-Store,Indomie Chicken 40-pack,Groceries,1,9800,Transfer
+OM101451,2025-10-14,Surulere,In-Store,Kings Vegetable Oil 3L,Groceries,4,7800,Cash
+OM101452,2025-08-23,Lekki,In-Store,Dettol Soap 3-pack,Personal Care,2,,POS
+OM101453,2025-07-21,Lekki,In-Store,Mortein Insecticide,Household,3,2400,POS
+OM101454,2025-04-07,Yaba,In-Store,Dettol Soap 3-pack,Personal Care,3,1900,Cash
+OM101455,2025-05-26,Ikeja,In-Store,Close-Up Toothpaste,Personal Care,5,950,Transfer
+OM101456,2025-07-05,Ikeja,In-Store,Rechargeable Lantern,Electronics,0,8900,Card
+OM101457,2025-02-20,Yaba,In-Store,Nivea Body Lotion 400ml,Personal Care,2,4800,Card
+OM101458,2025-06-14,Ikeja,In-Store,Mama Gold Rice 5kg,Groceries,4,11500,Card
+OM101459,2025-05-10,Ikeja,In-Store,Hypo Bleach 1L,Household,2,1200,Card
+OM101460,2025-04-07,Lekki,Delivery App,Hypo Bleach 1L,Household,1,1200,Card
+OM101461,2025-11-15,Ikeja,Delivery App,Close-Up Toothpaste,Personal Care,5,950,POS
+OM101462,2025-01-15,Lekki,In-Store,Indomie Chicken 40-pack,Groceries,6,9800,Cash
+OM101463,2025-08-26,Ikeja,In-Store,Mortein Insecticide,Household,3,,Cash
+OM101464,2025-01-30,Lekki,In-Store,Golden Penny Semovita 1kg,Groceries,5,1850,POS
+OM101465,2025-03-01,Surulere,In-Store,Dettol Soap 3-pack,Personal Care,5,1900,Card
+OM101466,2025-12-13,Lekki,In-Store,Rechargeable Lantern,Electronics,2,8900,Card
+OM101467,2025-08-12,Yaba,In-Store,Golden Penny Semovita 1kg,Groceries,1,,Cash
+OM101468,2025-05-11,Lekki,In-Store,Mama Gold Rice 5kg,Groceries,1,11500,Transfer
+OM101469,2025-04-28,Ikeja,In-Store,Dettol Soap 3-pack,Personal Care,1,1900,Cash
+OM101470,2025-03-15,SURULERE ,In-Store,Omo Detergent 900g,Household,2,2900,Cash
+OM101471,2025-03-10,Ikeja,In-Store,Close-Up Toothpaste,Personal Care,0,950,POS
+OM101472,2025-06-14,Surulere,In-Store,Mortein Insecticide,Household,5,2400,POS
+OM101473,2025-03-01,Yaba,In-Store,Dettol Soap 3-pack,Personal Care,1,1900,POS
+OM101474,2025-04-10,Ikeja,In-Store,Oraimo Power Bank 10000mAh,Electronics,1,14500,Card
+OM101475,15/07/2025,Lekki,In-Store,Omo Detergent 900g,Household,3,2900,POS
+OM101036,28/02/2025,Yaba,In-Store,Omo Detergent 900g,Household,2,2900,Cash
+OM101245,2025-08-22,Yaba,Delivery App,Peak Milk Tin 400g,Groceries,1,2600,Cash
+OM101476,2025-08-07,Surulere,In-Store,Rechargeable Lantern,Electronics,1,8900,Card
+OM101477,2025-06-03,Ikeja,In-Store,Nivea Body Lotion 400ml,Personal Care,4,4800,Transfer
+OM101478,2025-05-23,Ikeja,In-Store,Peak Milk Tin 400g,Groceries,4,2600,Card
+OM101479,2025-11-14,Yaba,In-Store,Hypo Bleach 1L,Household,1,1200,POS
+OM101480,2025-06-02,Lekki,In-Store,Rechargeable Lantern,Electronics,2,8900,Card
