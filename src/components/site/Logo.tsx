@@ -2,7 +2,7 @@ import { Link } from "@tanstack/react-router";
 
 export function Logo({ tone = "default" }: { tone?: "default" | "inverse" }) {
   return (
-    <Link to="/" className="flex items-center gap-2" aria-label="CareerBridge AI home">
+    <Link to="/" className="flex shrink-0 items-center gap-2 whitespace-nowrap" aria-label="CareerBridge AI home">
       <span className="grid h-8 w-8 place-items-center rounded-lg bg-primary text-primary-foreground">
         <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2.2" aria-hidden="true">
           <path d="M3 17c3-6 6-9 9-9s6 3 9 9" strokeLinecap="round" />

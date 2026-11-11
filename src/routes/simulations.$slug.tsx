@@ -55,7 +55,7 @@ function SimulationDetail() {
       </header>
 
       <div className="mt-10 grid gap-8 lg:grid-cols-[1fr_340px]">
-        <div className="space-y-8">
+        <div className="min-w-0 space-y-8">
           <Section title="Organisation background"><p>{s.organisation_background}</p></Section>
           <Section title="The business problem"><p>{s.business_problem}</p></Section>
           <Section title="Your responsibilities">
@@ -78,13 +78,13 @@ function SimulationDetail() {
             <div className="overflow-x-auto">
               <table className="w-full text-left text-sm">
                 <thead className="border-b text-xs uppercase tracking-wider text-muted-foreground">
-                  <tr><th className="py-2 pr-4">Criterion</th><th className="py-2 pr-4">What we look for</th><th className="py-2 text-right">Weight</th></tr>
+                  <tr><th className="py-2 pr-4">Criterion</th><th className="hidden py-2 pr-4 sm:table-cell">What we look for</th><th className="py-2 text-right">Weight</th></tr>
                 </thead>
                 <tbody className="divide-y">
                   {s.rubric_criteria.map((c) => (
                     <tr key={c.id}>
-                      <td className="py-3 pr-4 font-semibold text-foreground">{c.title}<p className="text-xs font-normal text-muted-foreground">{c.competencies?.title}</p></td>
-                      <td className="py-3 pr-4">{c.description}</td>
+                      <td className="py-3 pr-4 font-semibold text-foreground">{c.title}<p className="text-xs font-normal text-muted-foreground">{c.competencies?.title}</p><p className="mt-1 text-sm font-normal text-muted-foreground sm:hidden">{c.description}</p></td>
+                      <td className="hidden py-3 pr-4 sm:table-cell">{c.description}</td>
                       <td className="py-3 text-right font-display font-bold text-foreground">{c.weight}%</td>
                     </tr>
                   ))}
