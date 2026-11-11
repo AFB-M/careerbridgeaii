@@ -13,7 +13,7 @@ const myActivityQuery = () =>
     queryKey: ["my-activity"],
     queryFn: async () => {
       const [subs, port] = await Promise.all([
-        supabase.from("submissions").select("id, status, simulation_id, submitted_at, simulations(title, slug)").order("updated_at", { ascending: false }),
+        supabase.from("submissions").select("id, status, attempt_number, simulation_id, submitted_at, simulations(title, slug), evaluations(status, overall_score, summary)").order("updated_at", { ascending: false }),
         supabase.from("portfolio_entries").select("id, title, created_at").order("created_at", { ascending: false }),
       ]);
       if (subs.error) throw subs.error;
@@ -49,7 +49,9 @@ function Dashboard() {
   const { data: sims } = useSuspenseQuery(simulationsQuery());
   const { data: activity } = useSuspenseQuery(myActivityQuery());
   const firstName = profile?.full_name?.split(" ")[0] ?? "there";
-  const completed = activity.submissions.filter((s) => s.status === "completed");
+  const completed = activity.submissions.filter((s) => s.status === "evaluated");
+  const completedSims = [...new Map(completed.map((c) => [c.simulation_id, c])).values()];
+  const feedback = completed.slice(0, 3);
   const startedIds = new Set(activity.submissions.map((s) => s.simulation_id));
   const next = sims.find((s) => !startedIds.has(s.id)) ?? sims[0];
 
@@ -91,15 +93,29 @@ function Dashboard() {
             ))}
           </ul>
         </Panel>
-        <Panel title="Completed simulations" icon={<CheckCircle2 className="h-4 w-4" />} count={completed.length}>
-          {completed.length ? (
-            <ul className="space-y-2 text-sm">{completed.map((c) => <li key={c.id}>{c.simulations?.title}</li>)}</ul>
+        <Panel title="Completed simulations" icon={<CheckCircle2 className="h-4 w-4" />} count={completedSims.length}>
+          {completedSims.length ? (
+            <ul className="space-y-2 text-sm">{completedSims.map((c) => <li key={c.id}>{c.simulations?.title}</li>)}</ul>
           ) : (
             <Empty>You haven't completed a simulation yet. Finished simulations will appear here.</Empty>
           )}
         </Panel>
         <Panel title="Recent assessment feedback" icon={<MessageSquareText className="h-4 w-4" />} className="lg:col-span-2">
-          <Empty>No feedback yet. Once you submit a simulation, rubric-based feedback for each criterion will appear here.</Empty>
+          {feedback.length ? (
+            <ul className="divide-y">
+              {feedback.map((f) => (
+                <li key={f.id} className="flex items-start justify-between gap-4 py-3">
+                  <div>
+                    <Link to="/feedback/$id" params={{ id: f.id }} className="font-medium hover:text-primary">{f.simulations?.title} · Attempt {f.attempt_number}</Link>
+                    <p className="line-clamp-2 text-sm text-muted-foreground">{f.evaluations?.summary}</p>
+                  </div>
+                  <span className="shrink-0 font-display font-bold text-primary">{Number(f.evaluations?.overall_score ?? 0)}/100</span>
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <Empty>No feedback yet. Once you submit a simulation, rubric-based feedback for each criterion will appear here.</Empty>
+          )}
         </Panel>
         <Panel title="Portfolio projects" icon={<FolderKanban className="h-4 w-4" />} count={activity.portfolio.length}>
           {activity.portfolio.length ? (

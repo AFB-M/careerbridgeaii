@@ -108,8 +108,12 @@ function SimulationDetail() {
           </div>
           <div className="rounded-xl border bg-secondary p-5">
             <h2 className="font-display font-semibold">Submitting your work</h2>
-            <p className="mt-2 text-sm text-muted-foreground">Submission and rubric-based feedback open in the next release. Download the dataset and start working on the tasks now.</p>
-            {!session && <Button variant="outline" className="mt-4 w-full" asChild><Link to="/auth" search={{ mode: "signup" }}>Create an account</Link></Button>}
+            <p className="mt-2 text-sm text-muted-foreground">When you've finished, write up each task and your key figures to get feedback against the criteria. You can revise and resubmit as many times as you like.</p>
+            {session ? (
+              <Button className="mt-4 w-full" asChild><Link to="/submit/$slug" params={{ slug: s.slug }}>Submit your work</Link></Button>
+            ) : (
+              <Button variant="outline" className="mt-4 w-full" asChild><Link to="/auth" search={{ mode: "signup" }}>Create an account to submit</Link></Button>
+            )}
           </div>
         </aside>
       </div>
