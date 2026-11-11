@@ -47,7 +47,7 @@ function Portfolio() {
   return (
     <AppShell>
       <h1 className="text-3xl font-bold">My portfolio</h1>
-      <p className="mt-2 max-w-2xl text-muted-foreground">Assessed work you've chosen to keep as evidence. Entries are private until you switch on sharing; shared pages show your summary and scores, never your full answers or files.</p>
+      <p className="mt-2 max-w-2xl text-muted-foreground">Assessed work you've chosen to keep as evidence. Entries are private until you switch on sharing; shared pages show your summary and scores, never your full answers or files. Your self-reported skill ratings stay private and are never mixed with these scores.</p>
       {!entries.length ? (
         <div className="mt-8 rounded-xl border bg-card p-6 shadow-card">
           <p>No entries yet. Open a completed feedback report and choose <strong>Add to portfolio</strong>.</p>
@@ -59,8 +59,9 @@ function Portfolio() {
             <li key={e.id} className="rounded-xl border bg-card p-5 shadow-card">
               <div className="flex flex-col justify-between gap-3 md:flex-row md:items-start">
                 <div>
+                  <p className="text-xs font-semibold uppercase tracking-wide text-primary">Simulated workplace project</p>
                   <p className="font-display text-lg font-semibold">{e.title}</p>
-                  <p className="text-sm text-muted-foreground">Added {new Date(e.created_at).toLocaleDateString()} · Overall {Number(e.overall_score)}/100</p>
+                  <p className="text-sm text-muted-foreground">Added {new Date(e.created_at).toLocaleDateString()} · Overall {Number(e.overall_score)}/100 (AI-assisted formative assessment)</p>
                 </div>
                 <div className="flex flex-wrap items-center gap-2">
                   <label className="flex items-center gap-2 text-sm"><Switch checked={e.is_public} onCheckedChange={(v) => toggle(e.id, v)} aria-label="Share publicly" /> {e.is_public ? "Shared" : "Private"}</label>

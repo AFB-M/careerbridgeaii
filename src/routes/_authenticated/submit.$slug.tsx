@@ -49,6 +49,7 @@ function SubmitPage() {
     const metricValues = Object.fromEntries(metrics.map((m) => [m.metric_key, String(f.get(`metric-${m.metric_key}`) ?? "").trim()]));
     const url = String(f.get("evidence_url") ?? "").trim();
     const file = f.get("evidence_file");
+    if (!url && !(file instanceof File && file.size > 0)) { toast.error("Please attach your chart or share a link to it — a visualisation is required."); return; }
     setBusy(true);
     try {
       let evidenceFilePath: string | null = null;
@@ -100,13 +101,13 @@ function SubmitPage() {
                 </div>
               ))}
               <div className="space-y-1 pt-2">
-                <Label htmlFor="evidence_url" className="text-sm">Link to your work (optional)</Label>
+                <Label htmlFor="evidence_url" className="text-sm">Link to your chart or work</Label>
                 <Input id="evidence_url" name="evidence_url" type="url" placeholder="Google Sheet, notebook or dashboard" />
               </div>
               <div className="space-y-1">
-                <Label htmlFor="evidence_file" className="text-sm">Attach a file (optional)</Label>
+                <Label htmlFor="evidence_file" className="text-sm">Attach your chart or file</Label>
                 <Input id="evidence_file" name="evidence_file" type="file" accept=".csv,.xlsx,.xls,.pdf,.png,.jpg,.jpeg,.ipynb,.pbix,.docx" />
-                <p className="text-xs text-muted-foreground">Cleaned sheet, chart or report. Max 10 MB. Only you can see it.</p>
+                <p className="text-xs text-muted-foreground">A chart is required: attach it here or share a link above. Max 10 MB. Only you can see it.</p>
               </div>
             </div>
           </fieldset>

@@ -32,7 +32,7 @@ export const addToPortfolio = createServerFn({ method: "POST" })
         overall_score: ev.overall_score,
         owner_name: profile?.full_name ?? null,
         competency_scores: crits.map((c) => ({ title: compOf[c.criterion_id] ?? c.title, criterion: c.title, score: c.score })),
-        highlights: crits.flatMap((c) => c.strengths).slice(0, 5),
+        highlights: crits.filter((c) => c.score >= 3).flatMap((c) => c.strengths).filter((h) => !/^no (clear )?strength/i.test(h.trim())).slice(0, 5),
       }, { onConflict: "submission_id" })
       .select("id")
       .single();
