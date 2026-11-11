@@ -14,6 +14,44 @@ export type Database = {
   }
   public: {
     Tables: {
+      answer_keys: {
+        Row: {
+          expected_numeric: number | null
+          expected_text: string | null
+          id: string
+          metric_key: string
+          simulation_id: string
+          tolerance_abs: number
+          tolerance_pct: number
+        }
+        Insert: {
+          expected_numeric?: number | null
+          expected_text?: string | null
+          id?: string
+          metric_key: string
+          simulation_id: string
+          tolerance_abs?: number
+          tolerance_pct?: number
+        }
+        Update: {
+          expected_numeric?: number | null
+          expected_text?: string | null
+          id?: string
+          metric_key?: string
+          simulation_id?: string
+          tolerance_abs?: number
+          tolerance_pct?: number
+        }
+        Relationships: [
+          {
+            foreignKeyName: "answer_keys_simulation_id_fkey"
+            columns: ["simulation_id"]
+            isOneToOne: false
+            referencedRelation: "simulations"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       career_paths: {
         Row: {
           created_at: string
@@ -72,6 +110,59 @@ export type Database = {
             columns: ["career_path_id"]
             isOneToOne: false
             referencedRelation: "career_paths"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      evaluations: {
+        Row: {
+          checks: Json
+          created_at: string
+          criteria: Json
+          error: string | null
+          id: string
+          model: string | null
+          next_steps: Json
+          overall_score: number | null
+          status: string
+          submission_id: string
+          summary: string | null
+          user_id: string
+        }
+        Insert: {
+          checks?: Json
+          created_at?: string
+          criteria?: Json
+          error?: string | null
+          id?: string
+          model?: string | null
+          next_steps?: Json
+          overall_score?: number | null
+          status?: string
+          submission_id: string
+          summary?: string | null
+          user_id: string
+        }
+        Update: {
+          checks?: Json
+          created_at?: string
+          criteria?: Json
+          error?: string | null
+          id?: string
+          model?: string | null
+          next_steps?: Json
+          overall_score?: number | null
+          status?: string
+          submission_id?: string
+          summary?: string | null
+          user_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "evaluations_submission_id_fkey"
+            columns: ["submission_id"]
+            isOneToOne: true
+            referencedRelation: "submissions"
             referencedColumns: ["id"]
           },
         ]
@@ -203,6 +294,44 @@ export type Database = {
           },
         ]
       }
+      simulation_metrics: {
+        Row: {
+          hint: string | null
+          id: string
+          kind: string
+          label: string
+          metric_key: string
+          position: number
+          simulation_id: string
+        }
+        Insert: {
+          hint?: string | null
+          id?: string
+          kind?: string
+          label: string
+          metric_key: string
+          position: number
+          simulation_id: string
+        }
+        Update: {
+          hint?: string | null
+          id?: string
+          kind?: string
+          label?: string
+          metric_key?: string
+          position?: number
+          simulation_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "simulation_metrics_simulation_id_fkey"
+            columns: ["simulation_id"]
+            isOneToOne: false
+            referencedRelation: "simulations"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       simulation_tasks: {
         Row: {
           id: string
@@ -302,9 +431,12 @@ export type Database = {
       }
       submissions: {
         Row: {
+          answers: Json
           attempt_number: number
           created_at: string
+          evidence_url: string | null
           id: string
+          metrics: Json
           simulation_id: string
           status: string
           submitted_at: string | null
@@ -312,9 +444,12 @@ export type Database = {
           user_id: string
         }
         Insert: {
+          answers?: Json
           attempt_number?: number
           created_at?: string
+          evidence_url?: string | null
           id?: string
+          metrics?: Json
           simulation_id: string
           status?: string
           submitted_at?: string | null
@@ -322,9 +457,12 @@ export type Database = {
           user_id: string
         }
         Update: {
+          answers?: Json
           attempt_number?: number
           created_at?: string
+          evidence_url?: string | null
           id?: string
+          metrics?: Json
           simulation_id?: string
           status?: string
           submitted_at?: string | null
