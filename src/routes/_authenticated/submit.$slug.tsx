@@ -12,6 +12,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { simulationMetricsQuery, simulationQuery } from "@/lib/content";
 import { supabase } from "@/integrations/supabase/client";
 import { submitWork } from "@/lib/assessment/assessment.functions";
+import { validateChart } from "@/lib/assessment/evidence";
 
 export const Route = createFileRoute("/_authenticated/submit/$slug")({
   head: () => ({
@@ -35,7 +36,7 @@ export const Route = createFileRoute("/_authenticated/submit/$slug")({
 function SubmitPage() {
   const { slug } = Route.useParams();
   const { data: sim } = useSuspenseQuery(simulationQuery(slug));
-  const { data: metrics } = useSuspenseQuery(simulationMetricsQuery(sim!.id));
+  const { data: metrics } = useSuspenseQuery(simulationMetricsQuery(sim?.id ?? ""));
   const submit = useServerFn(submitWork);
   const navigate = useNavigate();
   const qc = useQueryClient();
@@ -45,18 +46,21 @@ function SubmitPage() {
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const f = new FormData(e.currentTarget);
-    const answers = Object.fromEntries(sim!.simulation_tasks.map((t) => [t.id, String(f.get(`task-${t.id}`) ?? "")]));
+    if (!sim) return;
+    const answers = Object.fromEntries(sim.simulation_tasks.map((t) => [t.id, String(f.get(`task-${t.id}`) ?? "")]));
     const metricValues = Object.fromEntries(metrics.map((m) => [m.metric_key, String(f.get(`metric-${m.metric_key}`) ?? "").trim()]));
     const url = String(f.get("evidence_url") ?? "").trim();
     const file = f.get("evidence_file");
-    if (!url && !(file instanceof File && file.size > 0)) { toast.error("Please attach your chart or share a link to it — a visualisation is required."); return; }
+    if (!(file instanceof File && file.size > 0)) { toast.error("Please upload your chart as a PNG, JPEG or WebP image — a visualisation is required."); return; }
     setBusy(true);
     try {
       let evidenceFilePath: string | null = null;
       if (file instanceof File && file.size > 0) {
         if (file.size > 10 * 1024 * 1024) throw new Error("File must be under 10 MB");
+        validateChart(new Uint8Array(await file.arrayBuffer()));
         const { data: u } = await supabase.auth.getUser();
-        const path = `${u.user!.id}/${Date.now()}-${file.name.replace(/[^\w.-]+/g, "_")}`;
+        if (!u.user) throw new Error("Please sign in again before submitting.");
+        const path = `${u.user.id}/${Date.now()}-${file.name.replace(/[^\w.-]+/g, "_")}`;
         const { error: upErr } = await supabase.storage.from("evidence").upload(path, file);
         if (upErr) throw new Error("Could not upload your file");
         evidenceFilePath = path;
@@ -101,13 +105,13 @@ function SubmitPage() {
                 </div>
               ))}
               <div className="space-y-1 pt-2">
-                <Label htmlFor="evidence_url" className="text-sm">Link to your chart or work</Label>
+                <Label htmlFor="evidence_url" className="text-sm">Supporting work link (optional)</Label>
                 <Input id="evidence_url" name="evidence_url" type="url" placeholder="Google Sheet, notebook or dashboard" />
               </div>
               <div className="space-y-1">
-                <Label htmlFor="evidence_file" className="text-sm">Attach your chart or file</Label>
-                <Input id="evidence_file" name="evidence_file" type="file" accept=".csv,.xlsx,.xls,.pdf,.png,.jpg,.jpeg,.ipynb,.pbix,.docx" />
-                <p className="text-xs text-muted-foreground">A chart is required: attach it here or share a link above. Max 10 MB. Only you can see it.</p>
+                <Label htmlFor="evidence_file" className="text-sm">Upload your chart (required)</Label>
+                <Input id="evidence_file" name="evidence_file" type="file" accept=".png,.jpg,.jpeg,.webp" required />
+                <p className="text-xs text-muted-foreground">PNG, JPEG or WebP, max 10 MB. Your chart stays private and is sent to the AI service for assessment.</p>
               </div>
             </div>
           </fieldset>
@@ -115,7 +119,7 @@ function SubmitPage() {
             {busy ? <><Loader2 className="animate-spin" /> Assessing your work…</> : "Submit for feedback"}
           </Button>
           {busy && <p className="text-center text-xs text-muted-foreground" role="status">This usually takes under a minute. Please keep this page open.</p>}
-          <p className="flex gap-2 rounded-lg bg-muted p-3 text-xs text-muted-foreground"><Info className="h-4 w-4 shrink-0" />Feedback is formative AI-assisted practice feedback, not a professional certification. Only your written answers are assessed.</p>
+          <p className="flex gap-2 rounded-lg bg-muted p-3 text-xs text-muted-foreground"><Info className="h-4 w-4 shrink-0" />Feedback is formative AI-assisted practice feedback, not a professional certification. Your written answers and uploaded chart are assessed.</p>
         </aside>
       </form>
     </AppShell>
