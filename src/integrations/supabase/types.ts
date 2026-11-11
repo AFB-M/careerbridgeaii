@@ -169,24 +169,42 @@ export type Database = {
       }
       portfolio_entries: {
         Row: {
+          competency_scores: Json
           created_at: string
+          highlights: Json
           id: string
+          is_public: boolean
+          overall_score: number | null
+          owner_name: string | null
+          simulation_title: string | null
           submission_id: string | null
           summary: string | null
           title: string
           user_id: string
         }
         Insert: {
+          competency_scores?: Json
           created_at?: string
+          highlights?: Json
           id?: string
+          is_public?: boolean
+          overall_score?: number | null
+          owner_name?: string | null
+          simulation_title?: string | null
           submission_id?: string | null
           summary?: string | null
           title: string
           user_id: string
         }
         Update: {
+          competency_scores?: Json
           created_at?: string
+          highlights?: Json
           id?: string
+          is_public?: boolean
+          overall_score?: number | null
+          owner_name?: string | null
+          simulation_title?: string | null
           submission_id?: string | null
           summary?: string | null
           title?: string
@@ -429,11 +447,47 @@ export type Database = {
           },
         ]
       }
+      skill_self_ratings: {
+        Row: {
+          competency_id: string
+          id: string
+          note: string | null
+          rating: number
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          competency_id: string
+          id?: string
+          note?: string | null
+          rating: number
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          competency_id?: string
+          id?: string
+          note?: string | null
+          rating?: number
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "skill_self_ratings_competency_id_fkey"
+            columns: ["competency_id"]
+            isOneToOne: false
+            referencedRelation: "competencies"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       submissions: {
         Row: {
           answers: Json
           attempt_number: number
           created_at: string
+          evidence_file_path: string | null
           evidence_url: string | null
           id: string
           metrics: Json
@@ -447,6 +501,7 @@ export type Database = {
           answers?: Json
           attempt_number?: number
           created_at?: string
+          evidence_file_path?: string | null
           evidence_url?: string | null
           id?: string
           metrics?: Json
@@ -460,6 +515,7 @@ export type Database = {
           answers?: Json
           attempt_number?: number
           created_at?: string
+          evidence_file_path?: string | null
           evidence_url?: string | null
           id?: string
           metrics?: Json
